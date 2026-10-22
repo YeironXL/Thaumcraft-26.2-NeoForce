@@ -1,0 +1,46 @@
+# Al publicar una release, pone sus archivos en la raíz de main
+# y mueve los de la versión anterior a "Versiones anteriores/".
+name: Release a main
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Mover la versión anterior a "Versiones anteriores"
+        shell: bash
+        run: |
+          mkdir -p "Versiones anteriores"
+          shopt -s nullglob
+          for f in "Thaumcraft Remaster "*.jar "Thaumcraft Remaster "*.zip; do
+            git mv -f "$f" "Versiones anteriores/$f"
+          done
+
+      - name: Descargar los archivos de la nueva release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download "${{ github.event.release.tag_name }}" --dir . --clobber
+
+      - name: Guardar en main
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898269+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No hay cambios."
+          else
+            git commit -m "Release ${{ github.event.release.tag_name }}: archivos en main"
+            git push origin HEAD:main
+          fi
