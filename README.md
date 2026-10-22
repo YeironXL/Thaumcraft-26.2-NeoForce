@@ -1,82 +1,85 @@
 # Thaumcraft Remaster
 
-**Port no oficial de Thaumcraft 6.1.BETA26 (Minecraft 1.12.2) a Minecraft 26.2 / NeoForge.**
+🌐 **English** · [Español](README.es.md)
 
-Thaumcraft Remaster busca reproducir Thaumcraft 6 lo más fielmente posible en la versión actual de Minecraft, y además recupera contenido de Thaumcraft 4 y 5 que no llegó a TC6.
+**Unofficial port of Thaumcraft 6.1.BETA26 (Minecraft 1.12.2) to Minecraft 26.2 / NeoForge.**
 
-> Thaumcraft es obra de **Azanor**. Este proyecto es un port hecho por fans: no es oficial y no está afiliado a su autor ni respaldado por él.
+Thaumcraft Remaster aims to reproduce Thaumcraft 6 as faithfully as possible on the current version of Minecraft, and also brings back Thaumcraft 4 and 5 content that never made it into TC6.
 
-## Versión actual
+> Thaumcraft was created by **Azanor**. This is a fan-made port: it is unofficial and not affiliated with or endorsed by its author.
+
+## Current version
 
 | | |
 |---|---|
-| Versión | **Thaumcraft Remaster 1.1** |
+| Version | **Thaumcraft Remaster 1.1** |
 | Minecraft | 26.2 |
-| Cargador | NeoForge 26.2.0.88 o superior |
-| Java | 25 (lo incluyen el launcher oficial y CurseForge) |
+| Loader | NeoForge 26.2.0.88 or newer |
+| Java | 25 (included with the official launcher and CurseForge) |
 
-Descarga el jar desde **[Releases](../../releases)**.
+Download the jar from **[Releases](../../releases)**.
 
-## Requisitos y mods opcionales
+## Requirements and optional mods
 
-- **Obligatorio:** NeoForge 26.2.0.88+
-- **Recomendado:** [Curios](https://www.curseforge.com/minecraft/mc-mods/curios), para los amuletos, anillos y cinturones (baubles)
-- **Opcional:** JEI (recetas del crisol, la mesa arcana, la infusión, etc.) y Jade (información de frascos, crisoles e infusión)
-- **Compatible con:** Sodium e Iris, incluidos shaderpacks
+- **Required:** NeoForge 26.2.0.88+
+- **Recommended:** [Curios](https://www.curseforge.com/minecraft/mc-mods/curios), for amulets, rings and belts (baubles)
+- **Optional:** JEI (crucible, Arcane Workbench, infusion recipes, etc.) and Jade (info for jars, crucibles and infusion)
+- **Compatible with:** Sodium and Iris, shaderpacks included
 
-## Qué incluye
+## What's included
 
-**Todo Thaumcraft 6 BETA26**
-- Investigación y Thaumonomicon, aspectos y escaneo con el taumómetro
-- Aura (vis y flux), warp y sus efectos
-- Alquimia (crisol, esencia, frascos, tubos), artificio y mesa arcana
-- Infusión (ritual, estabilidad, encantamientos de infusión)
-- Auromancia (lanzadores y focos), golemancia (gólems, sellos, torretas)
-- Criaturas, campeones, jefes eldritch y bosque mágico
+**All of Thaumcraft 6 BETA26**
+- Research and the Thaumonomicon, aspects and scanning with the Thaumometer
+- Aura (vis and flux), warp and its effects
+- Alchemy (crucible, essentia, jars, tubes), artifice and the Arcane Workbench
+- Infusion (ritual, stability, infusion enchantments)
+- Auromancy (gauntlets and foci), golemancy (golems, seals, turrets)
+- Creatures, champions, eldritch bosses and the Magical Forest
 
-**Añadidos de Thaumcraft 4 y 5**
-- Tierras Exteriores (Outer Lands): obeliscos, portal y laberinto con jefes
-- Nodos de aura
-- Arnés y cinturón taumostáticos
-- Baúl viajero
-- Vainas de maná y mesa de deconstrucción
-- Sellos de pesca, líquidos y esencia
-- Focos de protección y de caos primordial
-- Altar de wisps y obelisco siniestro
+**Thaumcraft 4 and 5 additions**
+- The Outer Lands: obelisks, portal and a maze with bosses
+- Aura nodes
+- Thaumostatic Harness and Girdle
+- Travelling Trunk
+- Mana Pods and the Deconstruction Table
+- Fishing, fluid and essentia seals
+- Ward, Primal Chaos and Shock foci
+- Wisp altar, Sinister obelisk and Barrow Den
 
-**Otros**
-- Aspectos para todos los objetos y criaturas de Minecraft 26.2
-- Aspectos opcionales para metales comunes de otros mods, Create, Mekanism y Farmer's Delight
+**Other**
+- Aspects for every Minecraft 26.2 item and creature
+- Optional aspects for common metals from other mods, Create, Mekanism and Farmer's Delight
+- Standard NeoForge capabilities and a public essentia API for other mods
 
-## Instalación rápida
+## Quick install
 
-1. Crea un perfil de Minecraft 26.2 con NeoForge (por ejemplo en CurseForge).
-2. Copia `Thaumcraft Remaster 1.1.jar` en la carpeta `mods` del perfil. Opcionalmente, añade Curios, JEI y Jade.
-3. Asegúrate de no tener otra versión del mod en la misma carpeta.
-4. Crea un mundo nuevo. Para empezar: recoge un cristal del suelo, duerme, fabrica Salis Mundus y úsalo con **Shift + clic derecho** sobre una estantería.
+1. Create a Minecraft 26.2 profile with NeoForge (for example in CurseForge).
+2. Copy `Thaumcraft Remaster 1.1.jar` into the profile's `mods` folder. Optionally add Curios, JEI and Jade.
+3. Make sure there is no other version of the mod in the same folder.
+4. Create a new world. To start: pick up a crystal from the ground, sleep, craft Salis Mundus and use it with **Shift + right click** on a bookshelf.
 
-Más detalles en la **[Wiki](../../wiki)**.
+More details in the **[Wiki](../../wiki)** (English and Spanish).
 
-## Estado del proyecto
+## Project status
 
-- 87 pruebas automáticas (gametests) y comprobaciones visuales en cliente.
-- **Aún no probado a fondo** en partidas largas de supervivencia ni en multijugador. Haz copias de seguridad de tus mundos.
+- 87 automated tests (gametests) and visual checks in the client.
+- **Not yet thoroughly tested** in long survival playthroughs or multiplayer. Back up your worlds.
 
-¿Encontraste un fallo? Abre un **[Issue](../../issues)** e incluye el archivo de `crash-reports/` o `logs/latest.log`.
+Found a bug? Open an **[Issue](../../issues)** and include the file from `crash-reports/` or `logs/latest.log`.
 
-## Compilar desde el código
+## Building from source
 
-Requiere JDK 25.
+Requires JDK 25.
 
 ```bash
-./gradlew build          # genera el jar en build/libs/
-./gradlew runGameTestServer   # ejecuta las pruebas automáticas
+./gradlew build          # builds the jar in build/libs/
+./gradlew runGameTestServer   # runs the automated tests
 ```
 
-## Créditos y licencia
+## Credits and license
 
-- **Thaumcraft**, su diseño, texturas, modelos, sonidos y textos: **Azanor**. Todos los derechos reservados.
-- **Port a NeoForge 26.2:** YeironXL.
-- Los añadidos de TC4/TC5 se basan en las wikis de la comunidad (fuentes en `docs/*_FUENTES.md`).
+- **Thaumcraft**, its design, textures, models, sounds and texts: **Azanor**. All rights reserved.
+- **NeoForge 26.2 port:** YeironXL.
+- The TC4/TC5 additions are based on the community wikis (sources in `docs/*_FUENTES.md`).
 
-Este repositorio no concede ninguna licencia sobre el contenido original de Thaumcraft. Si el titular de los derechos lo solicita, el proyecto atenderá su petición.
+This repository grants no license over the original Thaumcraft content. If the rights holder requests it, the project will comply.
