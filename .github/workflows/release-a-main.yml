@@ -32,6 +32,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh release download "${{ github.event.release.tag_name }}" --dir . --clobber
 
+      - name: Actualizar la versión en el README
+        shell: bash
+        run: |
+          v="${{ github.event.release.tag_name }}"; v="${v#v}"
+          sed -i -E "s/Thaumcraft Remaster [0-9]+(\.[0-9]+)+/Thaumcraft Remaster $v/g" README.md
+
       - name: Guardar en main
         shell: bash
         run: |
