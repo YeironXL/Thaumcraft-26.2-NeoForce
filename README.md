@@ -1,5 +1,5 @@
 
-# Thaumcraft Remaster 26.2-NeoForce
+# Thaumcraft Remaster
 
 **Port no oficial de Thaumcraft 6.1.BETA26 (Minecraft 1.12.2) a Minecraft 26.2 / NeoForge.**
 
@@ -11,7 +11,7 @@ Thaumcraft Remaster busca reproducir Thaumcraft 6 lo más fielmente posible en l
 
 | | |
 |---|---|
-| Versión | **Thaumcraft Remaster 1.0** |
+| Versión | **Thaumcraft Remaster 1.1** |
 | Minecraft | 26.2 |
 | Cargador | NeoForge 26.2.0.88 o superior |
 | Java | 25 (lo incluyen el launcher oficial y CurseForge) |
@@ -52,7 +52,7 @@ Descarga el jar desde **[Releases](../../releases)**.
 ## Instalación rápida
 
 1. Crea un perfil de Minecraft 26.2 con NeoForge (por ejemplo en CurseForge).
-2. Copia `Thaumcraft Remaster 1.0.jar` en la carpeta `mods` del perfil. Opcionalmente, añade Curios, JEI y Jade.
+2. Copia `Thaumcraft Remaster 1.1.jar` en la carpeta `mods` del perfil. Opcionalmente, añade Curios, JEI y Jade.
 3. Asegúrate de no tener otra versión del mod en la misma carpeta.
 4. Crea un mundo nuevo. Para empezar: recoge un cristal del suelo, duerme, fabrica Salis Mundus y úsalo con **Shift + clic derecho** sobre una estantería.
 
@@ -60,7 +60,7 @@ Más detalles en la **[Wiki](../../wiki)**.
 
 ## Estado del proyecto
 
-- 82 pruebas automáticas (gametests) y comprobaciones visuales en cliente.
+- 87 pruebas automáticas (gametests) y comprobaciones visuales en cliente.
 - **Aún no probado a fondo** en partidas largas de supervivencia ni en multijugador. Haz copias de seguridad de tus mundos.
 
 ¿Encontraste un fallo? Abre un **[Issue](../../issues)** e incluye el archivo de `crash-reports/` o `logs/latest.log`.
