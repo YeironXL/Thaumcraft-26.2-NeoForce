@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir -p "Versiones anteriores"
           shopt -s nullglob
-          for f in "Thaumcraft Remaster "*.jar "Thaumcraft Remaster "*.zip; do
+          for f in Thaumcraft*Remaster*.jar Thaumcraft*Remaster*.zip; do
             git mv -f "$f" "Versiones anteriores/$f"
           done
 
@@ -35,7 +35,7 @@ jobs:
       - name: Actualizar la versión en el README
         shell: bash
         run: |
-          v="${{ github.event.release.tag_name }}"; v="${v#v}"
+          v="${{ github.event.release.tag_name }}"; v="${v#[vV]}"
           sed -i -E "s/Thaumcraft Remaster [0-9]+(\.[0-9]+)+/Thaumcraft Remaster $v/g" README.md
 
       - name: Guardar en main
@@ -47,6 +47,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No hay cambios."
           else
-            git commit -m "Release ${{ github.event.release.tag_name }}: archivos en main"
+            git commit -m "Thaumcraft Remaster ${{ github.event.release.tag_name }}"
             git push origin HEAD:main
           fi
