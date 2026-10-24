@@ -26,7 +26,7 @@ Descarga el jar desde **[Releases](../../releases)**.
 - **Opcional:** JEI (recetas del crisol, la mesa arcana, la infusión, etc.) y Jade (información de frascos, crisoles e infusión)
 - **Compatible con:** Sodium e Iris, incluidos shaderpacks
 
-## Qué incluye
+## Qué incluye 
 
 **Todo Thaumcraft 6 BETA26**
 - Investigación y Thaumonomicon, aspectos y escaneo con el taumómetro
