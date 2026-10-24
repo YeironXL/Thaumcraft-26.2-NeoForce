@@ -8,7 +8,7 @@ Thaumcraft Remaster aims to reproduce Thaumcraft 6 as faithfully as possible on 
 
 > Thaumcraft was created by **Azanor**. This is a fan-made port: it is unofficial and not affiliated with or endorsed by its author.
 
-## Current version
+## Current version 
 
 | | |
 |---|---|
