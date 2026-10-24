@@ -5,6 +5,7 @@ name: Release a main
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,6 +20,7 @@ jobs:
           ref: main
 
       - name: Mover la versión anterior a "Versiones anteriores"
+        if: github.event_name == 'release'
         shell: bash
         run: |
           mkdir -p "Versiones anteriores"
@@ -28,11 +30,24 @@ jobs:
           done
 
       - name: Descargar los archivos de la nueva release
+        if: github.event_name == 'release'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release download "${{ github.event.release.tag_name }}" --dir . --clobber
 
+      - name: Devolver los espacios a los nombres (GitHub los cambia por puntos)
+        shell: bash
+        run: |
+          shopt -s nullglob
+          for f in Thaumcraft.Remaster.* "Versiones anteriores"/Thaumcraft.Remaster.*; do
+            d=$(dirname "$f"); b=$(basename "$f")
+            n="${b/Thaumcraft.Remaster./Thaumcraft Remaster }"
+            n="${n/.-./ - }"
+            git mv -f "$f" "$d/$n" 2>/dev/null || mv -f "$f" "$d/$n"
+          done
+
       - name: Actualizar la versión en el README
+        if: github.event_name == 'release'
         shell: bash
         run: |
           v="${{ github.event.release.tag_name }}"; v="${v#[vV]}"
@@ -43,10 +58,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898269+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No hay cambios."
-          else
-            git commit -m "Thaumcraft Remaster ${{ github.event.release.tag_name }}"
-            git push origin HEAD:main
-          fi
+          v="${{ github.event.release.tag_name }}"; v="${v#[vV]}"
+          shopt -s nullglob
+          git reset -q   # se guarda por partes: nada preparado de antemano
+          guardar() { # guardar "mensaje" archivos...
+            msg="$1"; shift
+            git add -A -- "$@" 2>/dev/null
+            git diff --cached --quiet || git commit -q -m "$msg"
+          }
+          guardar "Versiones anteriores de Thaumcraft Remaster" "Versiones anteriores"
+          guardar "Descripción del proyecto${v:+ (versión $v)}" README.md README.es.md
+          guardar "Automatización de releases" .github
+          for f in Thaumcraft*Remaster*.jar; do guardar "Mod listo para jugar${v:+: versión $v}" "$f"; done
+          for f in Thaumcraft*Remaster*.zip; do guardar "Código fuente del proyecto${v:+: versión $v}" "$f"; done
+          git add -A; git diff --cached --quiet || git commit -q -m "Otros cambios"
+          git push origin HEAD:main
