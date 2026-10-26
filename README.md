@@ -12,7 +12,7 @@ Thaumcraft Remaster aims to reproduce Thaumcraft 6 as faithfully as possible on 
 
 | | |
 |---|---|
-| Version | **Thaumcraft Remaster 1.2** |
+| Version | **Thaumcraft Remaster 1.3** |
 | Minecraft | 26.2 |
 | Loader | NeoForge 26.2.0.88 or newer |
 | Java | 25 (included with the official launcher and CurseForge) |
@@ -54,7 +54,7 @@ Download the jar from **[Releases](../../releases)**.
 ## Quick install
 
 1. Create a Minecraft 26.2 profile with NeoForge (for example in CurseForge).
-2. Copy `Thaumcraft Remaster 1.2.jar` into the profile's `mods` folder. Optionally add Curios, JEI and Jade.
+2. Copy `Thaumcraft Remaster 1.3.jar` into the profile's `mods` folder. Optionally add Curios, JEI and Jade.
 3. Make sure there is no other version of the mod in the same folder.
 4. Create a new world. To start: pick up a crystal from the ground, sleep, craft Salis Mundus and use it with **Shift + right click** on a bookshelf.
 
