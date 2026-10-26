@@ -1,0 +1,13531 @@
+[
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/lapis"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/diamond"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gems/diamond"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    15
+   ],
+   [
+    "add",
+    "desiderium",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/redstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:redstone_ore"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/emerald"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ],
+   [
+    "add",
+    "vitreus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gems/emerald"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    15
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/quartz"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gems/quartz"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/iron"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/iron"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/iron"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/gold"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/gold"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/gold"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:coal_ore"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    15
+   ],
+   [
+    "add",
+    "ignis",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:coal",
+   "minecraft:charcoal"
+  ],
+  "ops": [
+   [
+    "add",
+    "potentia",
+    10
+   ],
+   [
+    "add",
+    "ignis",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/redstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "potentia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/glowstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "lux",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:glowstone"
+  ],
+  "ops": [],
+  "base": "minecraft:glowstone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "permutatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ],
+   [
+    "add",
+    "permutatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "permutatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "permutatio",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/tin"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "vitreus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/tin"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ],
+   [
+    "add",
+    "vitreus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/tin"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_tin"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/silver"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/silver"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ],
+   [
+    "add",
+    "desiderium",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/silver"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_silver"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/lead"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/lead"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/lead"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_lead"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ordo",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:ingot_brass"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/brass"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/bronze"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:dusts/bronze"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/uranium"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:drops/uranium"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/uranium"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gems/ruby"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gems/peridot"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gems/sapphire"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/steel"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:rubbers"
+  ],
+  "ops": [
+   [
+    "add",
+    "motus",
+    5
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:stones"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:granite"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:diorite"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:andesite"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:cobblestones"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bedrock"
+  ],
+  "ops": [
+   [
+    "add",
+    "vacuos",
+    25
+   ],
+   [
+    "add",
+    "perditio",
+    25
+   ],
+   [
+    "add",
+    "terra",
+    25
+   ],
+   [
+    "add",
+    "tenebrae",
+    25
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dirt"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:podzol"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:farmland"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    2
+   ],
+   [
+    "add",
+    "ordo",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:sands"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "perditio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:grass_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dirt_path"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ],
+   [
+    "add",
+    "ordo",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:end_stones"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gravels"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mycelium"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    1
+   ],
+   [
+    "add",
+    "vitium",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:clay_ball"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:clay"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:white_terracotta",
+   "minecraft:orange_terracotta",
+   "minecraft:magenta_terracotta",
+   "minecraft:light_blue_terracotta",
+   "minecraft:yellow_terracotta",
+   "minecraft:lime_terracotta",
+   "minecraft:pink_terracotta",
+   "minecraft:gray_terracotta",
+   "minecraft:light_gray_terracotta",
+   "minecraft:cyan_terracotta",
+   "minecraft:purple_terracotta",
+   "minecraft:blue_terracotta",
+   "minecraft:brown_terracotta",
+   "minecraft:green_terracotta",
+   "minecraft:red_terracotta",
+   "minecraft:black_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    1
+   ]
+  ],
+  "base": "minecraft:clay"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brick"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:clay_ball"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:netherracks"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:nether_brick"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ],
+   [
+    "add",
+    "ordo",
+    1
+   ]
+  ],
+  "base": "minecraft:netherrack"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:soul_sand"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "vinculum",
+    1
+   ],
+   [
+    "add",
+    "spiritus",
+    3
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:glass_blocks"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mossy_cobblestone"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    3
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:obsidians"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mossy_stone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    1
+   ]
+  ],
+  "base": "minecraft:stone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cracked_stone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "base": "minecraft:stone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chiseled_stone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    1
+   ]
+  ],
+  "base": "minecraft:stone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chiseled_sandstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    1
+   ]
+  ],
+  "base": "minecraft:sandstone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cut_sandstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    1
+   ]
+  ],
+  "base": "minecraft:sandstone"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:white_concrete",
+   "minecraft:orange_concrete",
+   "minecraft:magenta_concrete",
+   "minecraft:light_blue_concrete",
+   "minecraft:yellow_concrete",
+   "minecraft:lime_concrete",
+   "minecraft:pink_concrete",
+   "minecraft:gray_concrete",
+   "minecraft:light_gray_concrete",
+   "minecraft:cyan_concrete",
+   "minecraft:purple_concrete",
+   "minecraft:blue_concrete",
+   "minecraft:brown_concrete",
+   "minecraft:green_concrete",
+   "minecraft:red_concrete",
+   "minecraft:black_concrete"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    1
+   ],
+   [
+    "add",
+    "ordo",
+    1
+   ]
+  ],
+  "base": "minecraft:white_concrete_powder"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:black_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:blue_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brown_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cyan_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:gray_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:green_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:light_blue_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lime_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:magenta_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:orange_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pink_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:purple_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:red_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:light_gray_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:white_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:yellow_glazed_terracotta"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:white_terracotta"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#minecraft:logs"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#minecraft:saplings"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    15
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#minecraft:leaves"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_bush",
+   "minecraft:short_grass",
+   "minecraft:fern"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sunflower"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lilac"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tall_grass"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:large_fern"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:rose_bush"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:peony"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lily_pad"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_bush"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:vine"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:wheat_seeds"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:melon_seeds"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pumpkin_seeds"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:beetroot_seeds"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:crops/nether_wart"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    1
+   ],
+   [
+    "add",
+    "vitium",
+    2
+   ],
+   [
+    "add",
+    "alkimia",
+    3
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:poppy",
+   "minecraft:blue_orchid",
+   "minecraft:allium",
+   "minecraft:azure_bluet",
+   "minecraft:red_tulip",
+   "minecraft:orange_tulip",
+   "minecraft:white_tulip",
+   "minecraft:pink_tulip",
+   "minecraft:oxeye_daisy"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dandelion"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cactus"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "aversio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brown_mushroom"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:red_mushroom"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ],
+   [
+    "add",
+    "ignis",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brown_mushroom_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:red_mushroom_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ],
+   [
+    "add",
+    "ignis",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sugar_cane"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    3
+   ],
+   [
+    "add",
+    "aer",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:crops/wheat"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:apple"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:crops/carrot"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:crops/potato"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:beetroot"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:baked_potato"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:poisonous_potato"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pumpkin"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:melon"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    10
+   ],
+   [
+    "remove",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:melon_slice"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sponge"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:wet_sponge"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:sugar"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    1
+   ],
+   [
+    "add",
+    "potentia",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:cake"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    1
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:pumpkin_pie"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    1
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:white_wool"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    15
+   ],
+   [
+    "add",
+    "fabrico",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:experience_bottle"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:name_tag"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    10
+   ],
+   [
+    "add",
+    "bestia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:iron_horse_armor"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "praemunio",
+    10
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:golden_horse_armor"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "praemunio",
+    15
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:diamond_horse_armor"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    15
+   ],
+   [
+    "add",
+    "praemunio",
+    20
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:magma_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chorus_flower"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chorus_plant"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chorus_fruit"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:popped_chorus_fruit"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    4
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:ice"
+  ],
+  "ops": [
+   [
+    "add",
+    "gelum",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:packed_ice"
+  ],
+  "ops": [
+   [
+    "add",
+    "gelum",
+    15
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:snowball"
+  ],
+  "ops": [
+   [
+    "add",
+    "gelum",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:cookie"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:potion"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:torch"
+  ],
+  "ops": [
+   [
+    "add",
+    "lux",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cobweb"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:flint"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:strings"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "fabrico",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:slime_balls"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "alkimia",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:leathers"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:rotten_flesh"
+  ],
+  "ops": [
+   [
+    "add",
+    "humanus",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "perditio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:feathers"
+  ],
+  "ops": [
+   [
+    "add",
+    "volatus",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:bones"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:eggs"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:spider_eye"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gunpowders"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    10
+   ],
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cod",
+   "minecraft:salmon",
+   "minecraft:tropical_fish",
+   "minecraft:pufferfish"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cooked_cod",
+   "minecraft:cooked_salmon"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    1
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chicken"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cooked_chicken"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    1
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:porkchop"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cooked_porkchop"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    1
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:beef"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cooked_beef"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    1
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mutton"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cooked_mutton"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    1
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:rabbit"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cooked_rabbit"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    1
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:rabbit_hide"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:rabbit_foot"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    5
+   ],
+   [
+    "add",
+    "motus",
+    10
+   ],
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:blaze_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    15
+   ],
+   [
+    "add",
+    "potentia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:saddle"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    10
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ender_pearls"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:ghast_tear"
+  ],
+  "ops": [
+   [
+    "add",
+    "exanimis",
+    5
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "alkimia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:skeleton_skull"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "exanimis",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:wither_skeleton_skull"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "exanimis",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:zombie_head"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "humanus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:player_head"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "humanus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:creeper_head"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dragon_head"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "ignis",
+    10
+   ],
+   [
+    "add",
+    "tenebrae",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dragon_breath"
+  ],
+  "ops": [
+   [
+    "add",
+    "tenebrae",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    10
+   ],
+   [
+    "add",
+    "ignis",
+    10
+   ],
+   [
+    "add",
+    "alkimia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:cauldron"
+  ],
+  "ops": [
+   [
+    "add",
+    "alkimia",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:fermented_spider_eye"
+  ],
+  "ops": [
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:blaze_powder"
+  ],
+  "ops": [
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:glistering_melon_slice"
+  ],
+  "ops": [
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:magma_cream"
+  ],
+  "ops": [
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:totem_of_undying"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    10
+   ],
+   [
+    "add",
+    "victus",
+    25
+   ],
+   [
+    "add",
+    "exanimis",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:shulker_shell"
+  ],
+  "ops": [
+   [
+    "add",
+    "praemunio",
+    10
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:purple_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:shulker_box",
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:black_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:blue_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:green_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:red_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:yellow_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:light_gray_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:white_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:orange_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pink_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:gray_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cyan_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:light_blue_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lime_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:magenta_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brown_shulker_box"
+  ],
+  "ops": [],
+  "base": "minecraft:purple_shulker_box"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_11"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_13"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_cat"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_chirp"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_far"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_mall"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "humanus",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_mellohi"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "fabrico",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_stal"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_strad"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_ward"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_blocks"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_wait"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:nether_stars"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    10
+   ],
+   [
+    "add",
+    "praecantatio",
+    20
+   ],
+   [
+    "add",
+    "ordo",
+    20
+   ],
+   [
+    "add",
+    "auram",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chainmail_helmet"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    42
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chainmail_chestplate"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    67
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chainmail_leggings"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    58
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chainmail_boots"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    33
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:paper"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:enchanted_book"
+  ],
+  "ops": [],
+  "base": "minecraft:book"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:bookshelf"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    8
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dragon_egg"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    15
+   ],
+   [
+    "add",
+    "bestia",
+    15
+   ],
+   [
+    "add",
+    "tenebrae",
+    15
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ],
+   [
+    "add",
+    "praecantatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:nether_portal"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    20
+   ],
+   [
+    "add",
+    "praecantatio",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:end_portal_frame"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    10
+   ],
+   [
+    "add",
+    "potentia",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    10
+   ],
+   [
+    "add",
+    "praecantatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:spawner"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    20
+   ],
+   [
+    "add",
+    "motus",
+    20
+   ],
+   [
+    "add",
+    "exanimis",
+    20
+   ],
+   [
+    "add",
+    "praecantatio",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:prismarine_shard"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:prismarine_crystals"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    5
+   ],
+   [
+    "add",
+    "lux",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:elytra"
+  ],
+  "ops": [
+   [
+    "add",
+    "volatus",
+    20
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:end_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ],
+   [
+    "add",
+    "lux",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "vacuos",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:trapped_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:ender_eye"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    10
+   ],
+   [
+    "add",
+    "praecantatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:arrow"
+  ],
+  "ops": [
+   [
+    "add",
+    "aversio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:glass_bottle"
+  ],
+  "ops": [
+   [
+    "add",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:golden_apple"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:enchanted_golden_apple"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    15
+   ],
+   [
+    "add",
+    "praemunio",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:bowl"
+  ],
+  "ops": [
+   [
+    "add",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:mushroom_stew"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:minecart"
+  ],
+  "ops": [
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:iron_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:acacia_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:dark_oak_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:jungle_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:oak_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:spruce_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:birch_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:oak_boat"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:acacia_boat"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:birch_boat"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:dark_oak_boat"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:jungle_boat"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:spruce_boat"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:flint_and_steel"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    10
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:fishing_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "instrumentum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:shield"
+  ],
+  "ops": [
+   [
+    "add",
+    "praemunio",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:spectral_arrow"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    10
+   ],
+   [
+    "add",
+    "praecantatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:water_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    20
+   ]
+  ],
+  "base": "minecraft:bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lava_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ],
+  "base": "minecraft:bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:milk_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    10
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ]
+  ],
+  "base": "minecraft:bucket"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:brewing_stand"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    15
+   ],
+   [
+    "add",
+    "alkimia",
+    25
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:stone_button"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:rail"
+  ],
+  "ops": [
+   [
+    "add",
+    "motus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:detector_rail"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:powered_rail"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:activator_rail"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:acacia_fence_gate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:dark_oak_fence_gate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:jungle_fence_gate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:dark_oak_fence_gate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:spruce_fence_gate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:birch_fence_gate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:oak_pressure_plate"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:stone_pressure_plate"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:light_weighted_pressure_plate"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:heavy_weighted_pressure_plate"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:lever"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:piston"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:sticky_piston"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    10
+   ],
+   [
+    "add",
+    "motus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:jukebox"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    20
+   ],
+   [
+    "add",
+    "machina",
+    10
+   ],
+   [
+    "add",
+    "aer",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:note_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    20
+   ],
+   [
+    "add",
+    "machina",
+    10
+   ],
+   [
+    "add",
+    "aer",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:oak_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "motus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:furnace"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:enchanting_table"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    25
+   ],
+   [
+    "add",
+    "fabrico",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:crafting_table"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:clock"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:beacon"
+  ],
+  "ops": [
+   [
+    "add",
+    "auram",
+    10
+   ],
+   [
+    "add",
+    "praecantatio",
+    10
+   ],
+   [
+    "add",
+    "permutatio",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:oak_button"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:carrot_on_a_stick"
+  ],
+  "ops": [
+   [
+    "add",
+    "motus",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:flower_pot"
+  ],
+  "ops": [
+   [
+    "add",
+    "vacuos",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:golden_carrot"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    10
+   ],
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:ender_chest"
+  ],
+  "ops": [
+   [
+    "merge",
+    "permutatio",
+    10
+   ],
+   [
+    "merge",
+    "motus",
+    10
+   ],
+   [
+    "merge",
+    "vacuos",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:comparator"
+  ],
+  "ops": [
+   [
+    "merge",
+    "machina",
+    15
+   ],
+   [
+    "merge",
+    "ordo",
+    5
+   ],
+   [
+    "merge",
+    "sensus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:repeater"
+  ],
+  "ops": [
+   [
+    "merge",
+    "machina",
+    15
+   ],
+   [
+    "merge",
+    "potentia",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:hopper"
+  ],
+  "ops": [
+   [
+    "merge",
+    "machina",
+    5
+   ],
+   [
+    "merge",
+    "permutatio",
+    10
+   ],
+   [
+    "merge",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:dropper"
+  ],
+  "ops": [
+   [
+    "merge",
+    "machina",
+    5
+   ],
+   [
+    "merge",
+    "permutatio",
+    10
+   ],
+   [
+    "merge",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:dispenser"
+  ],
+  "ops": [
+   [
+    "merge",
+    "machina",
+    5
+   ],
+   [
+    "merge",
+    "permutatio",
+    10
+   ],
+   [
+    "merge",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tripwire_hook"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "vinculum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:string"
+  ],
+  "ops": [
+   [
+    "merge",
+    "sensus",
+    5
+   ],
+   [
+    "merge",
+    "machina",
+    5
+   ],
+   [
+    "merge",
+    "vinculum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:daylight_detector"
+  ],
+  "ops": [
+   [
+    "merge",
+    "sensus",
+    10
+   ],
+   [
+    "merge",
+    "lux",
+    10
+   ],
+   [
+    "merge",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "#c:gears"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "potions"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:ink_sac"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    2
+   ],
+   [
+    "add",
+    "bestia",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:green_dye"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "base": "minecraft:cactus"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cocoa_beans"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    2
+   ],
+   [
+    "add",
+    "potentia",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lapis_lazuli"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    2
+   ],
+   [
+    "add",
+    "desiderium",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bone_meal"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    2
+   ],
+   [
+    "add",
+    "mortuus",
+    1
+   ],
+   [
+    "add",
+    "herba",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:phial_empty"
+  ],
+  "ops": [
+   [
+    "add",
+    "vacuos",
+    3
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:phial_filled"
+  ],
+  "ops": []
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:grass_ambient"
+  ],
+  "ops": [
+   [
+    "add",
+    "lux",
+    5
+   ]
+  ],
+  "base": "minecraft:grass_block"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:table_wood"
+  ],
+  "ops": [
+   [
+    "add",
+    "instrumentum",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:table_stone"
+  ],
+  "ops": [
+   [
+    "add",
+    "instrumentum",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:arcane_workbench"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    5
+   ],
+   [
+    "add",
+    "auram",
+    5
+   ]
+  ],
+  "base": "minecraft:crafting_table"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:triple_meat_treat"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:bucket_pure"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    15
+   ],
+   [
+    "add",
+    "ordo",
+    15
+   ]
+  ],
+  "base": "minecraft:bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:bucket_death"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    15
+   ],
+   [
+    "add",
+    "perditio",
+    15
+   ]
+  ],
+  "base": "minecraft:bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_iron"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_gold"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_cinnabar"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "alkimia",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cluster_quartz"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:ore_cinnabar"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "alkimia",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:ore_amber"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vinculum",
+    10
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:quicksilver"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ],
+   [
+    "add",
+    "alkimia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:amber"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    10
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:nugget_rareearth"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crystal_aer"
+  ],
+  "ops": [
+   [
+    "add",
+    "aer",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crystal_ignis"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crystal_aqua"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crystal_terra"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crystal_ordo"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crystal_perditio"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crystal_vitium"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitium",
+    15
+   ],
+   [
+    "add",
+    "vitreus",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:taint_fibre"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "vitium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:taint_crust"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "vitium",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:taint_soil"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vitium",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:taint_geyser"
+  ],
+  "ops": [
+   [
+    "add",
+    "auram",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "vitium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:taint_rock"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    10
+   ],
+   [
+    "add",
+    "vitium",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:taint_feature"
+  ],
+  "ops": [
+   [
+    "add",
+    "auram",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "vitium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:taint_log"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "vitium",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:log_greatwood"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    20
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:log_silverwood"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    20
+   ],
+   [
+    "add",
+    "auram",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:leaves_greatwood"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:leaves_silverwood"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:sapling_greatwood"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    15
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:sapling_silverwood"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    15
+   ],
+   [
+    "add",
+    "auram",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:shimmerleaf"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "auram",
+    10
+   ],
+   [
+    "add",
+    "potentia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:cinderpearl"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "auram",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:vishroom"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    2
+   ],
+   [
+    "add",
+    "mortuus",
+    1
+   ],
+   [
+    "add",
+    "praecantatio",
+    1
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:stone_ancient"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:stone_ancient_tile"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:stone_ancient_rock"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:stone_eldritch_tile"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:stone_ancient_doorway"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "vinculum",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:stone_ancient_glyphed"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "cognitio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:stone_porous"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vacuos",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:research_table"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    5
+   ]
+  ],
+  "base": "thaumcraft:table_wood"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:brain"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "cognitio",
+    20
+   ],
+   [
+    "add",
+    "exanimis",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_bag_common"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_bag_uncommon"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_bag_rare"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    30
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_urn_common"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_urn_uncommon"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    20
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_urn_rare"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    30
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_crate_common"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    10
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_crate_uncommon"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    20
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:loot_crate_rare"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    30
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:chunk_beef",
+   "thaumcraft:chunk_chicken",
+   "thaumcraft:chunk_pork",
+   "thaumcraft:chunk_fish",
+   "thaumcraft:chunk_rabbit",
+   "thaumcraft:chunk_mutton"
+  ],
+  "ops": [
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:salis_mundus"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crucible"
+  ],
+  "ops": [
+   [
+    "add",
+    "fabrico",
+    20
+   ],
+   [
+    "add",
+    "alkimia",
+    20
+   ]
+  ],
+  "base": "minecraft:cauldron"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:candle_white",
+   "thaumcraft:candle_orange",
+   "thaumcraft:candle_magenta",
+   "thaumcraft:candle_lightblue",
+   "thaumcraft:candle_yellow",
+   "thaumcraft:candle_lime",
+   "thaumcraft:candle_pink",
+   "thaumcraft:candle_gray",
+   "thaumcraft:candle_silver",
+   "thaumcraft:candle_cyan",
+   "thaumcraft:candle_purple",
+   "thaumcraft:candle_blue",
+   "thaumcraft:candle_brown",
+   "thaumcraft:candle_green",
+   "thaumcraft:candle_red",
+   "thaumcraft:candle_black"
+  ],
+  "ops": [
+   [
+    "add",
+    "lux",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:thaumonomicon_normal",
+   "thaumcraft:thaumonomicon_cheat"
+  ],
+  "ops": [
+   [
+    "merge",
+    "praecantatio",
+    10
+   ]
+  ],
+  "base": "minecraft:bookshelf"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:pedestal_arcane"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    3
+   ],
+   [
+    "add",
+    "aer",
+    3
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:pedestal_ancient"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    3
+   ],
+   [
+    "add",
+    "alienis",
+    3
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:pedestal_eldritch"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    3
+   ],
+   [
+    "add",
+    "alienis",
+    3
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:thaumometer"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    10
+   ],
+   [
+    "add",
+    "auram",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:goggles"
+  ],
+  "ops": [
+   [
+    "merge",
+    "sensus",
+    10
+   ],
+   [
+    "merge",
+    "auram",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:arcane_ear"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:amulet_vis"
+  ],
+  "ops": [
+   [
+    "add",
+    "auram",
+    20
+   ],
+   [
+    "add",
+    "metallum",
+    5
+   ],
+   [
+    "add",
+    "praecantatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:baubles_ring_apprentice"
+  ],
+  "ops": [
+   [
+    "add",
+    "auram",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    5
+   ],
+   [
+    "add",
+    "praecantatio",
+    20
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_plate_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ],
+  "base": "minecraft:iron_chestplate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_praetor_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    10
+   ]
+  ],
+  "base": "minecraft:iron_chestplate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_robe_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ],
+  "base": "minecraft:leather_chestplate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_plate_legs"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ],
+  "base": "minecraft:iron_leggings"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_praetor_legs"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    10
+   ]
+  ],
+  "base": "minecraft:iron_leggings"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_robe_legs"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ],
+  "base": "minecraft:leather_leggings"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_plate_helm"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ],
+  "base": "minecraft:iron_helmet"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_praetor_helm"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    10
+   ]
+  ],
+  "base": "minecraft:iron_helmet"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_robe_helm"
+  ],
+  "ops": [
+   [
+    "add",
+    "praecantatio",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ],
+  "base": "minecraft:leather_helmet"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_boots"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ],
+  "base": "minecraft:iron_boots"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:crimson_blade"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    10
+   ],
+   [
+    "add",
+    "mortuus",
+    10
+   ]
+  ],
+  "base": "minecraft:iron_sword"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "thaumcraft:banner_white",
+   "thaumcraft:banner_orange",
+   "thaumcraft:banner_magenta",
+   "thaumcraft:banner_lightblue",
+   "thaumcraft:banner_yellow",
+   "thaumcraft:banner_lime",
+   "thaumcraft:banner_pink",
+   "thaumcraft:banner_gray",
+   "thaumcraft:banner_silver",
+   "thaumcraft:banner_cyan",
+   "thaumcraft:banner_purple",
+   "thaumcraft:banner_blue",
+   "thaumcraft:banner_brown",
+   "thaumcraft:banner_green",
+   "thaumcraft:banner_red",
+   "thaumcraft:banner_black"
+  ],
+  "ops": [
+   [
+    "add",
+    "alienis",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:curio_arcane"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    15
+   ],
+   [
+    "add",
+    "praecantatio",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:curio_preserved"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    15
+   ],
+   [
+    "add",
+    "bestia",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:curio_ancient"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    15
+   ],
+   [
+    "add",
+    "mortuus",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:curio_eldritch"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    15
+   ],
+   [
+    "add",
+    "alienis",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:curio_knowledge"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    30
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:curio_twisted"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    15
+   ],
+   [
+    "add",
+    "vitium",
+    15
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:curio_rites"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    15
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "spiritus",
+    5
+   ],
+   [
+    "add",
+    "praecantatio",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:celestial_notes_sun",
+   "thaumcraft:celestial_notes_stars_1",
+   "thaumcraft:celestial_notes_stars_2",
+   "thaumcraft:celestial_notes_stars_3",
+   "thaumcraft:celestial_notes_stars_4",
+   "thaumcraft:celestial_notes_moon_1",
+   "thaumcraft:celestial_notes_moon_2",
+   "thaumcraft:celestial_notes_moon_3",
+   "thaumcraft:celestial_notes_moon_4",
+   "thaumcraft:celestial_notes_moon_5",
+   "thaumcraft:celestial_notes_moon_6",
+   "thaumcraft:celestial_notes_moon_7",
+   "thaumcraft:celestial_notes_moon_8"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ],
+   [
+    "add",
+    "lux",
+    5
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "thaumcraft:primordial_pearl"
+  ],
+  "ops": [
+   [
+    "add",
+    "aer",
+    10
+   ],
+   [
+    "add",
+    "ignis",
+    10
+   ],
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    10
+   ],
+   [
+    "add",
+    "ordo",
+    10
+   ],
+   [
+    "add",
+    "perditio",
+    10
+   ]
+  ]
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:raw_materials/iron"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:raw_materials/gold"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    7
+   ],
+   [
+    "add",
+    "desiderium",
+    7
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:raw_materials/copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    7
+   ],
+   [
+    "add",
+    "permutatio",
+    3
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ores/netherite_scrap"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "ignis",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_scrap"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "ignis",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:ingots/netherite"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    30
+   ],
+   [
+    "add",
+    "praemunio",
+    15
+   ],
+   [
+    "add",
+    "desiderium",
+    15
+   ],
+   [
+    "add",
+    "ignis",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:heavy_core"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    20
+   ],
+   [
+    "add",
+    "terra",
+    15
+   ],
+   [
+    "add",
+    "potentia",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bell"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    10
+   ],
+   [
+    "add",
+    "desiderium",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chipped_anvil"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:anvil"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:damaged_anvil"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    10
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:anvil"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:trial_key"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    5
+   ],
+   [
+    "add",
+    "ordo",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:ominous_trial_key"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:vault"
+  ],
+  "ops": [
+   [
+    "add",
+    "metallum",
+    15
+   ],
+   [
+    "add",
+    "desiderium",
+    15
+   ],
+   [
+    "add",
+    "vinculum",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:trial_spawner"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    20
+   ],
+   [
+    "add",
+    "motus",
+    20
+   ],
+   [
+    "add",
+    "exanimis",
+    20
+   ],
+   [
+    "add",
+    "praecantatio",
+    20
+   ],
+   [
+    "add",
+    "metallum",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_sword"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    16
+   ],
+   [
+    "add",
+    "desiderium",
+    27
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_pickaxe"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    24
+   ],
+   [
+    "add",
+    "desiderium",
+    36
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_axe"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    24
+   ],
+   [
+    "add",
+    "desiderium",
+    36
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_shovel"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    8
+   ],
+   [
+    "add",
+    "desiderium",
+    19
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_hoe"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    16
+   ],
+   [
+    "add",
+    "desiderium",
+    27
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_spear"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    8
+   ],
+   [
+    "add",
+    "desiderium",
+    19
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_helmet"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    42
+   ],
+   [
+    "add",
+    "desiderium",
+    53
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_chestplate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    67
+   ],
+   [
+    "add",
+    "desiderium",
+    78
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_leggings"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    58
+   ],
+   [
+    "add",
+    "desiderium",
+    69
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:netherite_boots"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    33
+   ],
+   [
+    "add",
+    "desiderium",
+    45
+   ],
+   [
+    "add",
+    "metallum",
+    22
+   ],
+   [
+    "add",
+    "praemunio",
+    11
+   ],
+   [
+    "add",
+    "ignis",
+    7
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "machina",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_chiseled_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:chiseled_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_bars"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_bars"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_chain"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chain"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chest"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_door"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_golem_statue"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_grate"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_grate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_lantern"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_lantern"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_copper_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_trapdoor"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_cut_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_cut_copper_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_slab"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_cut_copper_stairs"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_stairs"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:exposed_lightning_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:lightning_rod"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_chiseled_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:chiseled_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_bars"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_bars"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_chain"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chain"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chest"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_door"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_golem_statue"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_grate"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_grate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_lantern"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_lantern"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_copper_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_trapdoor"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_cut_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_cut_copper_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_slab"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_cut_copper_stairs"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_stairs"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weathered_lightning_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:lightning_rod"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_chiseled_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:chiseled_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_bars"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_bars"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_chain"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chain"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chest"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_door"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_golem_statue"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_grate"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_grate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_lantern"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_lantern"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_copper_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_trapdoor"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_cut_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_cut_copper_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_slab"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_cut_copper_stairs"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_stairs"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:oxidized_lightning_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:lightning_rod"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_chiseled_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:chiseled_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_chiseled_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_chiseled_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_chiseled_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_chiseled_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_chiseled_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_chiseled_copper"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_bars"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_bars"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_bars"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_bars"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_bars"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_bars"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_bars"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_bars"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_chain"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chain"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_chain"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_chain"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_chain"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_chain"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_chain"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_chain"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_chest"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_chest"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_chest"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_chest"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_chest"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_door"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_door"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_door"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_door"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_door"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_golem_statue"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_golem_statue"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_golem_statue"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_golem_statue"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_golem_statue"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_grate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_grate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_grate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_grate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_grate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_grate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_grate"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_grate"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_lantern"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_lantern"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_lantern"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_lantern"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_lantern"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_lantern"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_lantern"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_lantern"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_copper_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:copper_trapdoor"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_copper_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_copper_trapdoor"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_copper_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_copper_trapdoor"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_copper_trapdoor"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_copper_trapdoor"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_cut_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_cut_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_cut_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_cut_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_cut_copper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_cut_copper"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_cut_copper"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_cut_copper_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_slab"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_cut_copper_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_cut_copper_slab"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_cut_copper_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_cut_copper_slab"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_cut_copper_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_cut_copper_slab"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_cut_copper_stairs"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cut_copper_stairs"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_cut_copper_stairs"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_cut_copper_stairs"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_cut_copper_stairs"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_cut_copper_stairs"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_cut_copper_stairs"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_cut_copper_stairs"
+ },
+ {
+  "op": "complex",
+  "targets": [
+   "minecraft:waxed_lightning_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:lightning_rod"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_exposed_lightning_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:exposed_lightning_rod"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_weathered_lightning_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:weathered_lightning_rod"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:waxed_oxidized_lightning_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:oxidized_lightning_rod"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:gems/amethyst"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    5
+   ],
+   [
+    "add",
+    "praecantatio",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:amethyst_cluster"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    10
+   ],
+   [
+    "add",
+    "praecantatio",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:large_amethyst_bud"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    7
+   ],
+   [
+    "add",
+    "praecantatio",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:medium_amethyst_bud"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    5
+   ],
+   [
+    "add",
+    "praecantatio",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:small_amethyst_bud"
+  ],
+  "ops": [
+   [
+    "add",
+    "vitreus",
+    3
+   ],
+   [
+    "add",
+    "praecantatio",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:budding_amethyst"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    15
+   ],
+   [
+    "add",
+    "praecantatio",
+    10
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:echo_shard"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    10
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "vitreus",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sculk"
+  ],
+  "ops": [
+   [
+    "add",
+    "tenebrae",
+    3
+   ],
+   [
+    "add",
+    "exanimis",
+    3
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sculk_vein"
+  ],
+  "ops": [
+   [
+    "add",
+    "tenebrae",
+    1
+   ],
+   [
+    "add",
+    "exanimis",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sculk_sensor"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ],
+   [
+    "add",
+    "exanimis",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sculk_catalyst"
+  ],
+  "ops": [
+   [
+    "add",
+    "exanimis",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ],
+   [
+    "add",
+    "cognitio",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sculk_shrieker"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    10
+   ],
+   [
+    "add",
+    "exanimis",
+    10
+   ],
+   [
+    "add",
+    "tenebrae",
+    10
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:reinforced_deepslate"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    25
+   ],
+   [
+    "add",
+    "praemunio",
+    25
+   ],
+   [
+    "add",
+    "tenebrae",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:blackstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:gilded_blackstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "desiderium",
+    5
+   ],
+   [
+    "add",
+    "metallum",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:blackstone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:basalt"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:smooth_basalt"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:calcite"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ordo",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dripstone_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pointed_dripstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    2
+   ],
+   [
+    "add",
+    "aversio",
+    2
+   ],
+   [
+    "add",
+    "aqua",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cinnabar"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "alkimia",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sulfur"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    2
+   ],
+   [
+    "add",
+    "alkimia",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:potent_sulfur"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    5
+   ],
+   [
+    "add",
+    "alkimia",
+    5
+   ],
+   [
+    "add",
+    "potentia",
+    3
+   ],
+   [
+    "add",
+    "perditio",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sulfur_spike"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "ignis",
+    2
+   ],
+   [
+    "add",
+    "aversio",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:deepslate_coal_ore"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:coal_ore"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:smooth_stone"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:stone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:smooth_sandstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:sandstone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:smooth_red_sandstone"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:red_sandstone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:smooth_quartz"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:quartz_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chiseled_quartz_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:quartz_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cracked_deepslate_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:deepslate_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cracked_deepslate_tiles"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:deepslate_tiles"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cracked_nether_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:nether_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cracked_polished_blackstone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:polished_blackstone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:infested_stone"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:stone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:infested_stone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:stone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:infested_cracked_stone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cracked_stone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:infested_mossy_stone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:mossy_stone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:infested_chiseled_stone_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:chiseled_stone_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:infested_deepslate"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:deepslate"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:infested_cobblestone"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:cobblestone"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:suspicious_sand"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    3
+   ],
+   [
+    "add",
+    "desiderium",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:sand"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:suspicious_gravel"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    3
+   ],
+   [
+    "add",
+    "desiderium",
+    2
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:gravel"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#minecraft:decorated_pot_sherds"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ],
+   [
+    "add",
+    "cognitio",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:petrified_oak_slab"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:oak_slab"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mud"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:rooted_dirt"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:soul_soil"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "spiritus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:resin_clump"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:resin_brick"
+  ],
+  "ops": [
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:resin_clump"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:crimson_fungus"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ],
+   [
+    "add",
+    "ignis",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:crimson_nylium"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:crimson_roots"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:warped_fungus"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ],
+   [
+    "add",
+    "ignis",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:warped_nylium"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    1
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:warped_roots"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:nether_sprouts"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    3
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:weeping_vines",
+   "minecraft:twisting_vines"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:warped_wart_block"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:nether_wart_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:shroomlight"
+  ],
+  "ops": [
+   [
+    "add",
+    "lux",
+    10
+   ],
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mushroom_stem"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:brown_mushroom_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bamboo"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    2
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:stripped_bamboo_block"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bamboo_block"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:kelp",
+   "minecraft:seagrass"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dried_kelp"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    4
+   ],
+   [
+    "add",
+    "ignis",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sea_pickle"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "lux",
+    5
+   ],
+   [
+    "add",
+    "herba",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:moss_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pale_moss_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "tenebrae",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pale_hanging_moss"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    3
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "tenebrae",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:hanging_roots"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    3
+   ],
+   [
+    "add",
+    "terra",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mangrove_roots"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:glow_lichen"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    2
+   ],
+   [
+    "add",
+    "lux",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:glow_berries"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    3
+   ],
+   [
+    "add",
+    "lux",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sweet_berries"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:spore_blossom"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:big_dripleaf"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:small_dripleaf"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    3
+   ],
+   [
+    "add",
+    "aqua",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pink_petals",
+   "minecraft:wildflowers"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    2
+   ],
+   [
+    "add",
+    "sensus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:leaf_litter"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    2
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bush"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:firefly_bush"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "lux",
+    3
+   ],
+   [
+    "add",
+    "bestia",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:short_dry_grass"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    3
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tall_dry_grass"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "perditio",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cornflower",
+   "minecraft:lily_of_the_valley",
+   "minecraft:cactus_flower"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:wither_rose"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:torchflower"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "lux",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pitcher_plant"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "aer",
+    1
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:torchflower_seeds",
+   "minecraft:pitcher_pod"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:open_eyeblossom"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    5
+   ],
+   [
+    "add",
+    "lux",
+    1
+   ],
+   [
+    "add",
+    "tenebrae",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:closed_eyeblossom"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    3
+   ],
+   [
+    "add",
+    "tenebrae",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:carved_pumpkin"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tube_coral",
+   "minecraft:tube_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tube_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_tube_coral",
+   "minecraft:dead_tube_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "mortuus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_tube_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brain_coral",
+   "minecraft:brain_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brain_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_brain_coral",
+   "minecraft:dead_brain_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "mortuus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_brain_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bubble_coral",
+   "minecraft:bubble_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bubble_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_bubble_coral",
+   "minecraft:dead_bubble_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "mortuus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_bubble_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:fire_coral",
+   "minecraft:fire_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:fire_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_fire_coral",
+   "minecraft:dead_fire_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "mortuus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_fire_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:horn_coral",
+   "minecraft:horn_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:horn_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_horn_coral",
+   "minecraft:dead_horn_coral_fan"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    3
+   ],
+   [
+    "add",
+    "mortuus",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:dead_horn_coral_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "mortuus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:honeycomb"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    2
+   ],
+   [
+    "add",
+    "desiderium",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:honey_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    10
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bee_nest"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    10
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "vinculum",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:frogspawn"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "aqua",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:turtle_egg"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sniffer_egg"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    10
+   ],
+   [
+    "add",
+    "victus",
+    10
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:turtle_scute"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    5
+   ],
+   [
+    "add",
+    "aqua",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:armadillo_scute"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:phantom_membrane"
+  ],
+  "ops": [
+   [
+    "add",
+    "volatus",
+    5
+   ],
+   [
+    "add",
+    "exanimis",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:nautilus_shell"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "praemunio",
+    3
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:heart_of_the_sea"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    15
+   ],
+   [
+    "add",
+    "praecantatio",
+    10
+   ],
+   [
+    "add",
+    "potentia",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:goat_horn"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    10
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:glow_ink_sac"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    2
+   ],
+   [
+    "add",
+    "bestia",
+    2
+   ],
+   [
+    "add",
+    "lux",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:breeze_rod"
+  ],
+  "ops": [
+   [
+    "add",
+    "aer",
+    15
+   ],
+   [
+    "add",
+    "motus",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:trident"
+  ],
+  "ops": [
+   [
+    "add",
+    "aqua",
+    10
+   ],
+   [
+    "add",
+    "aversio",
+    15
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:piglin_head"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "spiritus",
+    10
+   ],
+   [
+    "add",
+    "ignis",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "#c:froglights"
+  ],
+  "ops": [
+   [
+    "add",
+    "lux",
+    10
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cod_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:water_bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:salmon_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:water_bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pufferfish_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "alkimia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:water_bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tropical_fish_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "sensus",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:water_bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:axolotl_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "victus",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:water_bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tadpole_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "victus",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:water_bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:sulfur_cube_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "bestia",
+    3
+   ],
+   [
+    "add",
+    "ignis",
+    3
+   ],
+   [
+    "add",
+    "alkimia",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:water_bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:powder_snow_bucket"
+  ],
+  "ops": [
+   [
+    "add",
+    "gelum",
+    10
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:bucket"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_5"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "tenebrae",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_bounce"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "motus",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_creator"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "fabrico",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_creator_music_box"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "machina",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_lava_chicken"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "ignis",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_otherside"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "alienis",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_pigstep"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "bestia",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_precipice"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "terra",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_relic"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "cognitio",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:music_disc_tears"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    15
+   ],
+   [
+    "add",
+    "aer",
+    5
+   ],
+   [
+    "add",
+    "spiritus",
+    5
+   ],
+   [
+    "add",
+    "desiderium",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:disc_fragment_5"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    2
+   ],
+   [
+    "add",
+    "desiderium",
+    1
+   ],
+   [
+    "add",
+    "tenebrae",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:flow_banner_pattern",
+   "minecraft:globe_banner_pattern",
+   "minecraft:guster_banner_pattern",
+   "minecraft:piglin_banner_pattern"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:paper"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:ominous_bottle"
+  ],
+  "ops": [
+   [
+    "add",
+    "tenebrae",
+    5
+   ],
+   [
+    "add",
+    "praecantatio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:glass_bottle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:splash_potion"
+  ],
+  "ops": [
+   [
+    "add",
+    "aversio",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:potion"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lingering_potion"
+  ],
+  "ops": [
+   [
+    "add",
+    "potentia",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:potion"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:tipped_arrow"
+  ],
+  "ops": [
+   [
+    "add",
+    "vinculum",
+    5
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:arrow"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:filled_map"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:map"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:written_book"
+  ],
+  "ops": [
+   [
+    "add",
+    "cognitio",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:writable_book"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:firework_star"
+  ],
+  "ops": [
+   [
+    "add",
+    "sensus",
+    3
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:gunpowder"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:white_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:orange_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:magenta_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:light_blue_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:yellow_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:lime_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:pink_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:gray_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:light_gray_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cyan_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:purple_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:blue_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:brown_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:green_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:red_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:black_bundle"
+  ],
+  "ops": [],
+  "modern": true,
+  "base": "minecraft:bundle"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bone_block"
+  ],
+  "ops": [
+   [
+    "add",
+    "mortuus",
+    10
+   ],
+   [
+    "add",
+    "victus",
+    10
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:chiseled_tuff_bricks"
+  ],
+  "ops": [
+   [
+    "add",
+    "ordo",
+    1
+   ]
+  ],
+  "modern": true,
+  "base": "minecraft:tuff_bricks"
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:deepslate_brick_slab",
+   "minecraft:deepslate_tile_slab",
+   "minecraft:deepslate_tile_wall",
+   "minecraft:polished_blackstone_brick_slab",
+   "minecraft:sulfur_brick_slab",
+   "minecraft:tuff_brick_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:cinnabar_brick_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    1
+   ],
+   [
+    "add",
+    "alkimia",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:mud_brick_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    1
+   ],
+   [
+    "add",
+    "aqua",
+    1
+   ],
+   [
+    "add",
+    "herba",
+    1
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:smooth_stone_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "terra",
+    2
+   ]
+  ],
+  "modern": true
+ },
+ {
+  "op": "set",
+  "targets": [
+   "minecraft:bamboo_mosaic_slab"
+  ],
+  "ops": [
+   [
+    "add",
+    "herba",
+    1
+   ]
+  ],
+  "modern": true
+ }
+]

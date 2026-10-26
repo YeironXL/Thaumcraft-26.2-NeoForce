@@ -1,0 +1,43 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "ELEMENTALTOOLS",
+  "input": "thaumcraft:thaumium_axe",
+  "components": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumcraft:crystal_essence",
+      "components": {
+        "thaumcraft:aspect": "aqua"
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumcraft:crystal_essence",
+      "components": {
+        "thaumcraft:aspect": "aqua"
+      }
+    },
+    "thaumcraft:nugget_rareearth",
+    "thaumcraft:plank_greatwood"
+  ],
+  "aspects": {
+    "aqua": 60,
+    "herba": 30
+  },
+  "instability": 1,
+  "result": {
+    "id": "thaumcraft:elemental_axe",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "collector",
+          "lvl": 1
+        },
+        {
+          "id": "burrowing",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

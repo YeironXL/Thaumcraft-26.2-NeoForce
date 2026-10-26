@@ -1,0 +1,12 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "BASEELDRITCH",
+  "catalyst": "thaumcraft:void_seed",
+  "aspects": {
+    "vitium": 5,
+    "metallum": 10
+  },
+  "result": {
+    "id": "thaumcraft:ingot_void"
+  }
+}

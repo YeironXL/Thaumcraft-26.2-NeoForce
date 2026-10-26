@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:flint",
+    "minecraft:bowl",
+    "minecraft:redstone",
+    "thaumcraft:crystal_essence",
+    "thaumcraft:crystal_essence",
+    "thaumcraft:crystal_essence"
+  ],
+  "result": {
+    "id": "thaumcraft:salis_mundus"
+  }
+}

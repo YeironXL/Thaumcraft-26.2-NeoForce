@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "ADVANCEDTURRET",
+  "vis": 150,
+  "crystals": {
+    "aer": 2
+  },
+  "pattern": [
+    "PMP",
+    "PTP",
+    "   "
+  ],
+  "key": {
+    "T": "thaumcraft:turret_basic",
+    "P": "#c:plates/iron",
+    "M": "thaumcraft:mind_biothaumic"
+  },
+  "result": {
+    "id": "thaumcraft:turret_advanced"
+  }
+}

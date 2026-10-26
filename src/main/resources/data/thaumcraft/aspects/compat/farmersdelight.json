@@ -1,0 +1,510 @@
+{
+ "requires": [
+  "farmersdelight"
+ ],
+ "entries": [
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:cabbage"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:cabbage_leaf"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     2
+    ],
+    [
+     "add",
+     "victus",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:tomato"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:onion"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "sensus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:rice_panicle"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ],
+    [
+     "add",
+     "aqua",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:rice"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:cabbage_seeds",
+    "farmersdelight:tomato_seeds"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:wild_cabbages",
+    "farmersdelight:wild_onions",
+    "farmersdelight:wild_tomatoes",
+    "farmersdelight:wild_carrots",
+    "farmersdelight:wild_potatoes",
+    "farmersdelight:wild_beetroots",
+    "farmersdelight:wild_rice"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:straw"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:tree_bark"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "praemunio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:ham"
+   ],
+   "ops": [
+    [
+     "add",
+     "bestia",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:smoked_ham"
+   ],
+   "ops": [
+    [
+     "add",
+     "bestia",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     10
+    ],
+    [
+     "add",
+     "ignis",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:minced_beef"
+   ],
+   "ops": [
+    [
+     "add",
+     "bestia",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:chicken_cuts",
+    "farmersdelight:bacon",
+    "farmersdelight:mutton_chops",
+    "farmersdelight:cod_slice",
+    "farmersdelight:salmon_slice"
+   ],
+   "ops": [
+    [
+     "add",
+     "bestia",
+     2
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:raw_pasta"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:wheat_dough"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ],
+    [
+     "add",
+     "aqua",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:pie_crust"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:rich_soil",
+    "farmersdelight:organic_compost"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:brown_mushroom_colony",
+    "farmersdelight:red_mushroom_colony"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     10
+    ],
+    [
+     "add",
+     "tenebrae",
+     5
+    ],
+    [
+     "add",
+     "terra",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:rice_bale",
+    "farmersdelight:straw_bale"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     15
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:tomato_sauce"
+   ],
+   "ops": [
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     5
+    ],
+    [
+     "add",
+     "herba",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:hot_cocoa",
+    "farmersdelight:apple_cider",
+    "farmersdelight:melon_juice"
+   ],
+   "ops": [
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     5
+    ],
+    [
+     "add",
+     "desiderium",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:rotten_tomato"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     3
+    ],
+    [
+     "add",
+     "mortuus",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "farmersdelight:sandy_shrub"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     1
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "VOIDSEERPEARL",
+  "input": "thaumcraft:baubles_amulet_fancy",
+  "components": [
+    "thaumcraft:brain",
+    "thaumcraft:void_seed",
+    "thaumcraft:brain",
+    "thaumcraft:primordial_pearl"
+  ],
+  "aspects": {
+    "cognitio": 150,
+    "vacuos": 150,
+    "praecantatio": 100
+  },
+  "instability": 8,
+  "result": {
+    "id": "thaumcraft:voidseer_charm"
+  }
+}

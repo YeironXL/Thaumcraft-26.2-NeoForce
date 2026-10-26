@@ -1,0 +1,6 @@
+{"comment":"Verification only: entries for absent mods and unknown ids must be skipped silently.",
+ "entries":[
+  {"op":"set","targets":["nonexistent_mod:widget","#c:ingots/unobtainium","not a valid id!"],"ops":[["add","metallum",99]]},
+  {"op":"set","targets":["minecraft:pointed_dripstone"],"ops":[["add","no_such_aspect",5],["add","terra",3]],"requires":["nonexistent_mod"]},
+  {"op":"set","requires":["nonexistent_mod"],"targets":["minecraft:stick"],"ops":[["add","ignis",50]]}
+ ]}

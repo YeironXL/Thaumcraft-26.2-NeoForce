@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "FOCUSPOUCH",
+  "vis": 25,
+  "crystals": {},
+  "pattern": [
+    "LGL",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "B": "thaumcraft:baubles_girdle_mundane",
+    "L": "#c:leathers",
+    "G": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "thaumcraft:focus_pouch"
+  }
+}

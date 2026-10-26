@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "BASEALCHEMY",
+  "catalyst": "thaumcraft:nugget_quartz",
+  "aspects": {
+    "perditio": 2
+  },
+  "result": {
+    "id": "thaumcraft:crystal_essence",
+    "components": {
+      "thaumcraft:aspect": "perditio"
+    }
+  }
+}

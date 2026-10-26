@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "POTIONSPRAYER",
+  "vis": 75,
+  "crystals": {
+    "ignis": 1,
+    "aqua": 1
+  },
+  "pattern": [
+    "BDB",
+    "IAI",
+    "ICI"
+  ],
+  "key": {
+    "B": "#c:plates/brass",
+    "I": "#c:plates/iron",
+    "A": "minecraft:brewing_stand",
+    "D": "minecraft:dispenser",
+    "C": "thaumcraft:metal_alchemical"
+  },
+  "result": {
+    "id": "thaumcraft:potion_sprayer"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumcraft:item/banner_stand",
+    "layer1": "thaumcraft:item/banner_purple",
+    "layer2": "thaumcraft:item/banner_symbol"
+  }
+}

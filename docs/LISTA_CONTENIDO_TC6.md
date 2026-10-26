@@ -1,0 +1,1298 @@
+# Lista de contenido de Thaumcraft 6 y estado del port
+
+Referencia: **Thaumcraft 1.12.2 — 6.1.BETA26**. Estado: **fix81, 4 de octubre de 2026**. No mezcla automáticamente el contenido exclusivo de Thaumcraft 5 para 1.8.9.
+
+- 🟢 Función principal indicada implementada. Las diferencias visuales o de alcance se anotan junto a ella.
+- 🟡 Parcial: hay código, receta, registro, modelo o texto, pero queda trabajo funcional o de progresión.
+- ⚪ Pendiente. En el índice técnico también identifica declaraciones posiblemente heredadas/inactivas, señaladas expresamente.
+
+**Un objeto visible en creativo no se considera terminado.** Esta lista no es un cálculo de porcentaje: recetas, variantes y sistemas se solapan. El inventario recoge las entradas identificables del código y recursos disponibles; las combinaciones de focos/gólems se enumeran por componentes. Los nombres originales se conservan cuando no hay traducción española disponible.
+
+## Resumen funcional
+
+### Ya implementado en el alcance indicado
+
+- 🟢 Los 37 aspectos: nombres, composiciones y colores.
+- 🟢 Crystal Essence: variantes persistentes y recetas de cristales.
+- 🟢 Motor de mesa arcana: ingredientes, investigación, cristales y pago de vis.
+- 🟢 Cargador de mesa: uso de aura de nueve chunks cargados.
+- 🟢 Crisol: agua, calentamiento y ejecución de las recetas migradas.
+- 🟢 Nitor: 16 colores, luz y fuente de calor.
+- 🟢 Alumentum: combustible de 4.800 ticks y lanzamiento explosivo al impacto.
+- 🟢 Mejora solicitada para el port: Thaumonomicon inicial en el inventario, con entrega única por jugador.
+- 🟢 Requisitos de investigación: cristales y frascos por aspecto, con cobro atómico de inventario.
+- 🟢 Tarros: almacenamiento, trasvase con frascos y líquido visible.
+- 🟢 Tarro del vacío: absorción de exceso y contaminación probabilística.
+- 🟢 Frascos: 37 aspectos, diez unidades por trasvase.
+- 🟢 Hornos alquímicos: destilación, interfaz, rendimientos de tres versiones e inventario automático por caras.
+- 🟢 Alambiques: almacenamiento y salida hacia tubos.
+- 🟢 Tubo normal, válvula, filtro, restrictor, direccional y depósito.
+- 🟢 Fuelles orientados hacia los depósitos.
+- 🟢 Centrífuga: separación, redstone, persistencia y transporte.
+- 🟢 Hungry Chest: inventario, recogida y automatización.
+- 🟢 99 recetas nativas cargadas; se enumeran individualmente al final.
+
+### Parcial: no equivale todavía al sistema original completo
+
+- 🟡 Thaumonomicon, etapas de investigación y progresión inicial.
+- 🟡 Thaumómetro y escaneo: cobertura de objetos/entidades incompleta.
+- 🟡 Salis Mundus: transformaciones iniciales, no todas las estructuras.
+- 🟡 Aura y flux: almacenamiento/gasto/regeneración; faltan simulación completa y grietas.
+- 🟡 Cristales del mundo: generación, crecimiento y geometría originales aún parciales.
+- 🟡 Alquimia completa: faltan recetas y derivación de aspectos para todos los objetos.
+- 🟡 Tarros/alambiques completos: faltan etiquetas y abrazaderas.
+- 🟡 Hornos completos: faltan auxiliares y mejoras.
+- 🟡 Fuelles: faltan otros usos y su animación.
+- 🟡 Sal de baño, jabón, medidor de cordura y otros consumibles: implementación desigual.
+- 🟡 Bloques decorativos, escaleras/losas, texturas y modelos: no todos están auditados como terminados.
+- 🟡 Animaciones y efectos visuales originales de máquinas.
+
+### Grandes sistemas pendientes
+
+- ⚪ Mesa de investigación, teorías, cartas y ayudas de investigación.
+- ⚪ Guantelete, manipulador de focos y lanzamiento de hechizos.
+- ⚪ Infusión, estabilidad, fallos y encantamientos por infusión.
+- ⚪ Constructor de gólems, piezas, rasgos, sellos e IA.
+- ⚪ Criaturas propias, jefes, proyectiles y apariciones.
+- ⚪ Árboles, biomas y estructuras originales.
+- ⚪ Corrupción, grietas, eventos de warp y contenido eldritch.
+- ⚪ Comportamientos especiales de herramientas, armaduras y accesorios.
+- ⚪ Thaumatorium, condensador, espejos, lámparas, generadores y otras máquinas.
+
+## Catálogo detallado
+
+En las secciones de bloques/objetos una entrada 🟡 puede tener una función concreta ya marcada 🟢 en el resumen. Por ejemplo: el tarro almacena esencia, pero el tarro original completo también tiene etiquetas y abrazaderas. Las entradas procedentes solo de traducciones pueden incluir restos de versiones previas; el índice técnico permite contrastarlas con declaraciones y asignaciones del código.
+
+### Objetos y variantes (183)
+
+- 🟡 **Thaumonomicon** — `item.thaumonomicon.normal.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- 🟡 **Thaumonomicon** — `item.thaumonomicon.cheat.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- 🟡 **Arcane Curiosity** — `item.curio.arcane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Preserved Curiosity** — `item.curio.preserved.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Eldritch Curiosity** — `item.curio.eldritch.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ancient Curiosity** — `item.curio.ancient.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Twisted Curiosity** — `item.curio.twisted.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Illuminating Curiosity** — `item.curio.knowledge.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Rites** — `item.curio.rites.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Common Treasure** — `item.loot_bag.common.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Uncommon Treasure** — `item.loot_bag.uncommon.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Rare Treasure** — `item.loot_bag.rare.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Primordial Mote** — `item.primordial_pearl.mote.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Primordial Nodule** — `item.primordial_pearl.nodule.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Primordial Pearl** — `item.primordial_pearl.pearl.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Pech Wand** — `item.pech_wand.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Celestial Notes** — `item.celestial_notes.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Amber** — `item.amber.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Mercurio** — `item.quicksilver.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Cristales de vis por aspecto** — `item.crystal_essence.name`. 37 variantes con componente de aspecto y recetas de crisol.
+- 🟢 **Lingote de taumio** — `item.ingot.thaumium.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Lingote de metal vacío** — `item.ingot.void.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Lingote de latón** — `item.ingot.brass.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟡 **Iron Nugget** — `item.nugget.iron.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Copper Nugget** — `item.nugget.copper.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Tin Nugget** — `item.nugget.tin.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Silver Nugget** — `item.nugget.silver.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Lead Nugget** — `item.nugget.lead.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Quicksilver Drop** — `item.nugget.quicksilver.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Nugget** — `item.nugget.thaumium.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Metal Nugget** — `item.nugget.void.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Alchemical Brass Nugget** — `item.nugget.brass.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Pepita de cuarzo** — `item.nugget.quartz.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Rare Earths** — `item.nugget.rareearth.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Iron Cluster** — `item.cluster.iron.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Copper Cluster** — `item.cluster.copper.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Tin Cluster** — `item.cluster.tin.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Silver Cluster** — `item.cluster.silver.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Lead Cluster** — `item.cluster.lead.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Cinnabar Cluster** — `item.cluster.cinnabar.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Gold Cluster** — `item.cluster.gold.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Native Quartz Cluster** — `item.cluster.quartz.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Filtro de esencia** — `item.filter.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Resonador mórfico** — `item.morphic_resonator.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Sebo mágico** — `item.tallow.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟡 **Void Seed** — `item.void_seed.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Salis Mundus** — `item.salis_mundus.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- ⚪ **Primal Charm** — `item.primal_charm.name`. Comportamiento original pendiente.
+- 🟢 **Vidrio espejado** — `item.mirrored_glass.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Placa de latón** — `item.plate.brass.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Placa de hierro** — `item.plate.iron.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Placa de taumio** — `item.plate.thaumium.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Placa de metal vacío** — `item.plate.void.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Mecanismo simple** — `item.mechanism_simple.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Mecanismo complejo** — `item.mechanism_complex.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Tela encantada** — `item.fabric.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟡 **Clockwork Mind** — `item.mind.clockwork.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Biothaumic Mind** — `item.mind.biothaumic.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Resonador de vis** — `item.vis_resonator.name`. Material/componente con receta nativa; esto no completa las máquinas que lo utilizan.
+- 🟢 **Alumentum** — `item.alumentum.name`. Combustible de 4.800 ticks y proyectil explosivo al impacto; partículas adaptadas al cliente actual.
+- 🟡 **Chicken Nugget** — `item.chunk.chicken.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Beef Nugget** — `item.chunk.beef.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Pork Nugget** — `item.chunk.pork.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Fish Nugget** — `item.chunk.fish.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Rabbit Nugget** — `item.chunk.rabbit.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Mutton Nugget** — `item.chunk.mutton.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Zombie Brain** — `item.brain.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Triple Meat Treat** — `item.triple_meat_treat.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- 🟢 **Frasco vacío** — `item.phial.empty.name`. Receta y trasvase de diez unidades.
+- 🟢 **Frasco lleno de esencia por aspecto** — `item.phial.filled.name`. 37 variantes, trasvase y persistencia.
+- 🟡 **Blank Label** — `item.label.blank.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Marked Label** — `item.label.filled.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Brass Lid Brace** — `item.jar_brace.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Purifying Bath Salts** — `item.bath_salts.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- 🟡 **Bottle of Taint** — `item.bottle_taint.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Sanitizing Soap** — `item.sanity_soap.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- 🟡 **Causality Collapser** — `item.causality_collapser.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Goggles of Revealing** — `item.goggles.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Fortress Helm** — `item.fortress_helm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Fortress Cuirass** — `item.fortress_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Fortress Thigh Guards** — `item.fortress_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Helm** — `item.thaumium_helm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Chestplate** — `item.thaumium_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Leggings** — `item.thaumium_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Boots** — `item.thaumium_boots.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumaturge's Robe** — `item.cloth_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumaturge's Leggings** — `item.cloth_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumaturge's Boots** — `item.cloth_boots.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Helm** — `item.void_helm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Chestplate** — `item.void_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Leggings** — `item.void_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Boots** — `item.void_boots.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Thaumaturge Hood** — `item.void_robe_helm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Thaumaturge Robe** — `item.void_robe_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Thaumaturge Leggings** — `item.void_robe_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Boots** — `item.crimson_boots.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Hood** — `item.crimson_robe_helm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Robe** — `item.crimson_robe_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Leggings** — `item.crimson_robe_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Helm** — `item.crimson_plate_helm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Chestplate** — `item.crimson_plate_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Greaves** — `item.crimson_plate_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Praetor Helm** — `item.crimson_praetor_helm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Praetor Chestplate** — `item.crimson_praetor_chest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Praetor Greaves** — `item.crimson_praetor_legs.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- ⚪ **Thaumostatic Harness** — `item.thaumostatic_harness.name`. Comportamiento original pendiente.
+- 🟡 **Boots of the Traveller** — `item.traveller_boots.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Scribing Tools** — `item.scribing_tools.name`. Fabricación, recarga sin pérdida de componentes, creación de mesa y cien usos de tinta.
+- 🟡 **Thaumium Shovel** — `item.thaumium_shovel.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Axe** — `item.thaumium_axe.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Sword** — `item.thaumium_sword.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Pickaxe** — `item.thaumium_pick.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumium Hoe** — `item.thaumium_hoe.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Shovel of the Earthmover** — `item.elemental_shovel.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Pickaxe of the Core** — `item.elemental_pick.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Axe of the Stream** — `item.elemental_axe.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Hoe of Growth** — `item.elemental_hoe.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Sword of the Zephyr** — `item.elemental_sword.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Shovel** — `item.void_shovel.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Axe** — `item.void_axe.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Sword** — `item.void_sword.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Pickaxe** — `item.void_pick.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Hoe** — `item.void_hoe.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Blade** — `item.crimson_blade.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Primal Crusher** — `item.primal_crusher.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Magic Hand Mirror** — `item.hand_mirror.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Taumómetro** — `item.thaumometer.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- 🟡 **Sanity Checker** — `item.sanity_checker.name`. Parte de su uso o receta implementada; no toda su funcionalidad/progresión original.
+- 🟡 **Essentia Resonator** — `item.resonator.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Grappler** — `item.grapple_gun.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Grappler Head** — `item.grapple_gun_tip.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Grappler Spool** — `item.grapple_gun_spool.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Mundane Amulet** — `item.baubles.amulet_mundane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Mundane Ring** — `item.baubles.ring_mundane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Mundane Belt** — `item.baubles.girdle_mundane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Apprentice's Ring** — `item.baubles.ring_apprentice.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Fancy Amulet** — `item.baubles.amulet_fancy.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Fancy Ring** — `item.baubles.ring_fancy.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Fancy Belt** — `item.baubles.girdle_fancy.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Vis Stone** — `item.amulet_vis.found.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Amulet of Vis** — `item.amulet_vis.crafted.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- ⚪ **Thaumostatic Girdle** — `item.girdle_hover.name`. Comportamiento original pendiente.
+- 🟡 **Verdant Heart Charm** — `item.verdant_charm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Voidseer's Pearl** — `item.voidseer_charm.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Headband of Curiosity** — `item.curiosity_band.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Cloudstepper Ring** — `item.cloud_ring.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Charm of Undying** — `item.charm_undying.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Caster's Gauntlet** — `item.caster_basic.name`. Receta, montaje/intercambio/retirada y lanzamiento Toque/Fuego funcionales; descuentos y otros grafos pendientes.
+- 🟡 **Blank Lesser Focus** — `item.focus_1.name`. Receta, configuración y lanzamiento Toque/Fuego funcionales; otros grafos pendientes.
+- 🟡 **Blank Advanced Focus** — `item.focus_2.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Blank Greater Focus** — `item.focus_3.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Focus Pouch** — `item.focus_pouch.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Flux Sponge** — `item.creative_flux_sponge.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Automated Crossbow** — `item.turret.basic.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Advanced Automated Crossbow** — `item.turret.advanced.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Bore** — `item.turret.bore.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- ⚪ **Any enchanted item** — `item.enchanted_placeholder.name`. Comportamiento original pendiente.
+- 🟡 **Vision Module** — `item.module.vision.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Aggression Module** — `item.module.aggression.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Golemancer's Bell** — `item.golem_bell.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Golem** — `item.golem.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Blank Seal** — `item.seal.blank.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Collect** — `item.seal.pickup.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Advanced Control Seal: Collect** — `item.seal.pickup_advanced.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Store** — `item.seal.fill.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Advanced Control Seal: Store** — `item.seal.fill_advanced.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Empty** — `item.seal.empty.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Advanced Control Seal: Empty** — `item.seal.empty_advanced.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Harvest** — `item.seal.harvest.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Butcher** — `item.seal.butcher.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Guard** — `item.seal.guard.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Advanced Control Seal: Guard** — `item.seal.guard_advanced.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Lumberjack** — `item.seal.lumber.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Block Breaker** — `item.seal.breaker.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Use** — `item.seal.use.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Provide** — `item.seal.provider.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Stock** — `item.seal.stock.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Control Seal: Advanced Block Breaker** — `item.seal.breaker_advanced.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- ⚪ **Tainted Goo** — `item.tainted.slime.name`. Comportamiento original pendiente.
+- ⚪ **Taint Tendril** — `item.tainted.tendril.name`. Comportamiento original pendiente.
+- ⚪ **Eldritch Eye** — `item.eldritch_eye.name`. Comportamiento original pendiente.
+- ⚪ **Runed Tablet** — `item.runed_tablet.name`. Comportamiento original pendiente.
+- 🟡 **Obelisk Placer** — `item.creative_placer.obelisk.name`. Registro/recurso presente; no acreditado como contenido terminado.
+
+### Bloques y variantes (202)
+
+- 🟡 **Amber Bearing Stone** — `tile.ore_amber.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Cinnabar Ore** — `tile.ore_cinnabar.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Quartz Ore** — `tile.ore_quartz.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Cristales de aire** — `tile.crystal_aer.name`. Crecimiento, gotas y generación básica; distribución/geometría originales aún parciales.
+- 🟡 **Cristales de fuego** — `tile.crystal_ignis.name`. Crecimiento, gotas y generación básica; distribución/geometría originales aún parciales.
+- 🟡 **Cristales de agua** — `tile.crystal_aqua.name`. Crecimiento, gotas y generación básica; distribución/geometría originales aún parciales.
+- 🟡 **Cristales de tierra** — `tile.crystal_terra.name`. Crecimiento, gotas y generación básica; distribución/geometría originales aún parciales.
+- 🟡 **Cristales de orden** — `tile.crystal_ordo.name`. Crecimiento, gotas y generación básica; distribución/geometría originales aún parciales.
+- 🟡 **Cristales de entropía** — `tile.crystal_perditio.name`. Crecimiento, gotas y generación básica; distribución/geometría originales aún parciales.
+- 🟡 **Cristales de corrupción** — `tile.crystal_vitium.name`. Crecimiento, gotas y generación básica; distribución/geometría originales aún parciales.
+- 🟡 **Greatwood Log** — `tile.log_greatwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Silverwood Log** — `tile.log_silverwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Greatwood Leaves** — `tile.leaves_greatwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Silverwood Leaves** — `tile.leaves_silverwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Taintwood Log** — `tile.taint_log.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Greatwood Sapling** — `tile.sapling_greatwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Silverwood Sapling** — `tile.sapling_silverwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Greatwood Planks** — `tile.plank_greatwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Silverwood Planks** — `tile.plank_silverwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Greatwood Stairs** — `tile.stairs_greatwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Silverwood Stairs** — `tile.stairs_silverwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Stone** — `tile.stone_arcane.name`. Receta original de nueve unidades y uso en componentes; propiedades del bloque pendientes.
+- 🟡 **Arcane Stone Brick** — `tile.stone_arcane_brick.name`. Receta y uso en losas; propiedades del bloque pendientes.
+- 🟡 **Ancient Stone** — `tile.stone_ancient.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ancient Rock** — `tile.stone_ancient_rock.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Eldritch Stone** — `tile.stone_eldritch_tile.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ancient Stone Tile** — `tile.stone_ancient_tile.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ancient Barrier** — `tile.stone_ancient_doorway.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Glyphed Stone** — `tile.stone_ancient_glyphed.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Porous Stone** — `tile.stone_porous.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Stone Stairs** — `tile.stairs_arcane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Brick Stairs** — `tile.stairs_arcane_brick.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ancient Stone Stairs** — `tile.stairs_ancient.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Amber Block** — `tile.amber_block.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Amber Bricks** — `tile.amber_brick.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Empty Space** — `tile.empty.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Greatwood Slab** — `tile.slab_greatwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Silverwood Slab** — `tile.slab_silverwood.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Stone Slab** — `tile.slab_arcane_stone.name`. Receta y bloque de losa nativo; propiedades del material pendientes.
+- 🟡 **Arcane Brick Slab** — `tile.slab_arcane_brick.name`. Receta y bloque de losa nativo; propiedades del material pendientes.
+- 🟡 **Ancient Stone Slab** — `tile.slab_ancient.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Eldritch Stone Slab** — `tile.slab_eldritch.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Shimmerleaf** — `tile.shimmerleaf.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Cinderpearl** — `tile.cinderpearl.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Vishroom** — `tile.vishroom.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ambient Grass Block** — `tile.grass_ambient.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Common Urn** — `tile.loot_urn_common.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Uncommon Urn** — `tile.loot_urn_uncommon.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Rare Urn** — `tile.loot_urn_rare.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Common Crate** — `tile.loot_crate_common.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Uncommon Crate** — `tile.loot_crate_uncommon.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Rare Crate** — `tile.loot_crate_rare.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Flux Goo** — `tile.flux_goo.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Fibrous Taint** — `tile.taint_fibre.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crusted Taint** — `tile.taint_crust.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Tainted Soil** — `tile.taint_soil.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Taint Geyser** — `tile.taint_geyser.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Tainted Rock** — `tile.taint_rock.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Swollen Taint** — `tile.taint_feature.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumic Dioptra** — `tile.dioptra.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Infusion Pillar** — `tile.pillar_arcane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ancient Infusion Pillar** — `tile.pillar_ancient.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Eldritch Infusion Pillar** — `tile.pillar_eldritch.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Runic Matrix** — `tile.infusion_matrix.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Bellows** — `tile.bellows.name`. Funciona con depósitos y acelera hornos de esencia; faltan otras máquinas y animación.
+- 🟢 **Mesa de trabajo arcana** — `tile.arcane_workbench.name`. Motor de fabricación y pagos probado; el catálogo global de recetas sigue incompleto.
+- 🟢 **Cargador de mesa arcana** — `tile.arcane_workbench_charger.name`. Consumo de aura de nueve chunks cargados.
+- 🟡 **Manipulador de focos** — `tile.wand_workbench.name`. Receta, menú y fabricación de Toque/Fuego con costes, aura, inventario bloqueado y persistencia; otros nodos de foco pendientes.
+- 🟡 **Crisol** — `tile.crucible.name`. Agua/calor/recetas funcionales; 23 bases y 17 derivados iniciales añadidos; cobertura completa de aspectos pendiente.
+- 🟡 **Arcane Pattern Crafter** — `tile.pattern_crafter.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Redstone Relay** — `tile.redstone_relay.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Mesa de investigación** — `tile.research_table.name`. Mesa, dieciséis cartas, ayudas de biblioteca/crisol/manipulador, costes y persistencia funcionales; faltan diecinueve cartas y ayudas posteriores.
+- 🟡 **Arcane Ear** — `tile.arcane_ear.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Ear (Toggle)** — `tile.arcane_ear_toggle.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Levitator** — `tile.levitator.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Everfull Urn** — `tile.everfull_urn.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Lamp** — `tile.lamp_arcane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Lamp of Growth** — `tile.lamp_growth.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Lamp of Fertility** — `tile.lamp_fertility.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Warded Jar** — `tile.jar_normal.name`. Almacenamiento y frascos funcionan; faltan etiquetas/abrazaderas.
+- 🟡 **Void Jar** — `tile.jar_void.name`. Almacenamiento y exceso funcionan; faltan etiquetas/abrazaderas.
+- 🟡 **Brain in a Jar** — `tile.jar_brain.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Tubo de esencia** — `tile.tube.name`. Transporte normal y conexiones.
+- 🟢 **Válvula de esencia** — `tile.tube_valve.name`. Control manual y redstone; indicador estático.
+- 🟢 **Tubo con filtro** — `tile.tube_filter.name`. Filtrado, configuración y color.
+- 🟢 **Tubo restrictor** — `tile.tube_restrict.name`. Reducción de succión.
+- 🟢 **Tubo direccional** — `tile.tube_oneway.name`. Salida direccional.
+- 🟢 **Depósito de esencia** — `tile.tube_buffer.name`. Diez unidades multiaspecto y reguladores por cara.
+- 🟡 **Horno alquímico** — `tile.smelter_basic.name`. Destila, tiene interfaz e inventario automático por caras; faltan accesorios.
+- 🟡 **Horno alquímico de taumio** — `tile.smelter_thaumium.name`. Destila, tiene interfaz e inventario automático por caras; receta de mejora implementada; faltan accesorios.
+- 🟡 **Horno alquímico del vacío** — `tile.smelter_void.name`. Destila, tiene interfaz e inventario automático por caras; faltan receta de mejora y accesorios.
+- 🟡 **Arcane Alembic** — `tile.alembic.name`. Destilación/trasvase funcionan; falta etiquetado.
+- 🟡 **Auxiliary Slurry Pump** — `tile.smelter_aux.name`. Receta, orientación y tres columnas auxiliares de alambiques funcionales; colocación manual/modelo y colisiones fieles pendientes.
+- 🟡 **Auxiliary Venting Port** — `tile.smelter_vent.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Recharge Pedestal** — `tile.recharge_pedestal.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Cofre hambriento** — `tile.hungry_chest.name`. Inventario, recogida y automatización; falta la animación de tapa original.
+- 🟡 **Arcane Spa** — `tile.spa.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumatorium** — `tile.thaumatorium.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Thaumatorium** — `tile.thaumatorium_top.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Mnemonic Matrix** — `tile.brain_box.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Filling Essentia Transfuser** — `tile.essentia_input.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Emptying Essentia Transfuser** — `tile.essentia_output.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Activator Rail** — `tile.activator_rail.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Potion Sprayer** — `tile.potion_sprayer.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Vis Generator** — `tile.vis_generator.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Stabilizer** — `tile.stabilizer.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Flux Condenser** — `tile.condenser.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Flux Condenser Lattice** — `tile.condenser_lattice.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Clogged Flux Condenser Lattice** — `tile.condenser_lattice_dirty.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Siphon** — `tile.void_siphon.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Infernal Furnace** — `tile.infernal_furnace.name`. Modelo en mano corregido; procesamiento original pendiente.
+- 🟡 **Redstone Inlay** — `tile.inlay.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Infusion Speed Stone** — `tile.matrix_speed.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Infusion Cost Stone** — `tile.matrix_cost.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Stone Table** — `tile.table_stone.name`. Receta con materiales del original; geometría de colisión pendiente.
+- 🟡 **Wood Table** — `tile.table_wood.name`. Receta y conversión con tintero implementadas; geometría de colisión pendiente.
+- 🟡 **White Tallow Candle** — `tile.candle_white.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Orange Tallow Candle** — `tile.candle_orange.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Magenta Tallow Candle** — `tile.candle_magenta.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Light Blue Tallow Candle** — `tile.candle_lightblue.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Yellow Tallow Candle** — `tile.candle_yellow.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Lime Tallow Candle** — `tile.candle_lime.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Pink Tallow Candle** — `tile.candle_pink.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Gray Tallow Candle** — `tile.candle_gray.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Light Gray Tallow Candle** — `tile.candle_silver.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Cyan Tallow Candle** — `tile.candle_cyan.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Purple Tallow Candle** — `tile.candle_purple.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Blue Tallow Candle** — `tile.candle_blue.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Brown Tallow Candle** — `tile.candle_brown.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Green Tallow Candle** — `tile.candle_green.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Red Tallow Candle** — `tile.candle_red.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Black Tallow Candle** — `tile.candle_black.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Arcane Pedestal** — `tile.pedestal_arcane.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Eldritch Pedestal** — `tile.pedestal_eldritch.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Ancient Pedestal** — `tile.pedestal_ancient.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Crimson Cult Banner** — `tile.banner_crimson_cult.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **White Banner** — `tile.banner_white.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Orange Banner** — `tile.banner_orange.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Magenta Banner** — `tile.banner_magenta.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Light Blue Banner** — `tile.banner_lightblue.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Yellow Banner** — `tile.banner_yellow.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Lime Banner** — `tile.banner_lime.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Pink Banner** — `tile.banner_pink.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Gray Banner** — `tile.banner_gray.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Light Gray Banner** — `tile.banner_silver.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Cyan Banner** — `tile.banner_cyan.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Purple Banner** — `tile.banner_purple.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Blue Banner** — `tile.banner_blue.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Brown Banner** — `tile.banner_brown.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Green Banner** — `tile.banner_green.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Red Banner** — `tile.banner_red.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Black Banner** — `tile.banner_black.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Nitor blanco** — `tile.nitor_white.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor naranja** — `tile.nitor_orange.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor magenta** — `tile.nitor_magenta.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor azul claro** — `tile.nitor_lightblue.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor amarillo** — `tile.nitor_yellow.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor lima** — `tile.nitor_lime.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor rosa** — `tile.nitor_pink.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor gris** — `tile.nitor_gray.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor gris claro** — `tile.nitor_silver.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor cian** — `tile.nitor_cyan.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor morado** — `tile.nitor_purple.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor azul** — `tile.nitor_blue.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor marrón** — `tile.nitor_brown.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor verde** — `tile.nitor_green.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor rojo** — `tile.nitor_red.name`. Luz, calor, partículas y recetas de color.
+- 🟢 **Nitor negro** — `tile.nitor_black.name`. Luz, calor, partículas y recetas de color.
+- 🟡 **Thaumium Block** — `tile.metal_thaumium.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Void Metal Block** — `tile.metal_void.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Construcción alquímica** — `tile.metal_alchemical.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Advanced Alchemical Construct** — `tile.metal_alchemical_advanced.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Brass Block** — `tile.metal_brass.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Block of Flesh** — `tile.flesh_block.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Barrier Stone** — `tile.paving_stone_barrier.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Paving Stone of Travel** — `tile.paving_stone_travel.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟢 **Centrífuga de esencia** — `tile.centrifuge.name`. Separación, puertos, redstone y persistencia; modelo estático.
+- 🟡 **Magic Mirror** — `tile.mirror.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Essentia Mirror** — `tile.mirror_essentia.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Golem Press** — `tile.golem_builder.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Vis Battery** — `tile.vis_battery.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Static Field** — `tile.effect_shock.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Sapping Field** — `tile.effect_sap.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Glimmer** — `tile.effect_glimmer.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Purifying Fluid** — `tile.purifying_fluid.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Liquid Death** — `tile.liquid_death.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Infernal Furnace** — `tile.placeholder_brick.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Infernal Furnace** — `tile.placeholder_obsidian.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Golem Press** — `tile.placeholder_anvil.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Golem Press** — `tile.placeholder_table.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Golem Press** — `tile.placeholder_bars.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Golem Press** — `tile.placeholder_cauldron.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Dimensional Tear** — `tile.hole.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- 🟡 **Warding Aura** — `tile.barrier.name`. Registro/recurso presente; no acreditado como contenido terminado.
+- ⚪ **Eldritch Altar** — `tile.eldritch.altar.name`. Comportamiento original pendiente.
+- ⚪ **Eldritch Obelisk** — `tile.eldritch.obelisk_base.name`. Comportamiento original pendiente.
+- ⚪ **Eldritch Obelisk** — `tile.eldritch.obelisk_body.name`. Comportamiento original pendiente.
+- ⚪ **Eldritch Capstone** — `tile.eldritch.cap.name`. Comportamiento original pendiente.
+- ⚪ **Ancient Locking Mechanism** — `tile.eldritch.lock.name`. Comportamiento original pendiente.
+- ⚪ **Ancient Doorway** — `tile.eldritch.door.name`. Comportamiento original pendiente.
+- ⚪ **Eldritch Portal** — `tile.eldritch.teleporter.name`. Comportamiento original pendiente.
+- ⚪ **Crusted Opening** — `tile.eldritch.crabspawner.name`. Comportamiento original pendiente.
+
+### Aspectos (37)
+
+- 🟢 **Aire** — `aer`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Tierra** — `terra`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Fuego** — `ignis`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Agua** — `aqua`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Orden** — `ordo`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Entropía** — `perditio`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Vacío** — `vacuos`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Luz** — `lux`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Movimiento** — `motus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Frío** — `gelum`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Cristal** — `vitreus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Metal** — `metallum`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Vida** — `victus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Muerte** — `mortuus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Energía** — `potentia`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Intercambio** — `permutatio`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Magia** — `praecantatio`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Aura** — `auram`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Alquimia** — `alkimia`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Corrupción** — `vitium`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Oscuridad** — `tenebrae`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Eldritch** — `alienis`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Vuelo** — `volatus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Planta** — `herba`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Herramienta** — `instrumentum`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Fabricación** — `fabrico`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Mecanismo** — `machina`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Trampa** — `vinculum`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Espíritu** — `spiritus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Mente** — `cognitio`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Sentido** — `sensus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Aversión** — `aversio`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Protección** — `praemunio`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Deseo** — `desiderium`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **No muerto** — `exanimis`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Bestia** — `bestia`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+- 🟢 **Humano** — `humanus`. Identidad, composición y color definidos. No implica etiquetas para todos los objetos.
+
+### Entidades registradas (43)
+
+- ⚪ **CultistPortalGreater** — `CultistPortalGreater`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **CultistPortalLesser** — `CultistPortalLesser`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **FluxRift** — `FluxRift`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **SpecialItem** — `SpecialItem`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **FollowItem** — `FollowItem`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **FallingTaint** — `FallingTaint`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- 🟢 **Alumentum** — `Alumentum`. Proyectil explosivo: lanzamiento, propietario, colisiones y representación nativa.
+- ⚪ **GolemDart** — `GolemDart`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **EldritchOrb** — `EldritchOrb`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **BottleTaint** — `BottleTaint`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **GolemOrb** — `GolemOrb`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Grapple** — `Grapple`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **CausalityCollapser** — `CausalityCollapser`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **FocusProjectile** — `FocusProjectile`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **FocusCloud** — `FocusCloud`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Focusmine** — `Focusmine`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TurretBasic** — `TurretBasic`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TurretAdvanced** — `TurretAdvanced`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **ArcaneBore** — `ArcaneBore`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Golem** — `Golem`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **EldritchWarden** — `EldritchWarden`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **EldritchGolem** — `EldritchGolem`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **CultistLeader** — `CultistLeader`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TaintacleGiant** — `TaintacleGiant`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **BrainyZombie** — `BrainyZombie`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **GiantBrainyZombie** — `GiantBrainyZombie`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Wisp** — `Wisp`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Firebat** — `Firebat`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Spellbat** — `Spellbat`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Pech** — `Pech`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **MindSpider** — `MindSpider`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **EldritchGuardian** — `EldritchGuardian`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **CultistKnight** — `CultistKnight`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **CultistCleric** — `CultistCleric`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **EldritchCrab** — `EldritchCrab`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **InhabitedZombie** — `InhabitedZombie`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **ThaumSlime** — `ThaumSlime`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TaintCrawler** — `TaintCrawler`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **Taintacle** — `Taintacle`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TaintacleTiny** — `TaintacleTiny`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TaintSwarm** — `TaintSwarm`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TaintSeed** — `TaintSeed`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+- ⚪ **TaintSeedPrime** — `TaintSeedPrime`. Entidad, comportamiento y aparición no portados. Incluye proyectiles y entidades técnicas.
+
+### Componentes de focos (20)
+
+- ⚪ **Air** — `FocusEffectAir`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Break** — `FocusEffectBreak`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Curse** — `FocusEffectCurse`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Earth** — `FocusEffectEarth`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Exchange** — `FocusEffectExchange`. Efecto/medio/modificador de hechizo pendiente.
+- 🟡 **Fire** — `FocusEffectFire`. Toque/Fuego implementado como grafo inicial; motor general de nodos pendiente.
+- ⚪ **Flux** — `FocusEffectFlux`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Frost** — `FocusEffectFrost`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Heal** — `FocusEffectHeal`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Rift** — `FocusEffectRift`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Bolt** — `FocusMediumBolt`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Cloud** — `FocusMediumCloud`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Arcane Mine** — `FocusMediumMine`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Plan** — `FocusMediumPlan`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Projectile** — `FocusMediumProjectile`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Summon Spellbat** — `FocusMediumSpellBat`. Efecto/medio/modificador de hechizo pendiente.
+- 🟡 **Touch** — `FocusMediumTouch`. Toque/Fuego implementado como grafo inicial; motor general de nodos pendiente.
+- ⚪ **Scatter** — `FocusModScatter`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Split Target** — `FocusModSplitTarget`. Efecto/medio/modificador de hechizo pendiente.
+- ⚪ **Split Trajectory** — `FocusModSplitTrajectory`. Efecto/medio/modificador de hechizo pendiente.
+
+### Sellos de gólems (16)
+
+- ⚪ **Pickup** — `SealPickup`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Pickup Advanced** — `SealPickupAdvanced`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Fill** — `SealFill`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Fill Advanced** — `SealFillAdvanced`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Empty** — `SealEmpty`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Empty Advanced** — `SealEmptyAdvanced`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Harvest** — `SealHarvest`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Butcher** — `SealButcher`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Guard** — `SealGuard`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Guard Advanced** — `SealGuardAdvanced`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Lumber** — `SealLumber`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Breaker** — `SealBreaker`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Use** — `SealUse`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Provide** — `SealProvide`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Stock** — `SealStock`. Comportamiento de sello e IA de gólems pendiente.
+- ⚪ **Breaker Advanced** — `SealBreakerAdvanced`. Comportamiento de sello e IA de gólems pendiente.
+
+### Encantamientos por infusión (8)
+
+- ⚪ **Collector** — `enchantment.infusion.COLLECTOR`. Infusión y encantamiento propios pendientes.
+- ⚪ **Destructive** — `enchantment.infusion.DESTRUCTIVE`. Infusión y encantamiento propios pendientes.
+- ⚪ **Burrowing** — `enchantment.infusion.BURROWING`. Infusión y encantamiento propios pendientes.
+- ⚪ **Sounding** — `enchantment.infusion.SOUNDING`. Infusión y encantamiento propios pendientes.
+- ⚪ **Refining** — `enchantment.infusion.REFINING`. Infusión y encantamiento propios pendientes.
+- ⚪ **Arcing** — `enchantment.infusion.ARCING`. Infusión y encantamiento propios pendientes.
+- ⚪ **Essence Harvester** — `enchantment.infusion.ESSENCE`. Infusión y encantamiento propios pendientes.
+- ⚪ **Lamplighter** — `enchantment.infusion.LAMPLIGHT`. Infusión y encantamiento propios pendientes.
+
+### Efectos propios (10)
+
+- ⚪ **Taint Poison** — `potion.flux_taint`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Soul Shatter** — `potion.soulshatter`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Flux Flu** — `potion.vis_exhaust`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Flux Phage** — `potion.infvisexhaust`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Unnatural Hunger** — `potion.unhunger`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Warp Ward** — `potion.warpward`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Deadly Gaze** — `potion.deathgaze`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Blurred Vision** — `potion.blurred`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Sun Scorned** — `potion.sunscorned`. Efecto original no implementado como efecto nativo completo.
+- ⚪ **Thaumorrhea** — `potion.thaumarhia`. Efecto original no implementado como efecto nativo completo.
+
+### Gólems: rasgos y piezas (68)
+
+- ⚪ **Deft** — `golem.trait.deft`. Parte del sistema de gólems pendiente.
+- ⚪ **Clumsy** — `golem.trait.clumsy`. Parte del sistema de gólems pendiente.
+- ⚪ **Smart** — `golem.trait.smart`. Parte del sistema de gólems pendiente.
+- ⚪ **Wheeled** — `golem.trait.wheeled`. Parte del sistema de gólems pendiente.
+- ⚪ **Light Frame** — `golem.trait.light`. Parte del sistema de gólems pendiente.
+- ⚪ **Heavy Frame** — `golem.trait.heavy`. Parte del sistema de gólems pendiente.
+- ⚪ **Fragile** — `golem.trait.fragile`. Parte del sistema de gólems pendiente.
+- ⚪ **Armored** — `golem.trait.armored`. Parte del sistema de gólems pendiente.
+- ⚪ **Improved Self Repair** — `golem.trait.repair`. Parte del sistema de gólems pendiente.
+- ⚪ **Fighter** — `golem.trait.fighter`. Parte del sistema de gólems pendiente.
+- ⚪ **Flyer** — `golem.trait.flyer`. Parte del sistema de gólems pendiente.
+- ⚪ **Climber** — `golem.trait.climber`. Parte del sistema de gólems pendiente.
+- ⚪ **Scout** — `golem.trait.scout`. Parte del sistema de gólems pendiente.
+- ⚪ **Fireproof** — `golem.trait.fireproof`. Parte del sistema de gólems pendiente.
+- ⚪ **Brutal** — `golem.trait.brutal`. Parte del sistema de gólems pendiente.
+- ⚪ **Breaker** — `golem.trait.breaker`. Parte del sistema de gólems pendiente.
+- ⚪ **Hauler** — `golem.trait.hauler`. Parte del sistema de gólems pendiente.
+- ⚪ **Ranged** — `golem.trait.ranged`. Parte del sistema de gólems pendiente.
+- ⚪ **Blast-proof** — `golem.trait.blastproof`. Parte del sistema de gólems pendiente.
+- ⚪ **Greatwood** — `golem.material.wood`. Parte del sistema de gólems pendiente.
+- ⚪ **Iron** — `golem.material.iron`. Parte del sistema de gólems pendiente.
+- ⚪ **Brass** — `golem.material.brass`. Parte del sistema de gólems pendiente.
+- ⚪ **Clay** — `golem.material.clay`. Parte del sistema de gólems pendiente.
+- ⚪ **Thaumium** — `golem.material.thaumium`. Parte del sistema de gólems pendiente.
+- ⚪ **Void Metal** — `golem.material.void`. Parte del sistema de gólems pendiente.
+- ⚪ **Clockwork Head** — `golem.head.basic`. Parte del sistema de gólems pendiente.
+- ⚪ **Smart Head** — `golem.head.smart`. Parte del sistema de gólems pendiente.
+- ⚪ **Armored Smart Head** — `golem.head.smart_armored`. Parte del sistema de gólems pendiente.
+- ⚪ **Perceptive Head** — `golem.head.scout`. Parte del sistema de gólems pendiente.
+- ⚪ **Biothaumic Head** — `golem.head.smart_scout`. Parte del sistema de gólems pendiente.
+- ⚪ **Basic Arms** — `golem.arm.basic`. Parte del sistema de gólems pendiente.
+- ⚪ **Fine Manipulators** — `golem.arm.fine`. Parte del sistema de gólems pendiente.
+- ⚪ **Claw Arms** — `golem.arm.claws`. Parte del sistema de gólems pendiente.
+- ⚪ **Breaker Arms** — `golem.arm.breakers`. Parte del sistema de gólems pendiente.
+- ⚪ **Dart Launchers** — `golem.arm.darts`. Parte del sistema de gólems pendiente.
+- ⚪ **Basic Legs** — `golem.leg.walker`. Parte del sistema de gólems pendiente.
+- ⚪ **Uni-wheel** — `golem.leg.roller`. Parte del sistema de gólems pendiente.
+- ⚪ **Climbing Legs** — `golem.leg.climber`. Parte del sistema de gólems pendiente.
+- ⚪ **Levitation Module** — `golem.leg.flyer`. Parte del sistema de gólems pendiente.
+- ⚪ **Armor Plating** — `golem.addon.armored`. Parte del sistema de gólems pendiente.
+- ⚪ **Aggression Module** — `golem.addon.fighter`. Parte del sistema de gólems pendiente.
+- ⚪ **Carry Frame** — `golem.addon.hauler`. Parte del sistema de gólems pendiente.
+- ⚪ **Replant crops** — `golem.prop.replant`. Parte del sistema de gólems pendiente.
+- ⚪ **Cycle whitelist** — `golem.prop.cycle`. Parte del sistema de gólems pendiente.
+- ⚪ **Use metadata** — `golem.prop.meta`. Parte del sistema de gólems pendiente.
+- ⚪ **Use NBT data** — `golem.prop.nbt`. Parte del sistema de gólems pendiente.
+- ⚪ **Use Ore Dictionary** — `golem.prop.ore`. Parte del sistema de gólems pendiente.
+- ⚪ **Use from same mod** — `golem.prop.mod`. Parte del sistema de gólems pendiente.
+- ⚪ **Target Mobs** — `golem.prop.mob`. Parte del sistema de gólems pendiente.
+- ⚪ **Target Animals** — `golem.prop.animal`. Parte del sistema de gólems pendiente.
+- ⚪ **Target Players** — `golem.prop.player`. Parte del sistema de gólems pendiente.
+- ⚪ **Left click** — `golem.prop.left`. Parte del sistema de gólems pendiente.
+- ⚪ **Click empty air** — `golem.prop.empty`. Parte del sistema de gólems pendiente.
+- ⚪ **Can use empty hand** — `golem.prop.emptyhand`. Parte del sistema de gólems pendiente.
+- ⚪ **Simulate sneaky click** — `golem.prop.sneak`. Parte del sistema de gólems pendiente.
+- ⚪ **Single item only** — `golem.prop.single`. Parte del sistema de gólems pendiente.
+- ⚪ **Request provisioning** — `golem.prop.provision`. Parte del sistema de gólems pendiente.
+- ⚪ **Task Priority** — `golem.prop.priority`. Parte del sistema de gólems pendiente.
+- ⚪ **Set for %s golems** — `golem.prop.color`. Parte del sistema de gólems pendiente.
+- ⚪ **All golems** — `golem.prop.colorall`. Parte del sistema de gólems pendiente.
+- ⚪ **You own this seal** — `golem.prop.owner`. Parte del sistema de gólems pendiente.
+- ⚪ **Only golems owned by seal owner can perform these tasks** — `golem.prop.lock`. Parte del sistema de gólems pendiente.
+- ⚪ **All golems can perform these tasks** — `golem.prop.unlock`. Parte del sistema de gólems pendiente.
+- ⚪ **Redstone sensitive** — `golem.prop.redon`. Parte del sistema de gólems pendiente.
+- ⚪ **Ignores Redstone signals** — `golem.prop.redoff`. Parte del sistema de gólems pendiente.
+- ⚪ **Container must already contain item** — `golem.prop.exist`. Parte del sistema de gólems pendiente.
+- ⚪ **Always leave at least 1 item** — `golem.prop.leave`. Parte del sistema de gólems pendiente.
+- ⚪ **Use Silk Touch** — `golem.prop.silk`. Parte del sistema de gólems pendiente.
+
+### Cartas de teoría (35)
+
+- 🟢 **Estudiar** — `card.study.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Descartar** — `card.reject.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Experimentación** — `card.experimentation.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Analizar** — `card.analyze.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Replantear** — `card.rethink.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Reflexionar** — `card.ponder.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Anotar** — `card.notation.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Equilibrar** — `card.balance.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Curiosidad** — `card.curio.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Inspiración** — `card.inspired.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- ⚪ **Study Enchantment** — `card.enchantment.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Aural Influence** — `card.beacon.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Draconic Studies** — `card.dragonegg.name`. Texto disponible; mecánica de la carta pendiente.
+- 🟢 **Celestial** — `card.celestial.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Concentrar** — `card.concentrate.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Reacciones** — `card.reactions.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Síntesis** — `card.synthesis.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- ⚪ **Measure** — `card.measure.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Channel %1$s Essentia** — `card.channel.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Experimental Infusion** — `card.infuse.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Calibrate** — `card.calibrate.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Mind over Matter** — `card.mindmatter.name`. Texto disponible; mecánica de la carta pendiente.
+- 🟢 **Trastear** — `card.tinker.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Encantamiento** — `card.spellbinding.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Conciencia** — `card.awareness.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Concentración** — `card.focus.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- ⚪ **Sculpting** — `card.sculpting.name`. Texto disponible; mecánica de la carta pendiente.
+- 🟢 **Programación** — `card.scripting.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- ⚪ **Synergy** — `card.synergy.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Dark Whispers** — `card.darkwhisper.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Study Glyphs** — `card.glyph.name`. Texto disponible; mecánica de la carta pendiente.
+- ⚪ **Voices from Beyond** — `card.portal.name`. Texto disponible; mecánica de la carta pendiente.
+- 🟢 **Revelación** — `card.revelation.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Comprensión** — `card.realization.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+- 🟢 **Verdad** — `card.truth.name`. Carta funcional en la mesa: costes, efecto y persistencia; cristales/experiencia/distorsión según su tipo.
+
+### Mundo y generación (8)
+
+- ⚪ **Biome Gen Eerie** — `BiomeGenEerie`. Generación/comportamiento propio pendiente.
+- ⚪ **Biome Gen Eldritch** — `BiomeGenEldritch`. Generación/comportamiento propio pendiente.
+- ⚪ **Biome Gen Magical Forest** — `BiomeGenMagicalForest`. Generación/comportamiento propio pendiente.
+- ⚪ **World Gen Big Magic Tree** — `WorldGenBigMagicTree`. Generación/comportamiento propio pendiente.
+- ⚪ **World Gen Custom Flowers** — `WorldGenCustomFlowers`. Generación/comportamiento propio pendiente.
+- ⚪ **World Gen Greatwood Trees** — `WorldGenGreatwoodTrees`. Generación/comportamiento propio pendiente.
+- ⚪ **World Gen Mound** — `WorldGenMound`. Generación/comportamiento propio pendiente.
+- ⚪ **World Gen Silverwood Trees** — `WorldGenSilverwoodTrees`. Generación/comportamiento propio pendiente.
+
+### Investigaciones: ALCHEMY (22)
+
+- 🟡 **Basic Alchemy** — `BASEALCHEMY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Alumentum** — `ALUMENTUM`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Alchemical Metallurgy** — `METALLURGY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Metal Purification** — `METALPURIFICATION`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Hedge Alchemy** — `HEDGEALCHEMY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Liquid Death** — `LIQUIDDEATH`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Bottled Taint** — `BOTTLETAINT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Purifying Bath Salts** — `BATHSALTS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Sanity Soap** — `SANESOAP`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Spa** — `ARCANESPA`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Essentia Smelting** — `ESSENTIASMELTER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Warded Jars & labels** — `WARDEDJARS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Essentia Tubes** — `TUBES`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Thaumium Essentia Smelter** — `ESSENTIASMELTERTHAUMIUM`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Void Metal Essentia Smelter** — `ESSENTIASMELTERVOID`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Improved Essentia Distillation (part 1)** — `IMPROVEDSMELTING`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Improved Essentia Distillation (part 2)** — `IMPROVEDSMELTING2`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Essentia Centrifuge** — `CENTRIFUGE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Alchemical Automation** — `THAUMATORIUM`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Advanced Essentia Transport** — `ESSENTIATRANSPORT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Everfull Urn** — `EVERFULLURN`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Potion Sprayer** — `POTIONSPRAYER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+
+### Investigaciones: ARTIFICE (20)
+
+- 🟡 **Basic Artifice** — `BASEARTIFICE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Hungry Chest** — `HUNGRYCHEST`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Levitator** — `LEVITATOR`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Infernal Furnace** — `INFERNALFURNACE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Bellows** — `BELLOWS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Redstone Relay** — `REDSTONERELAY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Ear** — `ARCANEEAR`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Thaumic Dioptra** — `DIOPTRA`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Mirror Magic** — `MIRROR`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Magical Hand Mirror** — `MIRRORHAND`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Essentia Mirrors** — `MIRRORESSENTIA`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Lamp** — `ARCANELAMP`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Lamp of Growth** — `LAMPGROWTH`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Lamp of Fertility** — `LAMPFERTILITY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Pattern Crafter** — `ARCANEPATTERNCRAFTER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Automated Crossbow** — `BASICTURRET`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Advanced Automated Crossbow** — `ADVANCEDTURRET`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Bore** — `ARCANEBORE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Grappler** — `GRAPPLEGUN`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Vis Powered Generator** — `VISGENERATOR`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+
+### Investigaciones: AUROMANCY (23)
+
+- 🟡 **Basic Auromancy** — `BASEAUROMANCY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Advanced Foci** — `FOCUSADVANCED`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Greater Foci** — `FOCUSGREATER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Elemental Effects** — `FOCUSELEMENTAL`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Effect: Flux** — `FOCUSFLUX`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Effect: Heal** — `FOCUSHEAL`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Effect: Curse** — `FOCUSCURSE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Effect: Break** — `FOCUSBREAK`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Effect: Exchange** — `FOCUSEXCHANGE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Medium: Plan** — `FOCUSPLAN`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Effect: Rift** — `FOCUSRIFT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Medium: Projectile** — `FOCUSPROJECTILE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Medium: Bolt** — `FOCUSBOLT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Modifier: Scatter** — `FOCUSSCATTER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Medium: Arcane Mine** — `FOCUSMINE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Medium: Spellbat** — `FOCUSSPELLBAT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Medium: Cloud** — `FOCUSCLOUD`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Modifier: Split** — `FOCUSSPLIT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Recharge Pedestal** — `RECHARGEPEDESTAL`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Vis Amulet** — `VISAMULET`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Workbench Charger** — `WORKBENCHCHARGER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Focus Pouch** — `FOCUSPOUCH`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Vis Battery** — `VISBATTERY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+
+### Investigaciones: BASICS (32)
+
+- 🟡 **First Steps** — `FIRSTSTEPS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Types of Knowledge** — `KNOWLEDGETYPES`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Theorycrafting** — `THEORYRESEARCH`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Flux** — `FLUX`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Warp** — `WARP`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Ores** — `ORE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Plants** — `PLANTS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Crystal Farming** — `CRYSTALFARMER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Primordial Pearls** — `PRIMPEARL`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Discovering Alchemy** — `UNLOCKALCHEMY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Discovering Auromancy** — `UNLOCKAUROMANCY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Discovering Artifice** — `UNLOCKARTIFICE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Discovering Infusion** — `UNLOCKINFUSION`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Discovering Golemancy** — `UNLOCKGOLEMANCY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **The Crimson Rites** — `CrimsonRites`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Delving into the Eldritch** — `UNLOCKELDRITCH`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Celestial Observation** — `CELESTIALSCANNING`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Flux Cleanup** — `FLUXCLEANUP`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Flux Rifts** — `FLUXRIFT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Closing Flux Rifts** — `RIFTCLOSER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Wisp** — `!Wisp`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **The Pech** — `!Pech`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Thaumic Slime** — `!ThaumSlime`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Firebat** — `!Firebat`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Taint Seed** — `!TaintSeed`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Tainted Crawler** — `!TaintCrawler`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Taintacle** — `!Taintacle`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Taint Swarm** — `!TaintSwarm`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **The Crimson Cult** — `!CrimsonCultist`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Angry Zombie** — `!BrainyZombie`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Eldritch Guardian** — `!EldritchGuardian`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Eldritch Crab** — `!EldritchCrab`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+
+### Investigaciones: ELDRITCH (5)
+
+- 🟡 **Void Seeds** — `BASEELDRITCH`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Void Siphon** — `VOIDSIPHON`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Voidseer's Pearl** — `VOIDSEERPEARL`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Void Thaumaturge Armor** — `VOIDROBEARMOR`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Primal Crusher** — `PRIMALCRUSHER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+
+### Investigaciones: GOLEMANCY (29)
+
+- 🟡 **Basic Golemancy** — `BASEGOLEMANCY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Brain in a Jar** — `JARBRAIN`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Material Studies: Wood** — `MATSTUDWOOD`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Material Studies: Iron** — `MATSTUDIRON`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Material Studies: Clay** — `MATSTUDCLAY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Material Studies: Brass** — `MATSTUDBRASS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Material Studies: Thaumium** — `MATSTUDTHAUMIUM`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Material Studies: Void Metal** — `MATSTUDVOID`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Clockwork Minds** — `MINDCLOCKWORK`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seals** — `CONTROLSEALS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Golem Mastery** — `GOLEMDIRECT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Golem Logistics** — `GOLEMLOGISTICS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Biothaumic Minds** — `MINDBIOTHAUMIC`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Collect** — `SEALCOLLECT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Store** — `SEALSTORE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Empty** — `SEALEMPTY`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Provide** — `SEALPROVIDE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Stock** — `SEALSTOCK`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Guard** — `SEALGUARD`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Butcher** — `SEALBUTCHER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Use** — `SEALUSE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Harvest** — `SEALHARVEST`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Block Breaker** — `SEALBREAK`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Control Seal: Lumberjack** — `SEALLUMBER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Golem Biothaumic Eyes** — `GOLEMVISION`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Golem Mobility: Climbing** — `GOLEMCLIMBER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Golem Mobility: Flight** — `GOLEMFLYER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Golem Manipulation: Block Breaking** — `GOLEMBREAKER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Improved Golem Combat** — `GOLEMCOMBATADV`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+
+### Investigaciones: INFUSION (17)
+
+- 🟡 **Basic Infusion** — `BASEINFUSION`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Infusion** — `INFUSION`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Infusion Stabilization** — `INFUSIONSTABLE`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Infusion Boosting** — `INFUSIONBOOST`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Infusion: Ancient Stone** — `INFUSIONANCIENT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Infusion: Eldritch Stone** — `INFUSIONELDRITCH`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Arcane Paving Stones** — `PAVINGSTONES`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Boots of the Traveler** — `BOOTSTRAVELLER`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Elemental Tools** — `ELEMENTALTOOLS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Infusion Enchantment** — `INFUSIONENCHANTMENT`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Runic Shielding** — `RUNICSHIELDING`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Thaumium Fortress Armor** — `ARMORFORTRESS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Fortress Armor Faceplates** — `FORTRESSMASK`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Cloudstepper Ring** — `CLOUDRING`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Headband of Curiosity** — `CURIOSITYBAND`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Verdant Charms** — `VERDANTCHARMS`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+- 🟡 **Charm of Undying** — `CHARMUNDYING`. Entrada/etapas migradas; su función y recorrido completos se evalúan por sistema.
+
+### Índice técnico de declaraciones: Bloques (158)
+
+- 🟡 **oreAmber** — `oreAmber`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **oreCinnabar** — `oreCinnabar`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **oreQuartz** — `oreQuartz`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **logGreatwood** — `logGreatwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **logSilverwood** — `logSilverwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **leafGreatwood** — `leafGreatwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **leafSilverwood** — `leafSilverwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **saplingGreatwood** — `saplingGreatwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **saplingSilverwood** — `saplingSilverwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **shimmerleaf** — `shimmerleaf`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **cinderpearl** — `cinderpearl`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **vishroom** — `vishroom`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **plankGreatwood** — `plankGreatwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **plankSilverwood** — `plankSilverwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneArcane** — `stoneArcane`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneArcaneBrick** — `stoneArcaneBrick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneAncient** — `stoneAncient`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneAncientTile** — `stoneAncientTile`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneAncientRock** — `stoneAncientRock`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneAncientDoorway** — `stoneAncientDoorway`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneAncientGlyphed** — `stoneAncientGlyphed`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stoneEldritchTile** — `stoneEldritchTile`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stonePorous** — `stonePorous`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **empty** — `empty`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **amberBlock** — `amberBlock`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **amberBrick** — `amberBrick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stairsArcane** — `stairsArcane`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stairsArcaneBrick** — `stairsArcaneBrick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stairsAncient** — `stairsAncient`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stairsSilverwood** — `stairsSilverwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stairsGreatwood** — `stairsGreatwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **stairsEldritch** — `stairsEldritch`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **slabGreatwood** — `slabGreatwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **slabSilverwood** — `slabSilverwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **slabArcaneStone** — `slabArcaneStone`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **slabArcaneBrick** — `slabArcaneBrick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **slabAncient** — `slabAncient`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **slabEldritch** — `slabEldritch`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **doubleSlabGreatwood** — `doubleSlabGreatwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **doubleSlabSilverwood** — `doubleSlabSilverwood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **doubleSlabArcaneStone** — `doubleSlabArcaneStone`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **doubleSlabArcaneBrick** — `doubleSlabArcaneBrick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **doubleSlabAncient** — `doubleSlabAncient`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **doubleSlabEldritch** — `doubleSlabEldritch`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **taintCrust** — `taintCrust`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **taintSoil** — `taintSoil`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **taintRock** — `taintRock`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **taintGeyser** — `taintGeyser`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **taintFibre** — `taintFibre`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **taintLog** — `taintLog`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **taintFeature** — `taintFeature`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lootCrateCommon** — `lootCrateCommon`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lootCrateUncommon** — `lootCrateUncommon`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lootCrateRare** — `lootCrateRare`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lootUrnCommon** — `lootUrnCommon`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lootUrnUncommon** — `lootUrnUncommon`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lootUrnRare** — `lootUrnRare`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **eldritch** — `eldritch`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **crystalAir** — `crystalAir`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crystalFire** — `crystalFire`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crystalWater** — `crystalWater`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crystalEarth** — `crystalEarth`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crystalOrder** — `crystalOrder`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crystalEntropy** — `crystalEntropy`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crystalTaint** — `crystalTaint`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **grassAmbient** — `grassAmbient`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tableWood** — `tableWood`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tableStone** — `tableStone`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **metalBlockThaumium** — `metalBlockThaumium`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **metalBlockVoid** — `metalBlockVoid`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **metalBlockBrass** — `metalBlockBrass`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **metalAlchemical** — `metalAlchemical`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **metalAlchemicalAdvanced** — `metalAlchemicalAdvanced`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **bloom** — `bloom`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **pedestalArcane** — `pedestalArcane`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **pedestalAncient** — `pedestalAncient`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **pedestalEldritch** — `pedestalEldritch`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **fleshBlock** — `fleshBlock`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **pavingStoneTravel** — `pavingStoneTravel`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **pavingStoneBarrier** — `pavingStoneBarrier`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **pillarArcane** — `pillarArcane`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **pillarAncient** — `pillarAncient`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **pillarEldritch** — `pillarEldritch`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **redstoneRelay** — `redstoneRelay`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **matrixSpeed** — `matrixSpeed`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **matrixCost** — `matrixCost`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **visBattery** — `visBattery`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **bannerCrimsonCult** — `bannerCrimsonCult`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **inlay** — `inlay`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **arcaneEar** — `arcaneEar`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **arcaneEarToggle** — `arcaneEarToggle`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **levitator** — `levitator`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **dioptra** — `dioptra`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crucible** — `crucible`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **arcaneWorkbench** — `arcaneWorkbench`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **arcaneWorkbenchCharger** — `arcaneWorkbenchCharger`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **wandWorkbench** — `wandWorkbench`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **rechargePedestal** — `rechargePedestal`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **researchTable** — `researchTable`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tube** — `tube`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tubeValve** — `tubeValve`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tubeRestrict** — `tubeRestrict`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tubeOneway** — `tubeOneway`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tubeFilter** — `tubeFilter`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tubeBuffer** — `tubeBuffer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **centrifuge** — `centrifuge`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **hungryChest** — `hungryChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **jarNormal** — `jarNormal`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **jarVoid** — `jarVoid`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **jarBrain** — `jarBrain`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **bellows** — `bellows`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **smelterBasic** — `smelterBasic`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **smelterThaumium** — `smelterThaumium`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **smelterVoid** — `smelterVoid`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **smelterAux** — `smelterAux`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **smelterVent** — `smelterVent`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **fluxScrubber** — `fluxScrubber`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **alembic** — `alembic`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **infusionMatrix** — `infusionMatrix`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **infernalFurnace** — `infernalFurnace`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumatorium** — `thaumatorium`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumatoriumTop** — `thaumatoriumTop`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **brainBox** — `brainBox`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **mirror** — `mirror`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **mirrorEssentia** — `mirrorEssentia`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **auraTotem** — `auraTotem`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **spa** — `spa`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **everfullUrn** — `everfullUrn`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lampArcane** — `lampArcane`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lampFertility** — `lampFertility`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lampGrowth** — `lampGrowth`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **golemBuilder** — `golemBuilder`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **essentiaTransportInput** — `essentiaTransportInput`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **essentiaTransportOutput** — `essentiaTransportOutput`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **patternCrafter** — `patternCrafter`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **activatorRail** — `activatorRail`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **potionSprayer** — `potionSprayer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **stabilizer** — `stabilizer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **visGenerator** — `visGenerator`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **condenser** — `condenser`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **condenserlattice** — `condenserlattice`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **condenserlatticeDirty** — `condenserlatticeDirty`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidSiphon** — `voidSiphon`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **fluxGoo** — `fluxGoo`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **purifyingFluid** — `purifyingFluid`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **liquidDeath** — `liquidDeath`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **taintDust** — `taintDust`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **hole** — `hole`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **effectShock** — `effectShock`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **effectSap** — `effectSap`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **effectGlimmer** — `effectGlimmer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **barrier** — `barrier`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **placeholderNetherbrick** — `placeholderNetherbrick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **placeholderObsidian** — `placeholderObsidian`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **placeholderBars** — `placeholderBars`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **placeholderAnvil** — `placeholderAnvil`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **placeholderCauldron** — `placeholderCauldron`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **placeholderTable** — `placeholderTable`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+
+### Índice técnico de declaraciones: Objetos (111)
+
+- 🟡 **thaumonomicon** — `thaumonomicon`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **curio** — `curio`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **lootBag** — `lootBag`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **primordialPearl** — `primordialPearl`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **eldritchEye** — `eldritchEye`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- ⚪ **runedTablet** — `runedTablet`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **pechWand** — `pechWand`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **celestialNotes** — `celestialNotes`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **alumentum** — `alumentum`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **amber** — `amber`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **quicksilver** — `quicksilver`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **ingots** — `ingots`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **nuggets** — `nuggets`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **clusters** — `clusters`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crystalEssence** — `crystalEssence`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tallow** — `tallow`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **fabric** — `fabric`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **mechanismSimple** — `mechanismSimple`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **mechanismComplex** — `mechanismComplex`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **plate** — `plate`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidSeed** — `voidSeed`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **salisMundus** — `salisMundus`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **mirroredGlass** — `mirroredGlass`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **filter** — `filter`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **mind** — `mind`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **morphicResonator** — `morphicResonator`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **modules** — `modules`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **visResonator** — `visResonator`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **chunks** — `chunks`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **tripleMeatTreat** — `tripleMeatTreat`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **brain** — `brain`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **phial** — `phial`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **label** — `label`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **bottleTaint** — `bottleTaint`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **jarBrace** — `jarBrace`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **causalityCollapser** — `causalityCollapser`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **scribingTools** — `scribingTools`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumometer** — `thaumometer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumAxe** — `thaumiumAxe`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumSword** — `thaumiumSword`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumShovel** — `thaumiumShovel`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumPick** — `thaumiumPick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumHoe** — `thaumiumHoe`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **elementalAxe** — `elementalAxe`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **elementalSword** — `elementalSword`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **elementalShovel** — `elementalShovel`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **elementalPick** — `elementalPick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **elementalHoe** — `elementalHoe`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidAxe** — `voidAxe`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidSword** — `voidSword`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidShovel** — `voidShovel`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidPick** — `voidPick`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidHoe** — `voidHoe`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonBlade** — `crimsonBlade`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **primalCrusher** — `primalCrusher`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **sanityChecker** — `sanityChecker`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **resonator** — `resonator`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **handMirror** — `handMirror`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **grappleGun** — `grappleGun`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **grappleGunTip** — `grappleGunTip`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **grappleGunSpool** — `grappleGunSpool`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **goggles** — `goggles`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **travellerBoots** — `travellerBoots`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumHelm** — `thaumiumHelm`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumChest** — `thaumiumChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumLegs** — `thaumiumLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **thaumiumBoots** — `thaumiumBoots`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **clothChest** — `clothChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **clothLegs** — `clothLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **clothBoots** — `clothBoots`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **fortressHelm** — `fortressHelm`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **fortressChest** — `fortressChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **fortressLegs** — `fortressLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidHelm** — `voidHelm`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidChest** — `voidChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidLegs** — `voidLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidBoots** — `voidBoots`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidRobeHelm** — `voidRobeHelm`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidRobeChest** — `voidRobeChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **voidRobeLegs** — `voidRobeLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonBoots** — `crimsonBoots`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonPlateHelm** — `crimsonPlateHelm`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonPlateChest** — `crimsonPlateChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonPlateLegs** — `crimsonPlateLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonRobeHelm** — `crimsonRobeHelm`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonRobeChest** — `crimsonRobeChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonRobeLegs** — `crimsonRobeLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonPraetorHelm** — `crimsonPraetorHelm`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonPraetorChest** — `crimsonPraetorChest`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **crimsonPraetorLegs** — `crimsonPraetorLegs`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **baubles** — `baubles`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **amuletVis** — `amuletVis`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **charmVerdant** — `charmVerdant`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **charmVoidseer** — `charmVoidseer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **bandCuriosity** — `bandCuriosity`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **ringCloud** — `ringCloud`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **charmUndying** — `charmUndying`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- ⚪ **creativePlacer** — `creativePlacer`. Declaración sin asignación detectada en la configuración: puede ser contenido heredado/inactivo, no un objetivo confirmado.
+- 🟡 **creativeFluxSponge** — `creativeFluxSponge`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **bathSalts** — `bathSalts`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **sanitySoap** — `sanitySoap`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **turretPlacer** — `turretPlacer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **enchantedPlaceholder** — `enchantedPlaceholder`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **casterBasic** — `casterBasic`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **focus1** — `focus1`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **focus2** — `focus2`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **focus3** — `focus3`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **focusPouch** — `focusPouch`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **golemBell** — `golemBell`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **golemPlacer** — `golemPlacer`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+- 🟡 **seals** — `seals`. Declaración con asignación en la configuración; consultar estado funcional en el catálogo.
+
+### Recetas ya migradas (112)
+
+- 🟢 **activatorrail** — `activatorrail`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **alembic** — `alembic`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **alumentum** — `alumentum`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **bellows** — `bellows`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **brassingot** — `brassingot`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **brassplate** — `brassplate`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **brasstonuggets** — `brasstonuggets`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **brickarcane** — `brickarcane`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **caster_basic** — `caster_basic`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **centrifuge** — `centrifuge`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **enchanted_fabric** — `enchanted_fabric`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **filter** — `filter`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **focus_1** — `focus_1`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **goggles** — `goggles`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **hedge_leather** — `hedge_leather`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **hedge_tallow** — `hedge_tallow`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **ironplate** — `ironplate`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **mechanism_complex** — `mechanism_complex`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **mechanism_simple** — `mechanism_simple`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **metal_alchemical** — `metal_alchemical`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **mirrorglass** — `mirrorglass`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **morphic_resonator** — `morphic_resonator`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor** — `nitor`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_black** — `nitor_dye_black`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_blue** — `nitor_dye_blue`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_brown** — `nitor_dye_brown`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_cyan** — `nitor_dye_cyan`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_gray** — `nitor_dye_gray`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_green** — `nitor_dye_green`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_lightblue** — `nitor_dye_lightblue`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_lime** — `nitor_dye_lime`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_magenta** — `nitor_dye_magenta`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_orange** — `nitor_dye_orange`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_pink** — `nitor_dye_pink`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_purple** — `nitor_dye_purple`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_red** — `nitor_dye_red`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_silver** — `nitor_dye_silver`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_white** — `nitor_dye_white`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nitor_dye_yellow** — `nitor_dye_yellow`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nuggetstobrass** — `nuggetstobrass`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nuggetstoquartz** — `nuggetstoquartz`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nuggetstoquicksilver** — `nuggetstoquicksilver`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nuggetstothaumium** — `nuggetstothaumium`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **nuggetstovoid** — `nuggetstovoid`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **phial_empty** — `phial_empty`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **quartztonuggets** — `quartztonuggets`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **quicksilvertonuggets** — `quicksilvertonuggets`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **salis_mundus** — `salis_mundus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **scribing_tools** — `scribing_tools`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **scribing_tools_refill** — `scribing_tools_refill`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **slabarcanebrick** — `slabarcanebrick`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **slabarcanestone** — `slabarcanestone`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **smelter_aux** — `smelter_aux`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **smelter_basic** — `smelter_basic`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **smelter_thaumium** — `smelter_thaumium`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **stonearcane** — `stonearcane`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tablestone** — `tablestone`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tablewood** — `tablewood`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **thaumiumingot** — `thaumiumingot`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **thaumiumplate** — `thaumiumplate`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **thaumiumtonuggets** — `thaumiumtonuggets`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **thaumometer** — `thaumometer`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tube** — `tube`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tube_buffer** — `tube_buffer`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tube_filter** — `tube_filter`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tube_oneway** — `tube_oneway`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tube_restrict** — `tube_restrict`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **tube_valve** — `tube_valve`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_aer** — `vis_crystal_aer`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_alienis** — `vis_crystal_alienis`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_alkimia** — `vis_crystal_alkimia`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_aqua** — `vis_crystal_aqua`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_auram** — `vis_crystal_auram`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_aversio** — `vis_crystal_aversio`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_bestia** — `vis_crystal_bestia`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_cognitio** — `vis_crystal_cognitio`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_desiderium** — `vis_crystal_desiderium`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_exanimis** — `vis_crystal_exanimis`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_fabrico** — `vis_crystal_fabrico`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_gelum** — `vis_crystal_gelum`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_herba** — `vis_crystal_herba`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_humanus** — `vis_crystal_humanus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_ignis** — `vis_crystal_ignis`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_instrumentum** — `vis_crystal_instrumentum`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_lux** — `vis_crystal_lux`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_machina** — `vis_crystal_machina`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_metallum** — `vis_crystal_metallum`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_mortuus** — `vis_crystal_mortuus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_motus** — `vis_crystal_motus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_ordo** — `vis_crystal_ordo`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_perditio** — `vis_crystal_perditio`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_permutatio** — `vis_crystal_permutatio`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_potentia** — `vis_crystal_potentia`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_praecantatio** — `vis_crystal_praecantatio`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_praemunio** — `vis_crystal_praemunio`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_sensus** — `vis_crystal_sensus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_spiritus** — `vis_crystal_spiritus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_tenebrae** — `vis_crystal_tenebrae`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_terra** — `vis_crystal_terra`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_vacuos** — `vis_crystal_vacuos`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_victus** — `vis_crystal_victus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_vinculum** — `vis_crystal_vinculum`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_vitium** — `vis_crystal_vitium`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_vitreus** — `vis_crystal_vitreus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_crystal_volatus** — `vis_crystal_volatus`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **vis_resonator** — `vis_resonator`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **voidingot** — `voidingot`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **voidplate** — `voidplate`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **voidtonuggets** — `voidtonuggets`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **wand_workbench** — `wand_workbench`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **warded_jar** — `warded_jar`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+- 🟢 **workbenchcharger** — `workbenchcharger`. Receta nativa cargada; no implica que el objeto de salida tenga todas sus funciones.
+
+## Revisión visual fix81
+
+Thaumonomicon conserva pergamino original; lectura recupera proporciones y flechas originales, y recetas usan papel cuadrado original; mesa arcana y horno recuperan atlas y disposición original, investigación usa cartas verticales sobre madera y manipulador metal original en dos capas. Se recupera la fuente pixelada original para el pedido1:1; serif conservada como recurso. Auditoría por archivo: AUDITORIA_VISUAL_TC6.md/json. Guanteletes con referencias de atlas corregidas. Mapa original, lectura en doble página con párrafos, saltos de página e ilustraciones originales y selector de categorías con iconos y desbloqueos incorporados; vista sin mundo corregida para usar modelos nativos de objetos y conexiones curvas con flechas, tonos originales y enlaces secundarios del atlas original; primeras páginas de fabricación normal, arcana y alquimia en crisol con cuadrícula, resultado, cristales y vis del datapack incorporadas; demás recetas ilustradas, animaciones de cartas, renderizadores restantes, modelos y animaciones pendientes.
+
+Fuego del primer foco con secuencia original de diez fotogramas; caducidad y geometría nativa verificadas. Destellos centrales de fabricación del manipulador con nueve fotogramas originales; haces de cristales pendientes. Espuma del crisol con fotogramas y tono originales; activa únicamente con agua hirviendo. Agua con tinte original por concentración de aspectos y sincronización del contenido al cliente. Burbujas con colores por aspecto, duración y fotogramas originales emitidas desde el cliente. Rebose morado con agua, calor superior a 150 y más de 500 aspectos, ocho partículas por tick y fotogramas originales. Vista completa en mundo, colisión real y mezcla aditiva original pendientes.
+
+## Trazabilidad y mantenimiento
+
+Fuentes: BlocksTC, ItemsTC, ConfigItems, ConfigBlocks, ConfigEntities, clases de focos/mundo, idioma original, JSON originales de investigación y las clases/recetas nativas de fix81. La referencia contiene 902 archivos Java inventariados; ese número no mide contenido terminado.
+
+`LISTA_CONTENIDO_TC6.json` conserva las claves, el estado y la fuente de cada fila. El generador `tools/build_content_checklist.py` permite actualizar el catálogo, pero las marcas verdes requieren revisión humana del comportamiento; no se infieren de la mera presencia de archivos.

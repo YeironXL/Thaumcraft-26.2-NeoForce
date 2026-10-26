@@ -1,0 +1,37 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "HOVERHARNESS",
+  "input": "minecraft:leather_chestplate",
+  "components": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "thaumcraft:plate_brass",
+    "thaumcraft:plate_brass",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumcraft:crystal_essence",
+      "components": {
+        "thaumcraft:aspect": "aer"
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumcraft:crystal_essence",
+      "components": {
+        "thaumcraft:aspect": "aer"
+      }
+    },
+    "thaumcraft:plank_greatwood",
+    "thaumcraft:morphic_resonator"
+  ],
+  "aspects": {
+    "machina": 32,
+    "volatus": 32,
+    "potentia": 32,
+    "motus": 16
+  },
+  "instability": 5,
+  "result": {
+    "id": "thaumcraft:hover_harness"
+  }
+}

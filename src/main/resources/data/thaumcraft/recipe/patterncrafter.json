@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "ARCANEPATTERNCRAFTER",
+  "vis": 50,
+  "crystals": {
+    "ordo": 1,
+    "aqua": 1,
+    "terra": 1
+  },
+  "pattern": [
+    "VH ",
+    "GCG",
+    " W "
+  ],
+  "key": {
+    "H": "minecraft:hopper",
+    "W": "thaumcraft:plank_greatwood",
+    "G": "thaumcraft:mechanism_simple",
+    "V": "thaumcraft:vis_resonator",
+    "C": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "thaumcraft:pattern_crafter"
+  }
+}

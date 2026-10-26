@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "OCULUS",
+  "input": "minecraft:ender_eye",
+  "components": [
+    "minecraft:gold_ingot",
+    "thaumcraft:void_seed"
+  ],
+  "aspects": {
+    "motus": 16,
+    "tenebrae": 16,
+    "vacuos": 16,
+    "alienis": 64
+  },
+  "instability": 5,
+  "result": {
+    "id": "thaumcraft:eldritch_eye"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "thaumcraft:block/eldritch_obelisk_ancient_bottom",
+    "end": "thaumcraft:block/eldritch_obelisk_ancient_cap"
+  }
+}

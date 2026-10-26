@@ -1,0 +1,7 @@
+{
+  "parent": "thaumcraft:block/table_wood",
+  "textures": {
+    "particle": "thaumcraft:block/deconstruction_table_top",
+    "top": "thaumcraft:block/deconstruction_table_top"
+  }
+}

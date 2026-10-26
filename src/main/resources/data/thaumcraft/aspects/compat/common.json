@@ -1,0 +1,1781 @@
+{
+ "comment": "Etiquetas comunes c:* para metales/gemas/cultivos que TC6 no conoc\u00eda; ver docs/ASPECTOS_MODS.md",
+ "entries": [
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/nickel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/nickel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/nickel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/nickel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "ordo",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/osmium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/osmium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/osmium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/osmium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "praemunio",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/zinc"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/zinc"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/zinc"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/zinc"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "permutatio",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/aluminum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "aer",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/aluminum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "aer",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/aluminum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "aer",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/aluminum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "aer",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/platinum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/platinum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "desiderium",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/platinum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "desiderium",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/platinum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "desiderium",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/iridium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/iridium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/iridium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/iridium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "ordo",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/cobalt"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "motus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/cobalt"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "motus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/cobalt"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "motus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/cobalt"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "motus",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/titanium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/titanium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/titanium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/titanium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "praemunio",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/brass"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "instrumentum",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/brass"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "instrumentum",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/electrum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/electrum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "desiderium",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/invar"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/invar"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/constantan"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/constantan"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/refined_obsidian"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "praemunio",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/refined_obsidian"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "praemunio",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ingots/refined_glowstone"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "lux",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/tin"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "vitreus",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/lead"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "ordo",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/silver"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "desiderium",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:raw_materials/uranium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "mortuus",
+     3
+    ],
+    [
+     "add",
+     "potentia",
+     7
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/uranium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "mortuus",
+     5
+    ],
+    [
+     "add",
+     "potentia",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/steel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     15
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/ruby"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "vitreus",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/sapphire"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "vitreus",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/peridot"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "vitreus",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:gems/fluorite"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:ores/fluorite"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/salt"
+   ],
+   "ops": [
+    [
+     "add",
+     "aqua",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     1
+    ],
+    [
+     "add",
+     "ordo",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/sulfur"
+   ],
+   "ops": [
+    [
+     "add",
+     "ignis",
+     5
+    ],
+    [
+     "add",
+     "alkimia",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/coal"
+   ],
+   "ops": [
+    [
+     "add",
+     "potentia",
+     10
+    ],
+    [
+     "add",
+     "ignis",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/diamond"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     15
+    ],
+    [
+     "add",
+     "desiderium",
+     15
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/obsidian"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "ignis",
+     5
+    ],
+    [
+     "add",
+     "tenebrae",
+     5
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/quartz"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/emerald"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     15
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/lapis"
+   ],
+   "ops": [
+    [
+     "add",
+     "sensus",
+     5
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:dusts/netherite"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     15
+    ],
+    [
+     "add",
+     "ignis",
+     7
+    ],
+    [
+     "add",
+     "desiderium",
+     7
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/iron"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     15
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/gold"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/copper"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/brass"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "instrumentum",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/tin"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/lead"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/steel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     15
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/aluminum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "aer",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:plates/zinc"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:crops/rice"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     2
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:crops/tomato"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:crops/onion"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "sensus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:crops/cabbage"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:seeds/rice"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:seeds/tomato"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:seeds/cabbage"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:crops/corn"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:crops/lettuce"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "#c:crops/barley"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ]
+   ]
+  }
+ ]
+}

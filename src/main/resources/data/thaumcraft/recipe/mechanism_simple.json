@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "BASEARTIFICE",
+  "vis": 10,
+  "crystals": {
+    "aqua": 1,
+    "ignis": 1
+  },
+  "pattern": [
+    " B ",
+    "ISI",
+    " B "
+  ],
+  "key": {
+    "B": "#c:plates/brass",
+    "I": "#c:plates/iron",
+    "S": "#c:rods/wooden"
+  },
+  "result": {
+    "id": "thaumcraft:mechanism_simple"
+  }
+}

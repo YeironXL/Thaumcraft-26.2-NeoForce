@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "particle": "thaumcraft:block/ancient_stone_1",
+    "bottom": "thaumcraft:block/ancient_stone_1",
+    "top": "thaumcraft:block/ancient_stone_2",
+    "side": "thaumcraft:block/ancient_stone_3"
+  }
+}

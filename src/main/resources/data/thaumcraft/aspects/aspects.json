@@ -1,0 +1,175 @@
+{
+  "colors": {
+    "alkimia": 2337949,
+    "mortuus": 6946821,
+    "lux": 16777152,
+    "ignis": 16734721,
+    "exanimis": 3817472,
+    "victus": 14548997,
+    "permutatio": 5735255,
+    "potentia": 12648447,
+    "vinculum": 10125440,
+    "auram": 16761087,
+    "humanus": 16766912,
+    "gelum": 14811135,
+    "perditio": 4210752,
+    "motus": 13487348,
+    "praecantatio": 13566207,
+    "cognitio": 16356991,
+    "spiritus": 15461371,
+    "machina": 8421536,
+    "alienis": 8409216,
+    "tenebrae": 2236962,
+    "vitreus": 8454143,
+    "ordo": 14013676,
+    "desiderium": 15121988,
+    "bestia": 10445833,
+    "instrumentum": 4210926,
+    "vitium": 8388736,
+    "sensus": 12648384,
+    "terra": 5685248,
+    "aer": 16777086,
+    "volatus": 15198167,
+    "vacuos": 8947848,
+    "aversio": 12603472,
+    "metallum": 11908557,
+    "herba": 109568,
+    "praemunio": 49344,
+    "aqua": 3986684,
+    "fabrico": 8428928
+  },
+  "compound": {
+    "alkimia": [
+      "praecantatio",
+      "aqua"
+    ],
+    "mortuus": [
+      "aqua",
+      "perditio"
+    ],
+    "lux": [
+      "aer",
+      "ignis"
+    ],
+    "auram": [
+      "praecantatio",
+      "aer"
+    ],
+    "victus": [
+      "terra",
+      "aqua"
+    ],
+    "permutatio": [
+      "perditio",
+      "ordo"
+    ],
+    "potentia": [
+      "ordo",
+      "ignis"
+    ],
+    "exanimis": [
+      "motus",
+      "mortuus"
+    ],
+    "fabrico": [
+      "permutatio",
+      "instrumentum"
+    ],
+    "humanus": [
+      "spiritus",
+      "victus"
+    ],
+    "gelum": [
+      "ignis",
+      "perditio"
+    ],
+    "vinculum": [
+      "motus",
+      "perditio"
+    ],
+    "praecantatio": [
+      "potentia",
+      "aer"
+    ],
+    "cognitio": [
+      "ignis",
+      "spiritus"
+    ],
+    "machina": [
+      "motus",
+      "instrumentum"
+    ],
+    "spiritus": [
+      "victus",
+      "mortuus"
+    ],
+    "alienis": [
+      "vacuos",
+      "tenebrae"
+    ],
+    "tenebrae": [
+      "vacuos",
+      "lux"
+    ],
+    "vitreus": [
+      "terra",
+      "aer"
+    ],
+    "desiderium": [
+      "spiritus",
+      "vacuos"
+    ],
+    "instrumentum": [
+      "metallum",
+      "potentia"
+    ],
+    "bestia": [
+      "motus",
+      "victus"
+    ],
+    "motus": [
+      "aer",
+      "ordo"
+    ],
+    "sensus": [
+      "aer",
+      "spiritus"
+    ],
+    "volatus": [
+      "aer",
+      "motus"
+    ],
+    "vacuos": [
+      "aer",
+      "perditio"
+    ],
+    "aversio": [
+      "spiritus",
+      "perditio"
+    ],
+    "metallum": [
+      "terra",
+      "ordo"
+    ],
+    "herba": [
+      "victus",
+      "terra"
+    ],
+    "praemunio": [
+      "spiritus",
+      "terra"
+    ],
+    "vitium": [
+      "perditio",
+      "praecantatio"
+    ]
+  },
+  "primal": [
+    "aer",
+    "terra",
+    "ignis",
+    "aqua",
+    "ordo",
+    "perditio"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thaumcraft:item/void_robe_helm",
+    "tints": [ { "type": "minecraft:dye", "default": -9815936 } ]
+  }
+}

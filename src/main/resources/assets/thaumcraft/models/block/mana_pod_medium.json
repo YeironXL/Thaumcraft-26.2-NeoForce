@@ -1,0 +1,110 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "thaumcraft:block/mana_pod",
+    "pod": "thaumcraft:block/mana_pod",
+    "stem": "thaumcraft:block/mana_pod_stem"
+  },
+  "elements": [
+    {
+      "from": [
+        7.5,
+        14,
+        7.5
+      ],
+      "to": [
+        8.5,
+        16,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stem"
+        },
+        "south": {
+          "texture": "#stem"
+        },
+        "east": {
+          "texture": "#stem"
+        },
+        "west": {
+          "texture": "#stem"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        7,
+        5
+      ],
+      "to": [
+        11,
+        14,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pod",
+          "uv": [
+            5,
+            2,
+            11,
+            9
+          ],
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#pod",
+          "uv": [
+            5,
+            2,
+            11,
+            9
+          ],
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#pod",
+          "uv": [
+            5,
+            2,
+            11,
+            9
+          ],
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#pod",
+          "uv": [
+            5,
+            2,
+            11,
+            9
+          ],
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#pod",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ],
+          "tintindex": 0
+        },
+        "down": {
+          "texture": "#pod",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ],
+          "tintindex": 0
+        }
+      }
+    }
+  ]
+}

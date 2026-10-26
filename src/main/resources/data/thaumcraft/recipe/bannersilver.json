@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "BASEINFUSION",
+  "vis": 10,
+  "crystals": {},
+  "pattern": [
+    "WS",
+    "WS",
+    "WB"
+  ],
+  "key": {
+    "W": "minecraft:light_gray_wool",
+    "S": "#c:rods/wooden",
+    "B": "#minecraft:wooden_slabs"
+  },
+  "result": {
+    "id": "thaumcraft:banner_silver"
+  }
+}

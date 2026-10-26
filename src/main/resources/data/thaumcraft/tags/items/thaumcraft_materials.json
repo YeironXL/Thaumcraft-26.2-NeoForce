@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft:amber",
+    "thaumcraft:quicksilver",
+    "thaumcraft:salis_mundus",
+    "thaumcraft:alumentum",
+    "thaumcraft:brain",
+    "thaumcraft:fabric",
+    "thaumcraft:filter"
+  ]
+}

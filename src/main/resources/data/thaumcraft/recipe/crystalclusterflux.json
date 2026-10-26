@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "CRYSTALFARMER",
+  "input": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumcraft:crystal_essence",
+    "components": {
+      "thaumcraft:aspect": "vitium"
+    }
+  },
+  "components": [
+    "minecraft:wheat_seeds",
+    "thaumcraft:salis_mundus"
+  ],
+  "aspects": {
+    "vitium": 10,
+    "vitreus": 10,
+    "vinculum": 5
+  },
+  "instability": 4,
+  "result": {
+    "id": "thaumcraft:crystal_vitium"
+  }
+}

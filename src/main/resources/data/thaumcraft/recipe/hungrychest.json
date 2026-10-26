@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "HUNGRYCHEST",
+  "vis": 15,
+  "crystals": {
+    "aqua": 1,
+    "terra": 1
+  },
+  "pattern": [
+    "WTW",
+    "W W",
+    "WWW"
+  ],
+  "key": {
+    "W": "thaumcraft:plank_greatwood",
+    "T": "#minecraft:wooden_trapdoors"
+  },
+  "result": {
+    "id": "thaumcraft:hungry_chest"
+  }
+}

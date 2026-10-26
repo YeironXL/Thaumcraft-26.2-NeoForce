@@ -1,0 +1,10 @@
+{
+  "model": "thaumcraft:models/block/pillar.obj",
+  "loader": "neoforge:obj",
+  "textures": {
+    "particle": "#texture",
+    "texture": "thaumcraft:block/pillar_eldritch"
+  },
+  "automatic_culling": false,
+  "flip_v": true
+}

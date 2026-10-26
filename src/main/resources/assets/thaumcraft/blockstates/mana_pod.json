@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "thaumcraft:block/mana_pod_small"
+    },
+    "age=1": {
+      "model": "thaumcraft:block/mana_pod_small"
+    },
+    "age=2": {
+      "model": "thaumcraft:block/mana_pod_small"
+    },
+    "age=3": {
+      "model": "thaumcraft:block/mana_pod_medium"
+    },
+    "age=4": {
+      "model": "thaumcraft:block/mana_pod_medium"
+    },
+    "age=5": {
+      "model": "thaumcraft:block/mana_pod_medium"
+    },
+    "age=6": {
+      "model": "thaumcraft:block/mana_pod_large"
+    },
+    "age=7": {
+      "model": "thaumcraft:block/mana_pod_large"
+    }
+  }
+}

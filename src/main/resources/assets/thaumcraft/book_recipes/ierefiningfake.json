@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "INFUSIONENCHANTMENT",
+  "input": "minecraft:iron_pickaxe",
+  "components": [
+    "minecraft:enchanted_book",
+    "thaumcraft:salis_mundus"
+  ],
+  "aspects": {
+    "ordo": 80,
+    "permutatio": 60
+  },
+  "instability": 4,
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "refining",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

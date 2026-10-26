@@ -1,0 +1,7 @@
+{
+  "parent": "thaumcraft:block/nitor_native",
+  "textures": {
+    "core": "thaumcraft:block/nitor_core_red",
+    "particle": "thaumcraft:block/nitor_core_red"
+  }
+}

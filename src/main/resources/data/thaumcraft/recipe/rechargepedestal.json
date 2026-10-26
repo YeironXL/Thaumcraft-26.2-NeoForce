@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "RECHARGEPEDESTAL",
+  "vis": 100,
+  "crystals": {
+    "ordo": 1,
+    "aer": 1
+  },
+  "pattern": [
+    " R ",
+    "DID",
+    "SSS"
+  ],
+  "key": {
+    "I": "#c:ingots/gold",
+    "D": "#c:gems/diamond",
+    "R": "thaumcraft:vis_resonator",
+    "S": "#c:stones"
+  },
+  "result": {
+    "id": "thaumcraft:recharge_pedestal"
+  }
+}

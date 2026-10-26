@@ -1,0 +1,50 @@
+{
+
+    "forge_marker": 1,
+    "variants": {
+        "brass": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_brass" }
+        },
+        "copper": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_copper" }
+        },        
+        "iron": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_iron" }
+        },
+        "lead": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_lead" }
+        },        
+        "quicksilver": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_quicksilver" }
+        },
+        "silver": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_silver" }
+        },
+        "thaumium": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_thaumium" }
+        },
+        "tin": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_tin" }
+        },
+        "void": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_void" }
+        },
+        "quartz": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/nugget_quartz" }
+        },
+        "rareearth": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/rare_earth" }
+        }
+    }
+}

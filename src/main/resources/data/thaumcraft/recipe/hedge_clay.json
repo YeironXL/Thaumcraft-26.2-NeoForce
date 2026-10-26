@@ -1,0 +1,10 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "HEDGEALCHEMY@3",
+  "catalyst": "minecraft:dirt",
+  "aspects_of": "minecraft:clay_ball",
+  "result": {
+    "id": "minecraft:clay_ball"
+  },
+  "aspects_minus": "minecraft:dirt"
+}

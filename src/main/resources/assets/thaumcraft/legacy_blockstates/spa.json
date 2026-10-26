@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube",
+        "transform": "forge:default-block",
+        "textures": {
+                "north": "thaumcraft:block/spa_side",  
+                "south": "thaumcraft:block/spa_side",      
+                "east": "thaumcraft:block/spa_side",
+                "west": "thaumcraft:block/spa_side",
+                "particle": "thaumcraft:block/spa_side",   
+                "up": "thaumcraft:block/spa_top",
+                "down": "minecraft:block/furnace_top"
+             }
+     },
+    "variants": {
+        "normal": [{}], "inventory": [{}]
+    }
+
+}

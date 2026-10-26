@@ -1,0 +1,21 @@
+{
+
+    "forge_marker": 1,
+    "variants": {
+        "empty": {
+            "model": "forge:item-layer",
+            "transform": "forge:default-item",
+            "textures": {
+                "layer0": "thaumcraft:item/phial"
+            }
+        },
+        "filled": {
+            "model": "forge:item-layer",
+            "transform": "forge:default-item",
+            "textures": {
+                "layer0": "thaumcraft:item/phial",
+                "layer1": "thaumcraft:item/phial_overlay"
+            }
+        }
+    }
+}

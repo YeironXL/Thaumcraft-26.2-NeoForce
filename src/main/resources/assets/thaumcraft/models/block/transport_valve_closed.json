@@ -1,0 +1,73 @@
+{
+  "textures": {
+    "pipe": "thaumcraft:block/tube",
+    "marker": "minecraft:block/redstone_block",
+    "particle": "thaumcraft:block/tube"
+  },
+  "elements": [
+    {
+      "from": [
+        6,
+        6,
+        6
+      ],
+      "to": [
+        10,
+        10,
+        10
+      ],
+      "faces": {
+        "up": {
+          "texture": "#pipe"
+        },
+        "down": {
+          "texture": "#pipe"
+        },
+        "north": {
+          "texture": "#pipe"
+        },
+        "south": {
+          "texture": "#pipe"
+        },
+        "east": {
+          "texture": "#pipe"
+        },
+        "west": {
+          "texture": "#pipe"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        11,
+        5
+      ],
+      "to": [
+        11,
+        13,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#marker"
+        },
+        "down": {
+          "texture": "#marker"
+        },
+        "north": {
+          "texture": "#marker"
+        },
+        "south": {
+          "texture": "#marker"
+        },
+        "east": {
+          "texture": "#marker"
+        },
+        "west": {
+          "texture": "#marker"
+        }
+      }
+    }
+  ]
+}

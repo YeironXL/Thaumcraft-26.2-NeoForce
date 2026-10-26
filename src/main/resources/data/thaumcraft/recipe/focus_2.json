@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "FOCUSADVANCED@1",
+  "input": "thaumcraft:focus_1",
+  "components": [
+    "thaumcraft:quicksilver",
+    "#c:gems/diamond",
+    "thaumcraft:quicksilver",
+    "minecraft:ender_pearl"
+  ],
+  "aspects": {
+    "praecantatio": 25,
+    "ordo": 50
+  },
+  "instability": 3,
+  "result": {
+    "id": "thaumcraft:focus_2"
+  }
+}

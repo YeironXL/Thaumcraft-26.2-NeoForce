@@ -1,0 +1,28 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "RUNICSHIELDING",
+  "input": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "thaumcraft:baubles_ring_mundane",
+    "components": {
+      "thaumcraft:runic_charge": 1
+    }
+  },
+  "components": [
+    "thaumcraft:salis_mundus",
+    "thaumcraft:amber",
+    "thaumcraft:amber"
+  ],
+  "aspects": {
+    "praemunio": 60,
+    "vitreus": 30,
+    "potentia": 30
+  },
+  "instability": 5,
+  "result": {
+    "id": "thaumcraft:baubles_ring_mundane",
+    "components": {
+      "thaumcraft:runic_charge": 2
+    }
+  }
+}

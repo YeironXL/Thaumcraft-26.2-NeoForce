@@ -1,0 +1,1 @@
+{"type":"minecraft:function","function":"thaumcraft:early_focus","environment":{"type":"minecraft:all_of","definitions":[]},"structure":"thaumcraft:verification/empty","max_ticks":100,"setup_ticks":20}

@@ -1,0 +1,12 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "HEDGEALCHEMY@3",
+  "catalyst": "minecraft:bucket",
+  "aspects": {
+    "ignis": 15,
+    "terra": 5
+  },
+  "result": {
+    "id": "minecraft:lava_bucket"
+  }
+}

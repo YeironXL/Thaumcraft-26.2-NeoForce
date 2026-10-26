@@ -1,0 +1,26 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "dyeable": {
+          "color_when_undyed": -9815936
+        },
+        "texture": "thaumcraft:cloth"
+      },
+      {
+        "texture": "thaumcraft:cloth_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "dyeable": {
+          "color_when_undyed": -9815936
+        },
+        "texture": "thaumcraft:cloth"
+      },
+      {
+        "texture": "thaumcraft:cloth_overlay"
+      }
+    ]
+  }
+}

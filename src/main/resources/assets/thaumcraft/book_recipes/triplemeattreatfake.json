@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#thaumcraft:meat_nuggets",
+    "#thaumcraft:meat_nuggets",
+    "#thaumcraft:meat_nuggets",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "thaumcraft:triple_meat_treat"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": "thaumcraft:metal_brass"
+  },
+  "result": {
+    "id": "thaumcraft:ingot_brass",
+    "count": 9
+  }
+}

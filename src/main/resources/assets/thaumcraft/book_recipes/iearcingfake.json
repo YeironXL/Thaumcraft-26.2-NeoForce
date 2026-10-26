@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "INFUSIONENCHANTMENT",
+  "input": "minecraft:wooden_sword",
+  "components": [
+    "minecraft:enchanted_book",
+    "minecraft:redstone_block"
+  ],
+  "aspects": {
+    "potentia": 40,
+    "aer": 60
+  },
+  "instability": 4,
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "arcing",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TUBES",
+  "vis": 25,
+  "crystals": {},
+  "pattern": [
+    "PVP",
+    "TWT",
+    "PRP"
+  ],
+  "key": {
+    "T": "thaumcraft:tube",
+    "V": "thaumcraft:tube_valve",
+    "W": "#c:plates/iron",
+    "R": "thaumcraft:tube_restrict",
+    "P": "thaumcraft:phial_empty"
+  },
+  "result": {
+    "id": "thaumcraft:tube_buffer"
+  }
+}

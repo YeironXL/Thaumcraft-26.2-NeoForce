@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "FLUXCLEANUP",
+  "vis": 500,
+  "crystals": {
+    "perditio": 5,
+    "aqua": 5,
+    "aer": 5
+  },
+  "pattern": [
+    "BCB",
+    "WMW",
+    "BTB"
+  ],
+  "key": {
+    "T": "thaumcraft:tube",
+    "C": "thaumcraft:morphic_resonator",
+    "W": "#minecraft:planks",
+    "M": "thaumcraft:mechanism_complex",
+    "B": "#c:plates/brass"
+  },
+  "result": {
+    "id": "thaumcraft:condenser"
+  }
+}

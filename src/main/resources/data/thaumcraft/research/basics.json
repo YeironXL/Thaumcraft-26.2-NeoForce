@@ -1,0 +1,11 @@
+{
+  "category": "basics",
+  "entries": [
+    {"key":"FIRSTSTEPS","name":"First Steps","aspects":["aer","terra","ignis","aqua","ordo","perditio"]},
+    {"key":"THAUMOMETER","name":"Thaumometer","requires":["FIRSTSTEPS"]},
+    {"key":"THAUMONOMICON","name":"Thaumonomicon","requires":["THAUMOMETER"]},
+    {"key":"ARCANEWORKBENCH","name":"Arcane Workbench","requires":["THAUMONOMICON"]},
+    {"key":"CRUCIBLE","name":"Crucible","requires":["THAUMONOMICON"]},
+    {"key":"INFUSION","name":"Infusion","requires":["ARCANEWORKBENCH"]}
+  ]
+}

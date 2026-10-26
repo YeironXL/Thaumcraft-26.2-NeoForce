@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "INFUSIONENCHANTMENT",
+  "input": "minecraft:wooden_pickaxe",
+  "components": [
+    "minecraft:enchanted_book",
+    "minecraft:rabbit_foot"
+  ],
+  "aspects": {
+    "sensus": 80,
+    "terra": 150
+  },
+  "instability": 4,
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "burrowing",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

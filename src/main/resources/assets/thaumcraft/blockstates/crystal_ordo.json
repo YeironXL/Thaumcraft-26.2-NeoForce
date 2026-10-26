@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=up,size=0": {
+      "model": "thaumcraft:block/crystal_ordo_0",
+      "x": 0,
+      "y": 0
+    },
+    "facing=up,size=1": {
+      "model": "thaumcraft:block/crystal_ordo_1",
+      "x": 0,
+      "y": 0
+    },
+    "facing=up,size=2": {
+      "model": "thaumcraft:block/crystal_ordo_2",
+      "x": 0,
+      "y": 0
+    },
+    "facing=up,size=3": {
+      "model": "thaumcraft:block/crystal_ordo_3",
+      "x": 0,
+      "y": 0
+    },
+    "facing=down,size=0": {
+      "model": "thaumcraft:block/crystal_ordo_0",
+      "x": 180,
+      "y": 0
+    },
+    "facing=down,size=1": {
+      "model": "thaumcraft:block/crystal_ordo_1",
+      "x": 180,
+      "y": 0
+    },
+    "facing=down,size=2": {
+      "model": "thaumcraft:block/crystal_ordo_2",
+      "x": 180,
+      "y": 0
+    },
+    "facing=down,size=3": {
+      "model": "thaumcraft:block/crystal_ordo_3",
+      "x": 180,
+      "y": 0
+    },
+    "facing=north,size=0": {
+      "model": "thaumcraft:block/crystal_ordo_0",
+      "x": 90,
+      "y": 0
+    },
+    "facing=north,size=1": {
+      "model": "thaumcraft:block/crystal_ordo_1",
+      "x": 90,
+      "y": 0
+    },
+    "facing=north,size=2": {
+      "model": "thaumcraft:block/crystal_ordo_2",
+      "x": 90,
+      "y": 0
+    },
+    "facing=north,size=3": {
+      "model": "thaumcraft:block/crystal_ordo_3",
+      "x": 90,
+      "y": 0
+    },
+    "facing=south,size=0": {
+      "model": "thaumcraft:block/crystal_ordo_0",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,size=1": {
+      "model": "thaumcraft:block/crystal_ordo_1",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,size=2": {
+      "model": "thaumcraft:block/crystal_ordo_2",
+      "x": 90,
+      "y": 180
+    },
+    "facing=south,size=3": {
+      "model": "thaumcraft:block/crystal_ordo_3",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east,size=0": {
+      "model": "thaumcraft:block/crystal_ordo_0",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,size=1": {
+      "model": "thaumcraft:block/crystal_ordo_1",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,size=2": {
+      "model": "thaumcraft:block/crystal_ordo_2",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,size=3": {
+      "model": "thaumcraft:block/crystal_ordo_3",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west,size=0": {
+      "model": "thaumcraft:block/crystal_ordo_0",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,size=1": {
+      "model": "thaumcraft:block/crystal_ordo_1",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,size=2": {
+      "model": "thaumcraft:block/crystal_ordo_2",
+      "x": 90,
+      "y": 270
+    },
+    "facing=west,size=3": {
+      "model": "thaumcraft:block/crystal_ordo_3",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

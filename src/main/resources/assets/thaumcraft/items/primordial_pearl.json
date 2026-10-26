@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:damage",
+    "normalize": false,
+    "entries": [
+      { "threshold": 3, "model": { "type": "minecraft:model", "model": "thaumcraft:item/primordial_pearl_nodule" } },
+      { "threshold": 6, "model": { "type": "minecraft:model", "model": "thaumcraft:item/primordial_pearl_mote" } }
+    ],
+    "fallback": { "type": "minecraft:model", "model": "thaumcraft:item/primordial_pearl" }
+  }
+}

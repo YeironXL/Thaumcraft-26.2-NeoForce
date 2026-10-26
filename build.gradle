@@ -1,0 +1,100 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.gradle.userdev' version '7.1.39'
+}
+
+version = mod_version
+group = mod_group_id
+base { archivesName = mod_id }
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+sourceSets.main.resources.srcDir('src/generated/resources')
+minecraft.accessTransformers.file rootProject.file('src/main/resources/META-INF/accesstransformer.cfg')
+if (project.hasProperty('verifyUi') || project.hasProperty('verifyServer')) {
+    sourceSets.main.java.srcDir('src/verification/java')
+    sourceSets.main.resources.srcDir('src/verification/resources')
+}
+
+runs {
+    configureEach {
+        systemProperty 'forge.logging.markers', 'REGISTRIES'
+        systemProperty 'forge.logging.console.level', 'debug'
+        workingDirectory project.layout.projectDirectory.dir('run').dir(name)
+        modSource project.sourceSets.main
+    }
+    client {
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        if (project.hasProperty('verifyUi')) systemProperty 'thaumcraft.verifyUi', 'true'
+        if (project.hasProperty('mpJoin')) { arguments.addAll '--quickPlayMultiplayer', project.property('mpJoin'); if (project.hasProperty('mpUser')) arguments.addAll '--username', project.property('mpUser') } // dev: join a server directly
+        if (project.hasProperty('noGlValidation')) systemProperty 'neoforge.disableGlValidation', 'true' // behave like a production client (dev-only GL validation off)
+        if (project.hasProperty('lowMem')) jvmArgument(project.findProperty('clientXmx') ?: '-Xmx2g')
+        if (project.hasProperty('debugHold')) { systemProperty 'thaumcraft.debugHold', project.property('debugHold'); if (project.hasProperty('debugItem')) systemProperty 'thaumcraft.debugItem', project.property('debugItem'); ['debugYaw','debugPitch','debugBlocks','debugBook','debugBookPartial','debugWear','debugFog','debugSonic','debugHotbar','debugGrapple','debugUnlock','debugClickCenter','debugPlay','debugFx','debugUse','debugDrops','debugInfusion','debugArcLife','debugAimDial','debugGolems','debugGolemsGui','debugBiome','debugEntGap','debugEntDist','debugGui','debugRisen','debugOuter','debugTooltip','showTags','debugJei','debugJeiDelay','debugNodes','debugHarness','debugTrunk','debugMana','debugShrines'].each { if (project.hasProperty(it)) systemProperty 'thaumcraft.'+it, project.property(it) }; arguments.addAll '--quickPlaySingleplayer', 'test' }
+    }
+    server { systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id; argument '--nogui' }
+    gameTestServer {
+        systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        if (project.hasProperty('serverXmx')) jvmArgument(project.property('serverXmx'))
+        if (project.hasProperty('debugAspects')) systemProperty 'thaumcraft.debugAspects', project.property('debugAspects')
+        if (project.hasProperty('verifyServer')) {
+            arguments.addAll '--tests','thaumcraft:*','--universe',project.property('verificationUniverse'),
+                    '--report',file('build/reports/starter-gametest.xml').absolutePath
+        }
+    }
+    clientData {
+        arguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+    }
+}
+
+configurations { runtimeClasspath.extendsFrom localRuntime }
+
+repositories {
+    maven { url = 'https://maven.theillusivec4.top/' } // Curios (optional bauble slots, the TC6 Baubles equivalent)
+    maven { url = 'https://maven.blamejared.com/' } // JEI (optional recipe viewer)
+    exclusiveContent { forRepository { maven { url = 'https://api.modrinth.com/maven' } }; filter { includeGroup 'maven.modrinth' } } // Jade (optional HUD)
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:${neo_version}"
+    compileOnly "top.theillusivec4.curios:curios-neoforge:16.0.0+26.2:api"
+    localRuntime "top.theillusivec4.curios:curios-neoforge:16.0.0+26.2" // dev runs and game tests exercise the bauble slots
+    compileOnly "mezz.jei:jei-26.2-neoforge-api:${jei_version}"
+    compileOnly "maven.modrinth:jade:${jade_version}"
+    if (project.hasProperty('perfMods')) { // dev-only compatibility check with Sodium + Iris
+        localRuntime "maven.modrinth:sodium:mc26.2-0.9.2-neoforge"
+        localRuntime "maven.modrinth:iris:1.11.4+26.2-neoforge"
+    }
+    if (!project.hasProperty('noCompat')) {
+        localRuntime "mezz.jei:jei-26.2-neoforge:${jei_version}"
+        localRuntime "maven.modrinth:jade:${jade_version}"
+    }
+}
+
+tasks.withType(ProcessResources).configureEach {
+    var replaceProperties = [minecraft_version:minecraft_version, minecraft_version_range:minecraft_version_range, neo_version:neo_version, mod_id:mod_id, mod_name:mod_name, mod_license:mod_license, mod_version:mod_version]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/neoforge.mods.toml']) { expand replaceProperties }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(Jar).configureEach {
+    exclude('art/arcane/thaumcraft/verification/**','data/thaumcraft/test_instance/**','data/thaumcraft/test_environment/**','data/thaumcraft/structure/verification/**','data/thaumcraft/aspects/compat/verification.json','data/c/tags/item/ingots/tin.json','data/c/tags/item/raw_materials/zinc.json')
+}
+// The regression entry point is executed by verifyMigration, without a JUnit dependency.
+tasks.named('test') { failOnNoDiscoveredTests = false }
+tasks.register('verifyMigration', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'art.arcane.thaumcraft.MigrationRegressionChecks'
+}
+tasks.named('check') { dependsOn tasks.named('verifyMigration') }
+
+publishing {
+    publications { register('mavenJava', MavenPublication) { from components.java } }
+    repositories { maven { url = "file://${project.projectDir}/repo" } }
+}
+
+// Present the exact shipped recipe JSON in the client book, without a second hand-maintained catalog.
+tasks.named('processResources', ProcessResources) {
+    from('src/main/resources/data/thaumcraft/recipe') { into 'assets/thaumcraft/book_recipes' }
+}

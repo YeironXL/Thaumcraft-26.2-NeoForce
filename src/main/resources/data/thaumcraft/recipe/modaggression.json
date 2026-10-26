@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "SEALGUARD",
+  "vis": 50,
+  "crystals": {
+    "ignis": 1
+  },
+  "pattern": [
+    " R ",
+    "RTR",
+    "PGP"
+  ],
+  "key": {
+    "R": "#c:glass_panes",
+    "T": "minecraft:blaze_powder",
+    "P": "#c:plates/brass",
+    "G": "thaumcraft:mechanism_simple"
+  },
+  "result": {
+    "id": "thaumcraft:module_aggression"
+  }
+}

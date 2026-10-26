@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "INFUSIONENCHANTMENT",
+  "input": "minecraft:stone_sword",
+  "components": [
+    "minecraft:enchanted_book",
+    "thaumcraft:crystal_essence"
+  ],
+  "aspects": {
+    "bestia": 40,
+    "vitium": 60
+  },
+  "instability": 4,
+  "result": {
+    "id": "minecraft:stone_sword",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "essence",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"type": "minecraft:function", "function": "thaumcraft:tc6_banner", "environment": {"type": "minecraft:all_of", "definitions": []}, "structure": "thaumcraft:verification/large", "max_ticks": 200}

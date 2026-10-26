@@ -1,0 +1,18 @@
+{
+  "type": "thaumcraft:shapeless_arcane",
+  "research": "CONTROLSEALS",
+  "vis": 20,
+  "crystals": {
+    "aer": 1
+  },
+  "ingredients": [
+    "minecraft:clay_ball",
+    "thaumcraft:tallow",
+    "#c:dyes/red",
+    "#thaumcraft:nitor"
+  ],
+  "result": {
+    "id": "thaumcraft:seal_blank",
+    "count": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "VISGENERATOR",
+  "vis": 25,
+  "crystals": {
+    "ordo": 1,
+    "ignis": 1
+  },
+  "pattern": [
+    "WSW",
+    "EPE",
+    "WRW"
+  ],
+  "key": {
+    "R": "thaumcraft:vis_resonator",
+    "E": "thaumcraft:nugget_rareearth",
+    "S": "#c:dusts/redstone",
+    "P": "minecraft:piston",
+    "W": "#minecraft:planks"
+  },
+  "result": {
+    "id": "thaumcraft:vis_generator"
+  }
+}

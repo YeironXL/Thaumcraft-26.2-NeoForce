@@ -1,0 +1,10 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "HEDGEALCHEMY@3",
+  "catalyst": "minecraft:wheat",
+  "aspects_of": "minecraft:string",
+  "result": {
+    "id": "minecraft:string"
+  },
+  "aspects_minus": "minecraft:wheat"
+}

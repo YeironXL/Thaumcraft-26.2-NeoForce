@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "BASEARTIFICE",
+  "vis": 50,
+  "crystals": {
+    "aqua": 1,
+    "ignis": 1
+  },
+  "pattern": [
+    " M ",
+    "TQT",
+    " M "
+  ],
+  "key": {
+    "T": "#c:plates/thaumium",
+    "Q": "minecraft:piston",
+    "M": "thaumcraft:mechanism_simple"
+  },
+  "result": {
+    "id": "thaumcraft:mechanism_complex"
+  }
+}

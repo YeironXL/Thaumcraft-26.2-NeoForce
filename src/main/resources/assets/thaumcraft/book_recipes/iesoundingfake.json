@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "INFUSIONENCHANTMENT",
+  "input": "minecraft:golden_pickaxe",
+  "components": [
+    "minecraft:enchanted_book",
+    "minecraft:map"
+  ],
+  "aspects": {
+    "sensus": 40,
+    "ignis": 60
+  },
+  "instability": 4,
+  "result": {
+    "id": "minecraft:golden_pickaxe",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "sounding",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}
