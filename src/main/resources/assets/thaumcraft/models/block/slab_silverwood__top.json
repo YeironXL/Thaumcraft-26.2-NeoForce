@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "particle": "thaumcraft:block/plank_silverwood",
+    "bottom": "thaumcraft:block/plank_silverwood",
+    "top": "thaumcraft:block/plank_silverwood",
+    "side": "thaumcraft:block/plank_silverwood"
+  }
+}

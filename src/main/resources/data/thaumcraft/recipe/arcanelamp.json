@@ -1,0 +1,21 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "ARCANELAMP",
+  "vis": 50,
+  "crystals": {
+    "ignis": 1,
+    "aer": 1
+  },
+  "pattern": [
+    " I ",
+    "IAI",
+    " I "
+  ],
+  "key": {
+    "A": "thaumcraft:amber_block",
+    "I": "#c:plates/iron"
+  },
+  "result": {
+    "id": "thaumcraft:lamp_arcane"
+  }
+}

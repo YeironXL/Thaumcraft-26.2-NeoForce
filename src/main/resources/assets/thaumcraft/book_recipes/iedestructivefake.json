@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "INFUSIONENCHANTMENT",
+  "input": "minecraft:stone_pickaxe",
+  "components": [
+    "minecraft:enchanted_book",
+    "minecraft:tnt"
+  ],
+  "aspects": {
+    "aversio": 200,
+    "perditio": 250
+  },
+  "instability": 4,
+  "result": {
+    "id": "minecraft:stone_pickaxe",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "destructive",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

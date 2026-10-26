@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "DECONSTRUCTION",
+  "vis": 20,
+  "crystals": {
+    "perditio": 1
+  },
+  "pattern": [
+    " P ",
+    " T "
+  ],
+  "key": {
+    "P": "minecraft:iron_pickaxe",
+    "T": "thaumcraft:table_wood"
+  },
+  "result": {
+    "id": "thaumcraft:deconstruction_table"
+  }
+}

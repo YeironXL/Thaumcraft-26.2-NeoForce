@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "thaumcraft:block/plank_greatwood",
+    "bottom": "thaumcraft:block/plank_greatwood",
+    "top": "thaumcraft:block/plank_greatwood",
+    "side": "thaumcraft:block/plank_greatwood"
+  }
+}

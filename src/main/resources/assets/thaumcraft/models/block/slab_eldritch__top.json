@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "particle": "thaumcraft:block/eldritch_stone_1",
+    "bottom": "thaumcraft:block/eldritch_stone_1",
+    "top": "thaumcraft:block/eldritch_stone_2",
+    "side": "thaumcraft:block/eldritch_stone_3"
+  }
+}

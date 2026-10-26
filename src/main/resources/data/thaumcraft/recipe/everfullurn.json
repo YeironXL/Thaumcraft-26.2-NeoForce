@@ -1,0 +1,13 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "EVERFULLURN",
+  "catalyst": "minecraft:flower_pot",
+  "aspects": {
+    "terra": 10,
+    "fabrico": 10,
+    "aqua": 30
+  },
+  "result": {
+    "id": "thaumcraft:everfull_urn"
+  }
+}

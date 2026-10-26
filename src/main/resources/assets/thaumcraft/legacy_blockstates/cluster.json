@@ -1,0 +1,38 @@
+{
+
+    "forge_marker": 1,
+    "variants": {
+        "cinnabar": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_cinnabar" }
+        },
+        "copper": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_copper" }
+        },
+        "gold": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_gold" }
+        },
+        "iron": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_iron" }
+        },
+        "lead": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_lead" }
+        },
+        "silver": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_silver" }
+        },
+        "tin": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_tin" }
+        },
+        "quartz": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/cluster_quartz" }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "SEALFISHING",
+  "input": "thaumcraft:seal_blank",
+  "components": [
+    "minecraft:fishing_rod",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:string"
+  ],
+  "aspects": {
+    "aqua": 10,
+    "bestia": 10,
+    "humanus": 10
+  },
+  "instability": 0,
+  "result": {
+    "id": "thaumcraft:seal_fishing"
+  }
+}

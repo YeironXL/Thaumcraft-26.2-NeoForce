@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "NODEJAR",
+  "vis": 50,
+  "crystals": {
+    "aer": 1,
+    "ordo": 1,
+    "terra": 1
+  },
+  "pattern": [
+    "SSS",
+    "G G",
+    "GGG"
+  ],
+  "key": {
+    "S": "#minecraft:wooden_slabs",
+    "G": "#c:glass_blocks"
+  },
+  "result": {
+    "id": "thaumcraft:node_jar"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "TRAVELTRUNK",
+  "input": "minecraft:chest",
+  "components": [
+    "thaumcraft:mind_clockwork",
+    "thaumcraft:plank_greatwood",
+    "minecraft:leather",
+    "thaumcraft:plank_greatwood",
+    "minecraft:leather",
+    "thaumcraft:plank_greatwood"
+  ],
+  "aspects": {
+    "vacuos": 25,
+    "motus": 25,
+    "machina": 25,
+    "victus": 15
+  },
+  "instability": 2,
+  "result": {
+    "id": "thaumcraft:travelling_trunk"
+  }
+}

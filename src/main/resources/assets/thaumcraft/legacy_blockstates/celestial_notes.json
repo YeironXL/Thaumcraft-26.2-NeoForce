@@ -1,0 +1,58 @@
+{
+
+    "forge_marker": 1,
+    "variants": {
+        "sun": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/sun" }
+        },
+        "stars_1": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/stars1" }
+        },  
+        "stars_2": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/stars2" }
+        },  
+        "stars_3": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/stars3" }
+        },  
+        "stars_4": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/stars4" }
+        },        
+        "moon_1": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon1" }
+        },        
+        "moon_2": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon2" }
+        },        
+        "moon_3": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon3" }
+        },        
+        "moon_4": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon4" }
+        },        
+        "moon_5": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon5" }
+        },        
+        "moon_6": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon6" }
+        },        
+        "moon_7": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon7" }
+        },        
+        "moon_8": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/celestial/sheet", "layer1": "thaumcraft:item/celestial/moon8" }
+        }
+    }
+}

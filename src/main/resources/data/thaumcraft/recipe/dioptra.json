@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "DIOPTRA",
+  "vis": 50,
+  "crystals": {
+    "aqua": 1,
+    "aer": 1
+  },
+  "pattern": [
+    "APA",
+    "IGI",
+    "AAA"
+  ],
+  "key": {
+    "A": "thaumcraft:stone_arcane",
+    "G": "thaumcraft:thaumometer",
+    "P": "thaumcraft:vis_resonator",
+    "I": "#c:plates/iron"
+  },
+  "result": {
+    "id": "thaumcraft:dioptra"
+  }
+}

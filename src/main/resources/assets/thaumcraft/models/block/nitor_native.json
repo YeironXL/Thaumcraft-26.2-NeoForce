@@ -1,0 +1,69 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "core": "thaumcraft:block/nitor_core",
+    "particle": "thaumcraft:block/nitor_core"
+  },
+  "elements": [
+    {
+      "from": [
+        5.3,
+        5.3,
+        8
+      ],
+      "to": [
+        10.6,
+        10.6,
+        8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#core"
+        },
+        "south": {
+          "texture": "#core"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        5.3,
+        5.3
+      ],
+      "to": [
+        8,
+        10.6,
+        10.6
+      ],
+      "faces": {
+        "west": {
+          "texture": "#core"
+        },
+        "east": {
+          "texture": "#core"
+        }
+      }
+    },
+    {
+      "from": [
+        5.3,
+        8,
+        5.3
+      ],
+      "to": [
+        10.6,
+        8,
+        10.6
+      ],
+      "faces": {
+        "up": {
+          "texture": "#core"
+        },
+        "down": {
+          "texture": "#core"
+        }
+      }
+    }
+  ]
+}

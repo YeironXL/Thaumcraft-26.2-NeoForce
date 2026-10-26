@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/client/model/HumanoidModel$ArmPose",
+      "name": "THAUMCRAFT_THAUMOMETER",
+      "constructor": "(ZZLnet/neoforged/neoforge/client/IArmPoseTransformer;)V",
+      "parameters": { "class": "art/arcane/thaumcraft/client/ThaumometerArmPose", "field": "PROXY" }
+    }
+  ]
+}

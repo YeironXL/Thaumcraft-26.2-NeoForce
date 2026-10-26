@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": "thaumcraft:ingot_void"
+  },
+  "result": {
+    "id": "thaumcraft:nugget_void",
+    "count": 9
+  }
+}

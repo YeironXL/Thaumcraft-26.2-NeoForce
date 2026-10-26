@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "S ",
+    "S "
+  ],
+  "key": {
+    "I": "thaumcraft:ingot_void",
+    "S": "#c:rods/wooden"
+  },
+  "result": {
+    "id": "thaumcraft:void_hoe"
+  }
+}

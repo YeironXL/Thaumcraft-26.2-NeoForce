@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "thaumcraft:block/pillar_ancient__obj" },
+    "facing=south": { "model": "thaumcraft:block/pillar_ancient__obj", "y": 180 },
+    "facing=east": { "model": "thaumcraft:block/pillar_ancient__obj", "y": 90 },
+    "facing=west": { "model": "thaumcraft:block/pillar_ancient__obj", "y": 270 }
+  }
+}

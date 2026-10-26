@@ -1,0 +1,35 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "HOVERGIRDLE",
+  "input": "thaumcraft:baubles_girdle_mundane",
+  "components": [
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:feather",
+    "minecraft:feather",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumcraft:crystal_essence",
+      "components": {
+        "thaumcraft:aspect": "aer"
+      }
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumcraft:crystal_essence",
+      "components": {
+        "thaumcraft:aspect": "terra"
+      }
+    }
+  ],
+  "aspects": {
+    "aer": 32,
+    "potentia": 32,
+    "motus": 16,
+    "volatus": 16
+  },
+  "instability": 7,
+  "result": {
+    "id": "thaumcraft:hover_girdle"
+  }
+}

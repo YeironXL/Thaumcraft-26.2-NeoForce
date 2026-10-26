@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/lead"
+      }
+    }
+  ],
+  "type": "thaumcraft:crucible",
+  "research": "METALPURIFICATION",
+  "catalyst": "#c:ores/lead",
+  "aspects": {
+    "metallum": 5,
+    "ordo": 5
+  },
+  "result": {
+    "id": "thaumcraft:cluster_lead"
+  }
+}

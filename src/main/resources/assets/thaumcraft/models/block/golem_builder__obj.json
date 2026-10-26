@@ -1,0 +1,10 @@
+{
+  "model": "thaumcraft:models/block/golembuilder.obj",
+  "loader": "neoforge:obj",
+  "textures": {
+    "particle": "#texture",
+    "texture": "thaumcraft:block/golembuilder"
+  },
+  "automatic_culling": false,
+  "flip_v": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "BATHSALTS",
+  "catalyst": "thaumcraft:salis_mundus",
+  "aspects": {
+    "victus": 40,
+    "ordo": 40,
+    "aer": 40,
+    "cognitio": 40
+  },
+  "result": {
+    "id": "thaumcraft:bath_salts"
+  }
+}

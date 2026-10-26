@@ -1,0 +1,40 @@
+#version 330
+
+// TC6 shaders/program/bloom2.fsh (sun scorned).
+uniform sampler2D InSampler;
+
+in vec2 texCoord;
+
+out vec4 fragColor;
+
+//width of steps (higher numbers make quality worse)
+const float blurWidth=0.002;
+
+//number of steps (higher numbers cause more lag)
+const float blurSteps=0.1;
+
+//bloom brightness
+const float amount=5.0;
+
+void main() {
+    vec4 color=texture(InSampler, texCoord);
+    float brightness=(color.r+color.g+color.b)/3.0;
+
+    vec4 sum = vec4(0);
+    float i;
+    const float foo = 10.0/(   ((blurSteps*2.0)+1.0)*4  );
+
+    for (i = -blurSteps; i < blurSteps; i++){
+        sum += texture(InSampler, texCoord + vec2(i, i)*blurWidth*0.7);
+        sum += texture(InSampler, texCoord + vec2(i, -i)*blurWidth*0.7);
+        sum += texture(InSampler, texCoord + vec2(0.0,i)*blurWidth);
+        sum += texture(InSampler, texCoord + vec2(i,0.0)*blurWidth);
+    }
+
+
+    sum*=foo;
+    vec4 modifier = sum*sum*(0.015-(brightness*0.01));
+    vec4 outputColor = modifier*amount + color;
+    
+    fragColor = outputColor*0.9;
+}

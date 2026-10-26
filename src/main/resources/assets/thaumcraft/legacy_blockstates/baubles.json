@@ -1,0 +1,33 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "amulet_mundane": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/amulet_mundane" }
+            },
+        "ring_mundane": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/ring_mundane" }
+            },
+        "girdle_mundane": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/girdle_mundane" }
+            },
+        "ring_apprentice": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/ring_apprentice" }
+            },
+        "amulet_fancy": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/amulet_fancy" }
+            },
+        "ring_fancy": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/ring_fancy" }
+            },
+        "girdle_fancy": {
+            "model": "forge:item-layer", "transform": "forge:default-item",
+            "textures": { "layer0": "thaumcraft:item/girdle_fancy" }
+            }
+    }
+}

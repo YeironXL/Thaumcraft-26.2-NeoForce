@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "thaumcraft:slab_ancient",
+    "thaumcraft:slab_arcane_brick",
+    "thaumcraft:slab_arcane_stone",
+    "thaumcraft:slab_eldritch"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": "thaumcraft:ingot_void"
+  },
+  "result": {
+    "id": "thaumcraft:void_helm"
+  }
+}

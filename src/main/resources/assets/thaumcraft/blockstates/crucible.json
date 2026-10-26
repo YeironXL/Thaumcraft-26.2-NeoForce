@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "water=0": {
+      "model": "thaumcraft:block/crucible"
+    },
+    "water=1": {
+      "model": "thaumcraft:block/crucible"
+    },
+    "water=2": {
+      "model": "thaumcraft:block/crucible"
+    },
+    "water=3": {
+      "model": "thaumcraft:block/crucible"
+    },
+    "water=4": {
+      "model": "thaumcraft:block/crucible"
+    }
+  }
+}

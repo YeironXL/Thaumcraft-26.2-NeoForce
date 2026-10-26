@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "thaumcraft:cluster_copper",
+  "result": {
+    "id": "minecraft:copper_ingot",
+    "count": 2
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

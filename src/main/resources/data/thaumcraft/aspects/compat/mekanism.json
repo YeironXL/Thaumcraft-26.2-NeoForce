@@ -1,0 +1,780 @@
+{
+ "requires": [
+  "mekanism"
+ ],
+ "entries": [
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:osmium_ore",
+    "mekanism:deepslate_osmium_ore"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:fluorite_ore",
+    "mekanism:deepslate_fluorite_ore"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:fluorite_gem"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:salt"
+   ],
+   "ops": [
+    [
+     "add",
+     "aqua",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     1
+    ],
+    [
+     "add",
+     "ordo",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:sawdust"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     1
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:bio_fuel"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "potentia",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:substrate"
+   ],
+   "ops": [
+    [
+     "add",
+     "alkimia",
+     3
+    ],
+    [
+     "add",
+     "aqua",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:hdpe_pellet"
+   ],
+   "ops": [
+    [
+     "add",
+     "alkimia",
+     3
+    ],
+    [
+     "add",
+     "vinculum",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:alloy_infused"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "potentia",
+     5
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:alloy_reinforced"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:alloy_atomic"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "alienis",
+     10
+    ],
+    [
+     "add",
+     "potentia",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:basic_control_circuit"
+   ],
+   "ops": [
+    [
+     "add",
+     "machina",
+     5
+    ],
+    [
+     "add",
+     "potentia",
+     5
+    ],
+    [
+     "add",
+     "cognitio",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:enriched_carbon"
+   ],
+   "ops": [
+    [
+     "add",
+     "potentia",
+     10
+    ],
+    [
+     "add",
+     "ignis",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:enriched_redstone"
+   ],
+   "ops": [
+    [
+     "add",
+     "potentia",
+     15
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:enriched_diamond"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     15
+    ],
+    [
+     "add",
+     "desiderium",
+     15
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:enriched_refined_obsidian"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "ignis",
+     5
+    ],
+    [
+     "add",
+     "praemunio",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:enriched_gold"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:enriched_tin"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "vitreus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:yellow_cake_uranium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     5
+    ],
+    [
+     "add",
+     "mortuus",
+     5
+    ],
+    [
+     "add",
+     "potentia",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:pellet_plutonium"
+   ],
+   "ops": [
+    [
+     "add",
+     "potentia",
+     15
+    ],
+    [
+     "add",
+     "mortuus",
+     10
+    ],
+    [
+     "add",
+     "alienis",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:pellet_polonium"
+   ],
+   "ops": [
+    [
+     "add",
+     "potentia",
+     15
+    ],
+    [
+     "add",
+     "mortuus",
+     10
+    ],
+    [
+     "add",
+     "vitium",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:pellet_antimatter"
+   ],
+   "ops": [
+    [
+     "add",
+     "potentia",
+     30
+    ],
+    [
+     "add",
+     "alienis",
+     20
+    ],
+    [
+     "add",
+     "vacuos",
+     20
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:dust_refined_obsidian"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "praemunio",
+     10
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:ingot_refined_obsidian"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "praemunio",
+     10
+    ],
+    [
+     "add",
+     "tenebrae",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:ingot_refined_glowstone"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "lux",
+     10
+    ],
+    [
+     "add",
+     "potentia",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:ingot_steel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     15
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:ingot_bronze"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "instrumentum",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:ingot_osmium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:tin_ore",
+    "mekanism:deepslate_tin_ore"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "vitreus",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:lead_ore",
+    "mekanism:deepslate_lead_ore"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:uranium_ore",
+    "mekanism:deepslate_uranium_ore"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "potentia",
+     5
+    ],
+    [
+     "add",
+     "mortuus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:raw_osmium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "ordo",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:raw_tin"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "vitreus",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:raw_lead"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "ordo",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:raw_uranium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "potentia",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "mekanism:dirty_netherite_scrap"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     5
+    ],
+    [
+     "add",
+     "ignis",
+     3
+    ],
+    [
+     "add",
+     "tenebrae",
+     3
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  }
+ ]
+}

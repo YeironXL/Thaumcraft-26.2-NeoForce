@@ -1,0 +1,22 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "THAUMATORIUM",
+  "vis": 50,
+  "crystals": {
+    "ordo": 1,
+    "terra": 1
+  },
+  "pattern": [
+    "IAI",
+    "ABA",
+    "IAI"
+  ],
+  "key": {
+    "B": "thaumcraft:mind_clockwork",
+    "A": "thaumcraft:amber",
+    "I": "#c:plates/iron"
+  },
+  "result": {
+    "id": "thaumcraft:brain_box"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "thaumcraft:block/eldritch_lock",
+    "side": "thaumcraft:block/eldritch_door",
+    "top": "thaumcraft:block/eldritch_door"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "FIRSTSTEPS@2",
+  "vis": 20,
+  "crystals": {
+    "perditio": 1,
+    "ordo": 1,
+    "ignis": 1,
+    "aqua": 1,
+    "terra": 1,
+    "aer": 1
+  },
+  "pattern": [
+    " I ",
+    "IGI",
+    " I "
+  ],
+  "key": {
+    "I": "#c:ingots/gold",
+    "G": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "thaumcraft:thaumometer"
+  }
+}

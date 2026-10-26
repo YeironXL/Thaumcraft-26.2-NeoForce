@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "ESSENTIATRANSPORT",
+  "vis": 100,
+  "crystals": {
+    "aqua": 1,
+    "aer": 1
+  },
+  "pattern": [
+    "   ",
+    "BQB",
+    "IGI"
+  ],
+  "key": {
+    "I": "#c:plates/iron",
+    "B": "#c:plates/brass",
+    "Q": "minecraft:dispenser",
+    "G": "thaumcraft:metal_alchemical"
+  },
+  "result": {
+    "id": "thaumcraft:essentia_input"
+  }
+}

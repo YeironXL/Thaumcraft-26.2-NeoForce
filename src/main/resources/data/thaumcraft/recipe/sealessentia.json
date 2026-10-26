@@ -1,0 +1,20 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "SEALESSENTIA",
+  "input": "thaumcraft:seal_blank",
+  "components": [
+    "thaumcraft:phial",
+    "thaumcraft:phial",
+    "thaumcraft:jar_normal",
+    "minecraft:glass_bottle"
+  ],
+  "aspects": {
+    "alkimia": 10,
+    "vacuos": 10,
+    "permutatio": 10
+  },
+  "instability": 0,
+  "result": {
+    "id": "thaumcraft:seal_essentia"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "neoforge:obj",
+  "model": "thaumcraft:models/obj/crystal_terra_0.obj",
+  "automatic_culling": false,
+  "flip_v": true,
+  "textures": {
+    "texture": "thaumcraft:block/crystal",
+    "particle": "thaumcraft:block/crystal"
+  }
+}

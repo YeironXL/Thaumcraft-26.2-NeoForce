@@ -1,0 +1,19 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "TUBES",
+  "vis": 50,
+  "crystals": {},
+  "pattern": [
+    "I I",
+    "INI",
+    " S "
+  ],
+  "key": {
+    "I": "#c:plates/iron",
+    "N": "minecraft:quartz",
+    "S": "#c:rods/wooden"
+  },
+  "result": {
+    "id": "thaumcraft:resonator"
+  }
+}

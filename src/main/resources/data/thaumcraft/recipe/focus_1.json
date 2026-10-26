@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "UNLOCKAUROMANCY",
+  "catalyst": "thaumcraft:crystal_essence",
+  "aspects": {
+    "auram": 5,
+    "praecantatio": 10,
+    "vitreus": 20
+  },
+  "result": {
+    "id": "thaumcraft:focus_1"
+  },
+  "catalyst_aspect": "ordo"
+}

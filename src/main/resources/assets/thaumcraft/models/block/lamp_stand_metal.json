@@ -1,0 +1,7 @@
+{
+ "parent": "thaumcraft:block/lamp_stand",
+ "textures": {
+  "particle": "thaumcraft:block/base_metal",
+  "side": "thaumcraft:block/base_metal"
+ }
+}

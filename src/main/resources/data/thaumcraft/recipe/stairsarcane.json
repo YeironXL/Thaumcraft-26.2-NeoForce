@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "K  ",
+    "KK ",
+    "KKK"
+  ],
+  "key": {
+    "K": "thaumcraft:stone_arcane"
+  },
+  "result": {
+    "id": "thaumcraft:stairs_arcane",
+    "count": 4
+  }
+}

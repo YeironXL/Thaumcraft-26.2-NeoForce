@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "particle": "thaumcraft:block/arcane_brick_stone",
+    "bottom": "thaumcraft:block/arcane_brick_stone",
+    "top": "thaumcraft:block/arcane_brick_stone",
+    "side": "thaumcraft:block/arcane_brick_stone"
+  }
+}

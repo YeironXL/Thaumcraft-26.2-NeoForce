@@ -1,0 +1,2536 @@
+{
+  "baseline": "fix76",
+  "limitation": "Identifier coincidence only; aliases, ingredient equivalence, server research gates, groups, fake recipes and blueprints require individual verification.",
+  "references": [
+    {
+      "research": "BASEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:nitor",
+      "datapack_match": "thaumcraft:nitor",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "BASEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:nitorgroup",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:viscrystalgroup",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:phial",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:Filter",
+      "datapack_match": "thaumcraft:filter",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:MorphicResonator",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ALUMENTUM",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:alumentum",
+      "datapack_match": "thaumcraft:alumentum",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:brassingot",
+      "datapack_match": "thaumcraft:brassingot",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:brassingot",
+      "datapack_match": "thaumcraft:brassingot",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:brass_stuff",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:thaumiumingot",
+      "datapack_match": "thaumcraft:thaumiumingot",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:brassingot",
+      "datapack_match": "thaumcraft:brassingot",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:brass_stuff",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:thaumiumingot",
+      "datapack_match": "thaumcraft:thaumiumingot",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "METALLURGY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:thaumium_stuff",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALPURIFICATION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:metal_purification_iron",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALPURIFICATION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:metal_purification_gold",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALPURIFICATION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:metal_purification_cinnabar",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALPURIFICATION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:metal_purification_copper",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALPURIFICATION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:metal_purification_tin",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALPURIFICATION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:metal_purification_silver",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "METALPURIFICATION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:metal_purification_lead",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:hedge_tallow",
+      "datapack_match": "thaumcraft:hedge_tallow",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:hedge_leather",
+      "datapack_match": "thaumcraft:hedge_leather",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:hedge_tallow",
+      "datapack_match": "thaumcraft:hedge_tallow",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:tallowcandles",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:hedge_leather",
+      "datapack_match": "thaumcraft:hedge_leather",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:hedge_gunpowder",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:hedge_slime",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:hedge_dye",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:hedge_glowstone",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_tallow",
+      "datapack_match": "thaumcraft:hedge_tallow",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:tallowcandles",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_leather",
+      "datapack_match": "thaumcraft:hedge_leather",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_gunpowder",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_slime",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_dye",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_glowstone",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_clay",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_string",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_web",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:hedge_lava",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_tallow",
+      "datapack_match": "thaumcraft:hedge_tallow",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:tallowcandles",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_leather",
+      "datapack_match": "thaumcraft:hedge_leather",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_gunpowder",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_slime",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_dye",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_glowstone",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_clay",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_string",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_web",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "HEDGEALCHEMY",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:hedge_lava",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "LIQUIDDEATH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:LiquidDeath",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BOTTLETAINT",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:BottleTaint",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BATHSALTS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:BathSalts",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SANESOAP",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SaneSoap",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARCANESPA",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ArcaneSpa",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIASMELTER",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:EssentiaSmelter",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIASMELTER",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:EssentiaSmelter",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIASMELTER",
+      "section": "stages",
+      "stage": 4,
+      "reference": "thaumcraft:Alembic",
+      "datapack_match": "thaumcraft:alembic",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "WARDEDJARS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:WardedJar",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "WARDEDJARS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:JarVoid",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "WARDEDJARS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:BrassBrace",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "WARDEDJARS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:JarLabel",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "WARDEDJARS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:JarLabelEssence",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Resonator",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Tube",
+      "datapack_match": "thaumcraft:tube",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:TubeValve",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:TubeFilter",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:TubeRestrict",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:TubeOneway",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:TubeBuffer",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "TUBES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:AlchemicalConstruct",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIASMELTERTHAUMIUM",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:EssentiaSmelterThaumium",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIASMELTERVOID",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:AdvAlchemyConstruct",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIASMELTERVOID",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:AdvAlchemyConstruct",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIASMELTERVOID",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:EssentiaSmelterVoid",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "IMPROVEDSMELTING",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SmelterAux",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "IMPROVEDSMELTING2",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SmelterVent",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CENTRIFUGE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Centrifuge",
+      "datapack_match": "thaumcraft:centrifuge",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "THAUMATORIUM",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Thaumatorium",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "THAUMATORIUM",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MnemonicMatrix",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIATRANSPORT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:EssentiaTransportIn",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ESSENTIATRANSPORT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:EssentiaTransportOut",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "EVERFULLURN",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:EverfullUrn",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "POTIONSPRAYER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:PotionSprayer",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEARTIFICE",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:Goggles",
+      "datapack_match": "thaumcraft:goggles",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEARTIFICE",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:mechanism_simple",
+      "datapack_match": "thaumcraft:mechanism_simple",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEARTIFICE",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:mechanism_complex",
+      "datapack_match": "thaumcraft:mechanism_complex",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEARTIFICE",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:mirrorglass",
+      "datapack_match": "thaumcraft:mirrorglass",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:shapeless_arcane"
+    },
+    {
+      "research": "BASEARTIFICE",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:ironplate",
+      "datapack_match": "thaumcraft:ironplate",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "minecraft:crafting_shaped"
+    },
+    {
+      "research": "HUNGRYCHEST",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:HungryChest",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "LEVITATOR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Levitator",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFERNALFURNACE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:infernalfurnace",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFERNALFURNACE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:triplemeattreatfake",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BELLOWS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Bellows",
+      "datapack_match": "thaumcraft:bellows",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "REDSTONERELAY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RedstoneRelay",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARCANEEAR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ArcaneEar",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARCANEEAR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ArcaneEarToggle",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "DIOPTRA",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:dioptra",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "MIRROR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Mirror",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "MIRRORHAND",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MirrorHand",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "MIRRORESSENTIA",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MirrorEssentia",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARCANELAMP",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ArcaneLamp",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "LAMPGROWTH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:LampGrowth",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "LAMPFERTILITY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:LampFertility",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARCANEPATTERNCRAFTER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:patterncrafter",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASICTURRET",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:AutomatedCrossbow",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASICTURRET",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:activatorrail",
+      "datapack_match": "thaumcraft:activatorrail",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:shapeless_arcane"
+    },
+    {
+      "research": "ADVANCEDTURRET",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:AdvancedCrossbow",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARCANEBORE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ArcaneBore",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "GRAPPLEGUN",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:GrappleGunTip",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "GRAPPLEGUN",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:GrappleGunSpool",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "GRAPPLEGUN",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:GrappleGun",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VISGENERATOR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VisGenerator",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:vis_resonator",
+      "datapack_match": "thaumcraft:vis_resonator",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:shapeless_arcane"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:caster_basic",
+      "datapack_match": "thaumcraft:caster_basic",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:focus_1",
+      "datapack_match": "thaumcraft:focus_1",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:vis_resonator",
+      "datapack_match": "thaumcraft:vis_resonator",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:shapeless_arcane"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:caster_basic",
+      "datapack_match": "thaumcraft:caster_basic",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:focus_1",
+      "datapack_match": "thaumcraft:focus_1",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:tablestone",
+      "datapack_match": "thaumcraft:tablestone",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "minecraft:crafting_shaped"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:wand_workbench",
+      "datapack_match": "thaumcraft:wand_workbench",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:vis_resonator",
+      "datapack_match": "thaumcraft:vis_resonator",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:shapeless_arcane"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:caster_basic",
+      "datapack_match": "thaumcraft:caster_basic",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:focus_1",
+      "datapack_match": "thaumcraft:focus_1",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:tablestone",
+      "datapack_match": "thaumcraft:tablestone",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "minecraft:crafting_shaped"
+    },
+    {
+      "research": "BASEAUROMANCY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:wand_workbench",
+      "datapack_match": "thaumcraft:wand_workbench",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "FOCUSADVANCED",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:focus_2",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FOCUSADVANCED",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:focus_2",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FOCUSGREATER",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:focus_3",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FOCUSGREATER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:focus_3",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "RECHARGEPEDESTAL",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:rechargepedestal",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VISAMULET",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VisAmulet",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "WORKBENCHCHARGER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:workbenchcharger",
+      "datapack_match": "thaumcraft:workbenchcharger",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "FOCUSPOUCH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:FocusPouch",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VISBATTERY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VisBattery",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FIRSTSTEPS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:salismundusfake",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FIRSTSTEPS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:thaumometer",
+      "datapack_match": "thaumcraft:thaumometer",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "FIRSTSTEPS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:salismundusfake",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FIRSTSTEPS",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:thaumometer",
+      "datapack_match": "thaumcraft:thaumometer",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "FIRSTSTEPS",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:salismundusfake",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FIRSTSTEPS",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:StoneArcane",
+      "datapack_match": "thaumcraft:stonearcane",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "minecraft:crafting_shaped"
+    },
+    {
+      "research": "FIRSTSTEPS",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:BrickArcane",
+      "datapack_match": "thaumcraft:brickarcane",
+      "reviewed_book_alias": true,
+      "status": "case-only candidate",
+      "type": "minecraft:crafting_shaped"
+    },
+    {
+      "research": "THEORYRESEARCH",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:tablewood",
+      "datapack_match": "thaumcraft:tablewood",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "minecraft:crafting_shaped"
+    },
+    {
+      "research": "THEORYRESEARCH",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:inkwell",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "THEORYRESEARCH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:tablewood",
+      "datapack_match": "thaumcraft:tablewood",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "minecraft:crafting_shaped"
+    },
+    {
+      "research": "THEORYRESEARCH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:inkwell",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "WARP",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:sanitychecker",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CRYSTALFARMER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CrystalClusterAir",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CRYSTALFARMER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CrystalClusterFire",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CRYSTALFARMER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CrystalClusterWater",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CRYSTALFARMER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CrystalClusterEarth",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CRYSTALFARMER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CrystalClusterOrder",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CRYSTALFARMER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CrystalClusterEntropy",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CRYSTALFARMER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CrystalClusterFlux",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "UNLOCKALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:nitor",
+      "datapack_match": "thaumcraft:nitor",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "UNLOCKALCHEMY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:nitorcolor",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "UNLOCKAUROMANCY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:vis_resonator",
+      "datapack_match": "thaumcraft:vis_resonator",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:shapeless_arcane"
+    },
+    {
+      "research": "UNLOCKAUROMANCY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:caster_basic",
+      "datapack_match": "thaumcraft:caster_basic",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "UNLOCKAUROMANCY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:vis_resonator",
+      "datapack_match": "thaumcraft:vis_resonator",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:shapeless_arcane"
+    },
+    {
+      "research": "UNLOCKAUROMANCY",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:caster_basic",
+      "datapack_match": "thaumcraft:caster_basic",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "UNLOCKARTIFICE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Goggles",
+      "datapack_match": "thaumcraft:goggles",
+      "reviewed_book_alias": false,
+      "status": "case-only candidate",
+      "type": "thaumcraft:arcane"
+    },
+    {
+      "research": "UNLOCKINFUSION",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:EnchantedFabric",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "UNLOCKINFUSION",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RobeChest",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "UNLOCKINFUSION",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RobeLegs",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "UNLOCKINFUSION",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RobeBoots",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FLUXCLEANUP",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Condenser",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FLUXCLEANUP",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CondenserLattice",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "RIFTCLOSER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CausalityCollapser",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEELDRITCH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:voidingot",
+      "datapack_match": "thaumcraft:voidingot",
+      "reviewed_book_alias": false,
+      "status": "exact identifier",
+      "type": "thaumcraft:crucible"
+    },
+    {
+      "research": "BASEELDRITCH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:void_stuff",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VOIDSIPHON",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VoidSiphon",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VOIDSEERPEARL",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VoidseerPearl",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VOIDROBEARMOR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VoidRobeHelm",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VOIDROBEARMOR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VoidRobeChest",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VOIDROBEARMOR",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VoidRobeLegs",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "PRIMALCRUSHER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:PrimalCrusher",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "JARBRAIN",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:JarBrain",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "MINDCLOCKWORK",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MindClockwork",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "MINDCLOCKWORK",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:MindClockwork",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "MINDCLOCKWORK",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:GolemPress",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CONTROLSEALS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:GolemBell",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CONTROLSEALS",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:SealBlank",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "MINDBIOTHAUMIC",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MindBiothaumic",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALCOLLECT",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:SealCollect",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALCOLLECT",
+      "section": "addenda",
+      "stage": 1,
+      "reference": "thaumcraft:SealCollectAdv",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALSTORE",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:SealStore",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALSTORE",
+      "section": "addenda",
+      "stage": 1,
+      "reference": "thaumcraft:SealStoreAdv",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALEMPTY",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealEmpty",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALEMPTY",
+      "section": "addenda",
+      "stage": 1,
+      "reference": "thaumcraft:SealEmptyAdv",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALPROVIDE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealProvide",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALSTOCK",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealStock",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALGUARD",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealGuard",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALGUARD",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:modaggression",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALGUARD",
+      "section": "addenda",
+      "stage": 1,
+      "reference": "thaumcraft:SealGuardAdv",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALBUTCHER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealButcher",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALUSE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealUse",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALHARVEST",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealHarvest",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALBREAK",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealBreak",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALBREAK",
+      "section": "addenda",
+      "stage": 1,
+      "reference": "thaumcraft:SealBreakAdv",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "SEALLUMBER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:SealLumber",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "GOLEMVISION",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:modvision",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEINFUSION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:Banners",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BASEINFUSION",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:baubles_stuff",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSION",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:InfusionMatrix",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSION",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:InfusionMatrix",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSION",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:ArcanePedestal",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSION",
+      "section": "stages",
+      "stage": 3,
+      "reference": "thaumcraft:infusionaltar",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONSTABLE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RedstoneInlay",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONSTABLE",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:Stabilizer",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONBOOST",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MatrixMotion",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONBOOST",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MatrixCost",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONANCIENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:AncientPedestal",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONANCIENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:infusionaltarancient",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONELDRITCH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:EldritchPedestal",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONELDRITCH",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:infusionaltareldritch",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "PAVINGSTONES",
+      "section": "stages",
+      "stage": 1,
+      "reference": "thaumcraft:arcane_stone",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "PAVINGSTONES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:PaveBarrier",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "PAVINGSTONES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:PaveTravel",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "PAVINGSTONES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:arcane_stone",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "PAVINGSTONES",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:arcane_brick",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "BOOTSTRAVELLER",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:BootsTraveller",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ELEMENTALTOOLS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ElementalAxe",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ELEMENTALTOOLS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ElementalSword",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ELEMENTALTOOLS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ElementalPick",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ELEMENTALTOOLS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ElementalShovel",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ELEMENTALTOOLS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ElementalHoe",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IEBURROWINGFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IECOLLECTORFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IEDESTRUCTIVEFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IEREFININGFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IESOUNDINGFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IEARCINGFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IEESSENCEFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "INFUSIONENCHANTMENT",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:IELAMPLIGHTFAKE",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "RUNICSHIELDING",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RunicArmorFake0",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "RUNICSHIELDING",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RunicArmorFake1",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "RUNICSHIELDING",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:RunicArmorFake2",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARMORFORTRESS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ThaumiumFortressHelm",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARMORFORTRESS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ThaumiumFortressChest",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "ARMORFORTRESS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:ThaumiumFortressLegs",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FORTRESSMASK",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:HelmGoggles",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FORTRESSMASK",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MaskGrinningDevil",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FORTRESSMASK",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MaskAngryGhost",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "FORTRESSMASK",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:MaskSippingFiend",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CLOUDRING",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CLOUDRING",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CURIOSITYBAND",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CuriosityBand",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VERDANTCHARMS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VerdantHeart",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VERDANTCHARMS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VerdantHeartLife",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "VERDANTCHARMS",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:VerdantHeartSustain",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    },
+    {
+      "research": "CHARMUNDYING",
+      "section": "stages",
+      "stage": 2,
+      "reference": "thaumcraft:CHARMUNDYING",
+      "datapack_match": null,
+      "reviewed_book_alias": false,
+      "status": "unresolved: inspect original catalog/group/fake/blueprint",
+      "type": null
+    }
+  ]
+}

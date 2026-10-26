@@ -1,0 +1,599 @@
+{
+  "minecraft:zombie": {
+    "exanimis": 20,
+    "humanus": 10,
+    "terra": 5
+  },
+  "minecraft:husk": {
+    "exanimis": 20,
+    "humanus": 10,
+    "ignis": 5
+  },
+  "minecraft:giant": {
+    "exanimis": 25,
+    "humanus": 15,
+    "terra": 10
+  },
+  "minecraft:skeleton": {
+    "exanimis": 20,
+    "humanus": 5,
+    "terra": 5
+  },
+  "minecraft:wither_skeleton": {
+    "exanimis": 25,
+    "humanus": 5,
+    "perditio": 10
+  },
+  "minecraft:creeper": {
+    "herba": 15,
+    "ignis": 15
+  },
+  "minecraft:horse": {
+    "bestia": 15,
+    "terra": 5,
+    "aer": 5
+  },
+  "minecraft:donkey": {
+    "bestia": 15,
+    "terra": 5,
+    "aer": 5
+  },
+  "minecraft:mule": {
+    "bestia": 15,
+    "terra": 5,
+    "aer": 5
+  },
+  "minecraft:skeleton_horse": {
+    "bestia": 5,
+    "exanimis": 10,
+    "terra": 5,
+    "aer": 5
+  },
+  "minecraft:zombie_horse": {
+    "bestia": 10,
+    "exanimis": 5,
+    "terra": 5,
+    "aer": 5
+  },
+  "minecraft:pig": {
+    "bestia": 10,
+    "terra": 10,
+    "desiderium": 5
+  },
+  "minecraft:experience_orb": {
+    "cognitio": 10
+  },
+  "minecraft:sheep": {
+    "bestia": 10,
+    "terra": 10
+  },
+  "minecraft:cow": {
+    "bestia": 15,
+    "terra": 15
+  },
+  "minecraft:mooshroom": {
+    "bestia": 15,
+    "herba": 15,
+    "terra": 15
+  },
+  "minecraft:snow_golem": {
+    "gelum": 10,
+    "humanus": 5,
+    "machina": 5,
+    "praecantatio": 5
+  },
+  "minecraft:ocelot": {
+    "bestia": 10,
+    "perditio": 10
+  },
+  "minecraft:chicken": {
+    "bestia": 5,
+    "volatus": 5,
+    "aer": 5
+  },
+  "minecraft:squid": {
+    "bestia": 5,
+    "aqua": 10
+  },
+  "minecraft:wolf": {
+    "bestia": 15,
+    "terra": 10,
+    "aversio": 5
+  },
+  "minecraft:bat": {
+    "bestia": 5,
+    "volatus": 5,
+    "tenebrae": 5
+  },
+  "minecraft:spider": {
+    "bestia": 10,
+    "perditio": 10,
+    "vinculum": 10
+  },
+  "minecraft:slime": {
+    "victus": 10,
+    "aqua": 10,
+    "alkimia": 5
+  },
+  "minecraft:ghast": {
+    "exanimis": 15,
+    "ignis": 15
+  },
+  "minecraft:zombified_piglin": {
+    "exanimis": 15,
+    "ignis": 15,
+    "bestia": 10
+  },
+  "minecraft:enderman": {
+    "alienis": 10,
+    "motus": 15,
+    "desiderium": 5
+  },
+  "minecraft:cave_spider": {
+    "bestia": 5,
+    "mortuus": 10,
+    "vinculum": 10
+  },
+  "minecraft:silverfish": {
+    "bestia": 5,
+    "terra": 10
+  },
+  "minecraft:blaze": {
+    "alienis": 5,
+    "ignis": 15,
+    "volatus": 5
+  },
+  "minecraft:magma_cube": {
+    "aqua": 5,
+    "ignis": 10,
+    "alkimia": 5
+  },
+  "minecraft:ender_dragon": {
+    "alienis": 50,
+    "bestia": 30,
+    "perditio": 50,
+    "volatus": 10
+  },
+  "minecraft:wither": {
+    "exanimis": 50,
+    "perditio": 25,
+    "ignis": 25
+  },
+  "minecraft:witch": {
+    "humanus": 15,
+    "praecantatio": 5,
+    "alkimia": 10
+  },
+  "minecraft:villager": {
+    "humanus": 15
+  },
+  "minecraft:iron_golem": {
+    "metallum": 15,
+    "humanus": 5,
+    "machina": 5,
+    "praecantatio": 5
+  },
+  "minecraft:end_crystal": {
+    "alienis": 15,
+    "auram": 15,
+    "victus": 15
+  },
+  "minecraft:item_frame": {
+    "sensus": 5,
+    "fabrico": 5
+  },
+  "minecraft:painting": {
+    "sensus": 10,
+    "fabrico": 5
+  },
+  "minecraft:guardian": {
+    "bestia": 10,
+    "alienis": 10,
+    "aqua": 10
+  },
+  "minecraft:rabbit": {
+    "bestia": 5,
+    "terra": 5,
+    "motus": 5
+  },
+  "minecraft:endermite": {
+    "bestia": 5,
+    "alienis": 5,
+    "motus": 5
+  },
+  "minecraft:polar_bear": {
+    "bestia": 15,
+    "gelum": 10
+  },
+  "minecraft:shulker": {
+    "alienis": 10,
+    "vinculum": 5,
+    "volatus": 5,
+    "praemunio": 5
+  },
+  "minecraft:evoker": {
+    "alienis": 5,
+    "praecantatio": 5,
+    "humanus": 10
+  },
+  "minecraft:vindicator": {
+    "aversio": 5,
+    "praecantatio": 5,
+    "humanus": 10
+  },
+  "minecraft:illusioner": {
+    "sensus": 5,
+    "praecantatio": 5,
+    "humanus": 10
+  },
+  "minecraft:llama": {
+    "bestia": 15,
+    "aqua": 5
+  },
+  "minecraft:parrot": {
+    "bestia": 5,
+    "volatus": 5,
+    "sensus": 5
+  },
+  "minecraft:stray": {
+    "exanimis": 20,
+    "humanus": 5,
+    "vinculum": 5
+  },
+  "minecraft:vex": {
+    "alienis": 5,
+    "volatus": 5,
+    "praecantatio": 5,
+    "humanus": 5
+  },
+  "minecraft:creeper/charged": {
+    "herba": 15,
+    "ignis": 15,
+    "potentia": 15
+  },
+  "thaumcraft:firebat": {
+    "bestia": 5,
+    "volatus": 5,
+    "ignis": 10
+  },
+  "thaumcraft:pech": {
+    "humanus": 10,
+    "auram": 5,
+    "permutatio": 10,
+    "desiderium": 5
+  },
+  "thaumcraft:pech/1": {
+    "humanus": 10,
+    "auram": 5,
+    "permutatio": 10,
+    "aversio": 5
+  },
+  "thaumcraft:pech/2": {
+    "humanus": 10,
+    "auram": 5,
+    "permutatio": 10,
+    "praecantatio": 5
+  },
+  "thaumcraft:brainy_zombie": {
+    "exanimis": 20,
+    "humanus": 10,
+    "cognitio": 5,
+    "aversio": 5
+  },
+  "thaumcraft:giant_brainy_zombie": {
+    "exanimis": 25,
+    "humanus": 15,
+    "cognitio": 5,
+    "aversio": 10
+  },
+  "thaumcraft:taintacle": {
+    "vitium": 15,
+    "bestia": 10
+  },
+  "thaumcraft:taintacle_small": {
+    "vitium": 5,
+    "bestia": 5
+  },
+  "thaumcraft:taint_swarm": {
+    "vitium": 15,
+    "aer": 5
+  },
+  "thaumcraft:eldritch_crab": {
+    "alienis": 10,
+    "bestia": 10,
+    "vinculum": 10
+  },
+  "thaumcraft:inhabited_zombie": {
+    "alienis": 10,
+    "exanimis": 10,
+    "humanus": 5
+  },
+  "thaumcraft:flux_rift": {
+    "vitium": 20,
+    "alienis": 20,
+    "auram": 20
+  },
+  "thaumcraft:thaumic_slime": {
+    "victus": 5,
+    "aqua": 5,
+    "vitium": 5,
+    "alkimia": 5
+  },
+  "thaumcraft:mind_spider": {
+    "vitium": 5,
+    "ignis": 5
+  },
+  "thaumcraft:eldritch_guardian": {
+    "alienis": 20,
+    "mortuus": 20,
+    "exanimis": 20
+  },
+  "thaumcraft:cultist_knight": {
+    "alienis": 5,
+    "humanus": 15,
+    "aversio": 5
+  },
+  "thaumcraft:cultist_cleric": {
+    "alienis": 5,
+    "humanus": 15,
+    "aversio": 5
+  },
+  "thaumcraft:taint_seed": {
+    "herba": 20,
+    "bestia": 20,
+    "vitium": 20
+  },
+  "thaumcraft:taint_seed_prime": {
+    "herba": 30,
+    "bestia": 30,
+    "vitium": 30
+  },
+  "thaumcraft:eldritch_warden": {
+    "alienis": 40,
+    "mortuus": 40,
+    "exanimis": 40
+  },
+  "thaumcraft:eldritch_golem": {
+    "alienis": 40,
+    "potentia": 40,
+    "machina": 40
+  },
+  "thaumcraft:cultist_leader": {
+    "alienis": 40,
+    "aversio": 40,
+    "humanus": 40
+  },
+  "thaumcraft:taintacle_giant": {
+    "alienis": 40,
+    "bestia": 40,
+    "vitium": 40
+  },
+  "thaumcraft:golem": {
+    "machina": 10,
+    "humanus": 10,
+    "motus": 10
+  },
+  "minecraft:elder_guardian": {
+    "bestia": 10,
+    "alienis": 15,
+    "aqua": 15
+  },
+  "minecraft:allay": {
+    "spiritus": 5,
+    "volatus": 5,
+    "desiderium": 5,
+    "auram": 5
+  },
+  "minecraft:armadillo": {
+    "bestia": 10,
+    "terra": 5,
+    "praemunio": 10
+  },
+  "minecraft:axolotl": {
+    "bestia": 5,
+    "aqua": 10,
+    "victus": 5
+  },
+  "minecraft:bee": {
+    "bestia": 5,
+    "volatus": 5,
+    "herba": 5,
+    "aversio": 5
+  },
+  "minecraft:bogged": {
+    "exanimis": 20,
+    "humanus": 5,
+    "herba": 5
+  },
+  "minecraft:breeze": {
+    "aer": 15,
+    "motus": 10,
+    "aversio": 5
+  },
+  "minecraft:camel": {
+    "bestia": 15,
+    "terra": 5,
+    "aer": 5
+  },
+  "minecraft:camel_husk": {
+    "exanimis": 10,
+    "bestia": 5,
+    "terra": 5,
+    "ignis": 5
+  },
+  "minecraft:cat": {
+    "bestia": 10,
+    "perditio": 5,
+    "tenebrae": 5
+  },
+  "minecraft:cod": {
+    "bestia": 5,
+    "aqua": 5
+  },
+  "minecraft:copper_golem": {
+    "metallum": 10,
+    "machina": 5,
+    "ordo": 5
+  },
+  "minecraft:creaking": {
+    "herba": 15,
+    "tenebrae": 10,
+    "exanimis": 5
+  },
+  "minecraft:dolphin": {
+    "bestia": 10,
+    "aqua": 15,
+    "motus": 5
+  },
+  "minecraft:drowned": {
+    "exanimis": 20,
+    "humanus": 10,
+    "aqua": 5
+  },
+  "minecraft:fox": {
+    "bestia": 10,
+    "terra": 5,
+    "desiderium": 5
+  },
+  "minecraft:frog": {
+    "bestia": 5,
+    "aqua": 5,
+    "motus": 5
+  },
+  "minecraft:glow_squid": {
+    "bestia": 5,
+    "aqua": 10,
+    "lux": 5
+  },
+  "minecraft:goat": {
+    "bestia": 10,
+    "terra": 10,
+    "aversio": 5
+  },
+  "minecraft:happy_ghast": {
+    "bestia": 10,
+    "volatus": 10,
+    "aer": 10
+  },
+  "minecraft:hoglin": {
+    "bestia": 15,
+    "ignis": 5,
+    "aversio": 10
+  },
+  "minecraft:mannequin": {
+    "humanus": 5,
+    "fabrico": 5
+  },
+  "minecraft:nautilus": {
+    "bestia": 5,
+    "aqua": 10,
+    "praemunio": 5
+  },
+  "minecraft:panda": {
+    "bestia": 15,
+    "herba": 5
+  },
+  "minecraft:parched": {
+    "exanimis": 20,
+    "humanus": 5,
+    "ignis": 5
+  },
+  "minecraft:phantom": {
+    "exanimis": 10,
+    "volatus": 10,
+    "tenebrae": 5
+  },
+  "minecraft:piglin": {
+    "humanus": 10,
+    "ignis": 15,
+    "desiderium": 5
+  },
+  "minecraft:piglin_brute": {
+    "humanus": 10,
+    "ignis": 15,
+    "aversio": 10
+  },
+  "minecraft:pufferfish": {
+    "bestia": 5,
+    "aqua": 5,
+    "mortuus": 5
+  },
+  "minecraft:salmon": {
+    "bestia": 5,
+    "aqua": 5
+  },
+  "minecraft:sniffer": {
+    "bestia": 15,
+    "terra": 10,
+    "herba": 5
+  },
+  "minecraft:strider": {
+    "bestia": 10,
+    "ignis": 10,
+    "motus": 5
+  },
+  "minecraft:sulfur_cube": {
+    "victus": 5,
+    "ignis": 5,
+    "alkimia": 10
+  },
+  "minecraft:tadpole": {
+    "bestia": 5,
+    "aqua": 5
+  },
+  "minecraft:trader_llama": {
+    "bestia": 15,
+    "aqua": 5,
+    "permutatio": 5
+  },
+  "minecraft:tropical_fish": {
+    "bestia": 5,
+    "aqua": 5,
+    "sensus": 5
+  },
+  "minecraft:turtle": {
+    "bestia": 10,
+    "aqua": 5,
+    "praemunio": 10
+  },
+  "minecraft:wandering_trader": {
+    "humanus": 15,
+    "permutatio": 10
+  },
+  "minecraft:warden": {
+    "exanimis": 25,
+    "tenebrae": 25,
+    "sensus": 20,
+    "potentia": 20
+  },
+  "minecraft:zoglin": {
+    "exanimis": 15,
+    "bestia": 15,
+    "aversio": 10
+  },
+  "minecraft:zombie_nautilus": {
+    "exanimis": 10,
+    "aqua": 10,
+    "praemunio": 5
+  },
+  "minecraft:zombie_villager": {
+    "exanimis": 20,
+    "humanus": 10,
+    "terra": 5
+  },
+  "minecraft:glow_item_frame": {
+    "sensus": 5,
+    "fabrico": 5,
+    "lux": 5
+  },
+  "minecraft:pillager": {
+    "aversio": 10,
+    "praecantatio": 5,
+    "humanus": 10
+  },
+  "minecraft:ravager": {
+    "bestia": 20,
+    "aversio": 15,
+    "terra": 10
+  }
+}

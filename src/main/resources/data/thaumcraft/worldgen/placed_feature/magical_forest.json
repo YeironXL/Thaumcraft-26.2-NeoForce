@@ -1,0 +1,8 @@
+{
+  "feature": "thaumcraft:magical_forest",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

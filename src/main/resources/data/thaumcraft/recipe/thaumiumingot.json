@@ -1,0 +1,12 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "METALLURGY@2",
+  "catalyst": "#c:ingots/iron",
+  "aspects": {
+    "terra": 5,
+    "praecantatio": 5
+  },
+  "result": {
+    "id": "thaumcraft:ingot_thaumium"
+  }
+}

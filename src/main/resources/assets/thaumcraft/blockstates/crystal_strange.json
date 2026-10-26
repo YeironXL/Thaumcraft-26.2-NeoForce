@@ -1,0 +1,34 @@
+{
+ "variants": {
+  "facing=up": {
+   "model": "thaumcraft:block/crystal_strange_3",
+   "x": 0,
+   "y": 0
+  },
+  "facing=down": {
+   "model": "thaumcraft:block/crystal_strange_3",
+   "x": 180,
+   "y": 0
+  },
+  "facing=north": {
+   "model": "thaumcraft:block/crystal_strange_3",
+   "x": 90,
+   "y": 0
+  },
+  "facing=south": {
+   "model": "thaumcraft:block/crystal_strange_3",
+   "x": 90,
+   "y": 180
+  },
+  "facing=east": {
+   "model": "thaumcraft:block/crystal_strange_3",
+   "x": 90,
+   "y": 90
+  },
+  "facing=west": {
+   "model": "thaumcraft:block/crystal_strange_3",
+   "x": 90,
+   "y": 270
+  }
+ }
+}

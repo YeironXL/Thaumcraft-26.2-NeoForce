@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KKK"
+  ],
+  "key": {
+    "K": "thaumcraft:plank_silverwood"
+  },
+  "result": {
+    "id": "thaumcraft:slab_silverwood",
+    "count": 6
+  }
+}

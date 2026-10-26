@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "thaumcraft:item/module_vision"
+  }
+}

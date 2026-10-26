@@ -1,0 +1,23 @@
+{
+  "type": "thaumcraft:arcane",
+  "research": "MINDCLOCKWORK@2",
+  "vis": 25,
+  "crystals": {
+    "ordo": 1,
+    "ignis": 1
+  },
+  "pattern": [
+    " P ",
+    "PGP",
+    "BCB"
+  ],
+  "key": {
+    "G": "thaumcraft:mechanism_simple",
+    "B": "#c:plates/brass",
+    "P": "#c:glass_panes",
+    "C": "minecraft:comparator"
+  },
+  "result": {
+    "id": "thaumcraft:mind_clockwork"
+  }
+}

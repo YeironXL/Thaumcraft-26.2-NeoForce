@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "thaumcraft:amber"
+  },
+  "result": {
+    "id": "thaumcraft:amber_block"
+  }
+}

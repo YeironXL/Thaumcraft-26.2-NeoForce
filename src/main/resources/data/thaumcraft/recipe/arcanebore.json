@@ -1,0 +1,26 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "ARCANEBORE",
+  "input": "thaumcraft:turret_basic",
+  "components": [
+    "thaumcraft:plank_greatwood",
+    "thaumcraft:plank_greatwood",
+    "thaumcraft:mechanism_complex",
+    "thaumcraft:plate_brass",
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_shovel",
+    "thaumcraft:morphic_resonator",
+    "thaumcraft:nugget_rareearth"
+  ],
+  "aspects": {
+    "potentia": 25,
+    "terra": 25,
+    "machina": 100,
+    "vacuos": 25,
+    "motus": 25
+  },
+  "instability": 4,
+  "result": {
+    "id": "thaumcraft:turret_bore"
+  }
+}

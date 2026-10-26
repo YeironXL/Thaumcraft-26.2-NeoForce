@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "ancient=false": {
+      "model": "thaumcraft:block/eldritch_obelisk_base"
+    },
+    "ancient=true": {
+      "model": "thaumcraft:block/eldritch_obelisk_base_ancient"
+    }
+  }
+}

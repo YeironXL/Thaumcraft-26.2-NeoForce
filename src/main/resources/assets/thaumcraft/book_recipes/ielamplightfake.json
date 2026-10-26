@@ -1,0 +1,25 @@
+{
+  "type": "thaumcraft:infusion",
+  "research": "INFUSIONENCHANTMENT",
+  "input": "minecraft:golden_pickaxe",
+  "components": [
+    "minecraft:enchanted_book",
+    "#thaumcraft:nitor"
+  ],
+  "aspects": {
+    "lux": 80,
+    "aer": 20
+  },
+  "instability": 4,
+  "result": {
+    "id": "minecraft:golden_pickaxe",
+    "components": {
+      "thaumcraft:infusion_enchantments": [
+        {
+          "id": "lamplight",
+          "lvl": 1
+        }
+      ]
+    }
+  }
+}

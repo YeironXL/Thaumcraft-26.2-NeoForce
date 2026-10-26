@@ -1,0 +1,807 @@
+{
+ "requires": [
+  "create"
+ ],
+ "entries": [
+  {
+   "op": "set",
+   "targets": [
+    "create:zinc_ore",
+    "create:deepslate_zinc_ore"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:raw_zinc"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "permutatio",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:zinc_ingot"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:brass_ingot"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "instrumentum",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:andesite_alloy"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     3
+    ],
+    [
+     "add",
+     "metallum",
+     3
+    ],
+    [
+     "add",
+     "machina",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:rose_quartz"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "potentia",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:polished_rose_quartz"
+   ],
+   "ops": [
+    [
+     "add",
+     "vitreus",
+     5
+    ],
+    [
+     "add",
+     "potentia",
+     10
+    ],
+    [
+     "add",
+     "ordo",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:cinder_flour"
+   ],
+   "ops": [
+    [
+     "add",
+     "ignis",
+     3
+    ],
+    [
+     "add",
+     "perditio",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:wheat_flour"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:dough"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     3
+    ],
+    [
+     "add",
+     "victus",
+     3
+    ],
+    [
+     "add",
+     "aqua",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:experience_nugget"
+   ],
+   "ops": [
+    [
+     "add",
+     "cognitio",
+     3
+    ],
+    [
+     "add",
+     "praecantatio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:iron_sheet"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     15
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:copper_sheet"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "permutatio",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:golden_sheet"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     10
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:brass_sheet"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "instrumentum",
+     5
+    ],
+    [
+     "add",
+     "fabrico",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_iron"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_gold"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "desiderium",
+     7
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_copper",
+    "create:crushed_raw_zinc"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "permutatio",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_tin"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "vitreus",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_lead",
+    "create:crushed_raw_osmium",
+    "create:crushed_raw_nickel"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "ordo",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_silver",
+    "create:crushed_raw_platinum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "desiderium",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_uranium"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "potentia",
+     7
+    ],
+    [
+     "add",
+     "mortuus",
+     3
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_aluminum"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     7
+    ],
+    [
+     "add",
+     "aer",
+     3
+    ],
+    [
+     "add",
+     "terra",
+     2
+    ],
+    [
+     "add",
+     "perditio",
+     2
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:limestone",
+    "create:scoria",
+    "create:asurine",
+    "create:crimsite",
+    "create:ochrum",
+    "create:veridium"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:scorchia"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "ignis",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:tree_fertilizer"
+   ],
+   "ops": [
+    [
+     "add",
+     "herba",
+     5
+    ],
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "alkimia",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:electron_tube"
+   ],
+   "ops": [
+    [
+     "add",
+     "potentia",
+     5
+    ],
+    [
+     "add",
+     "machina",
+     5
+    ],
+    [
+     "add",
+     "metallum",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:precision_mechanism"
+   ],
+   "ops": [
+    [
+     "add",
+     "machina",
+     15
+    ],
+    [
+     "add",
+     "ordo",
+     5
+    ],
+    [
+     "add",
+     "metallum",
+     10
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:sturdy_sheet"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     10
+    ],
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "praemunio",
+     5
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:powdered_obsidian"
+   ],
+   "ops": [
+    [
+     "add",
+     "terra",
+     5
+    ],
+    [
+     "add",
+     "ignis",
+     5
+    ],
+    [
+     "add",
+     "tenebrae",
+     5
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:bar_of_chocolate"
+   ],
+   "ops": [
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "desiderium",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:honeyed_apple"
+   ],
+   "ops": [
+    [
+     "add",
+     "victus",
+     10
+    ],
+    [
+     "add",
+     "desiderium",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:builders_tea"
+   ],
+   "ops": [
+    [
+     "add",
+     "victus",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     5
+    ],
+    [
+     "add",
+     "motus",
+     3
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:crushed_raw_quicksilver"
+   ],
+   "ops": [
+    [
+     "add",
+     "metallum",
+     5
+    ],
+    [
+     "add",
+     "aqua",
+     3
+    ],
+    [
+     "add",
+     "permutatio",
+     3
+    ],
+    [
+     "add",
+     "perditio",
+     1
+    ]
+   ]
+  },
+  {
+   "op": "set",
+   "targets": [
+    "create:experience_block"
+   ],
+   "ops": [
+    [
+     "add",
+     "cognitio",
+     20
+    ],
+    [
+     "add",
+     "potentia",
+     5
+    ]
+   ]
+  }
+ ]
+}

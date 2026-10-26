@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": "thaumcraft:quicksilver"
+  },
+  "result": {
+    "id": "thaumcraft:nugget_quicksilver",
+    "count": 9
+  }
+}

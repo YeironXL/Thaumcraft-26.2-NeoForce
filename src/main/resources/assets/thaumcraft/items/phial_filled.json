@@ -1,0 +1,642 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "component": "thaumcraft:aspect",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "thaumcraft:item/phial_empty"
+    },
+    "property": "minecraft:component",
+    "cases": [
+      {
+        "when": "alkimia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 2337949
+            }
+          ]
+        }
+      },
+      {
+        "when": "mortuus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 6946821
+            }
+          ]
+        }
+      },
+      {
+        "when": "lux",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 16777152
+            }
+          ]
+        }
+      },
+      {
+        "when": "ignis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 16734721
+            }
+          ]
+        }
+      },
+      {
+        "when": "exanimis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 3817472
+            }
+          ]
+        }
+      },
+      {
+        "when": "victus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 14548997
+            }
+          ]
+        }
+      },
+      {
+        "when": "permutatio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 5735255
+            }
+          ]
+        }
+      },
+      {
+        "when": "potentia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 12648447
+            }
+          ]
+        }
+      },
+      {
+        "when": "vinculum",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 10125440
+            }
+          ]
+        }
+      },
+      {
+        "when": "auram",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 16761087
+            }
+          ]
+        }
+      },
+      {
+        "when": "humanus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 16766912
+            }
+          ]
+        }
+      },
+      {
+        "when": "gelum",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 14811135
+            }
+          ]
+        }
+      },
+      {
+        "when": "perditio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 4210752
+            }
+          ]
+        }
+      },
+      {
+        "when": "motus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 13487348
+            }
+          ]
+        }
+      },
+      {
+        "when": "praecantatio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 13566207
+            }
+          ]
+        }
+      },
+      {
+        "when": "cognitio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 16356991
+            }
+          ]
+        }
+      },
+      {
+        "when": "spiritus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 15461371
+            }
+          ]
+        }
+      },
+      {
+        "when": "machina",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 8421536
+            }
+          ]
+        }
+      },
+      {
+        "when": "alienis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 8409216
+            }
+          ]
+        }
+      },
+      {
+        "when": "tenebrae",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 2236962
+            }
+          ]
+        }
+      },
+      {
+        "when": "vitreus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 8454143
+            }
+          ]
+        }
+      },
+      {
+        "when": "ordo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 14013676
+            }
+          ]
+        }
+      },
+      {
+        "when": "desiderium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 15121988
+            }
+          ]
+        }
+      },
+      {
+        "when": "bestia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 10445833
+            }
+          ]
+        }
+      },
+      {
+        "when": "instrumentum",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 4210926
+            }
+          ]
+        }
+      },
+      {
+        "when": "vitium",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 8388736
+            }
+          ]
+        }
+      },
+      {
+        "when": "sensus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 12648384
+            }
+          ]
+        }
+      },
+      {
+        "when": "terra",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 5685248
+            }
+          ]
+        }
+      },
+      {
+        "when": "aer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 16777086
+            }
+          ]
+        }
+      },
+      {
+        "when": "volatus",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 15198167
+            }
+          ]
+        }
+      },
+      {
+        "when": "vacuos",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 8947848
+            }
+          ]
+        }
+      },
+      {
+        "when": "aversio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 12603472
+            }
+          ]
+        }
+      },
+      {
+        "when": "metallum",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 11908557
+            }
+          ]
+        }
+      },
+      {
+        "when": "herba",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 109568
+            }
+          ]
+        }
+      },
+      {
+        "when": "praemunio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 49344
+            }
+          ]
+        }
+      },
+      {
+        "when": "aqua",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 3986684
+            }
+          ]
+        }
+      },
+      {
+        "when": "fabrico",
+        "model": {
+          "type": "minecraft:model",
+          "model": "thaumcraft:item/phial_filled",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": 8428928
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "thaumcraft:crucible",
+  "research": "SEALLUMBER",
+  "catalyst": "thaumcraft:seal_breaker",
+  "aspects": {
+    "herba": 40,
+    "sensus": 20
+  },
+  "result": {
+    "id": "thaumcraft:seal_lumber"
+  }
+}
