@@ -24,9 +24,9 @@ Descarga el jar desde **[Releases](../../releases)**.
 - **Obligatorio:** NeoForge 26.2.0.88+
 - **Recomendado:** [Curios](https://www.curseforge.com/minecraft/mc-mods/curios), para los amuletos, anillos y cinturones (baubles)
 - **Opcional:** JEI (recetas del crisol, la mesa arcana, la infusión, etc.) y Jade (información de frascos, crisoles e infusión)
-- **Compatible con:** Sodium e Iris, incluidos shaderpacks
+- **Compatible con:** Sodium e Iris. Probado con Complementary (Reimagined y Unbound), BSL, Sildur's Vibrant, MakeUp Ultra Fast, Solas, Photon y Bliss
 
-## Qué incluye 
+## Qué incluye
 
 **Todo Thaumcraft 6 BETA26**
 - Investigación y Thaumonomicon, aspectos y escaneo con el taumómetro
@@ -43,12 +43,22 @@ Descarga el jar desde **[Releases](../../releases)**.
 - Baúl viajero
 - Vainas de maná y mesa de deconstrucción
 - Sellos de pesca, líquidos y esencia
-- Focos de protección y de caos primordial
-- Altar de wisps y obelisco siniestro
+- Focos de protección, de caos primordial y de descarga
+- Altar de wisps, obelisco siniestro y túmulo
+
+**Mejoras del Remaster**
+- Herramientas y armaduras reequilibradas frente a la netherita, manteniendo el carácter de cada material (el thaumium es el más encantable y el equipo del vacío se repara solo)
+- Thaumium, metal del vacío y latón como materiales de ornamento en la mesa de herrería
+- Un árbol de 17 logros que acompaña la progresión
+- Túmulo, altar de wisps, obelisco siniestro y obelisco eldritch renovados: se asientan en el terreno real, con bloques actuales y arqueología
+- Lingotes, pepitas y herramientas redibujados con el estilo actual
+- Tubos de esencia optimizados para bases grandes
 
 **Otros**
 - Aspectos para todos los objetos y criaturas de Minecraft 26.2
 - Aspectos opcionales para metales comunes de otros mods, Create, Mekanism y Farmer's Delight
+- Etiquetas comunes `c:` para lingotes, pepitas y bloques de metal (Create y otros mods los reconocen)
+- Capacidades estándar de NeoForge y una API pública de esencia para otros mods
 
 ## Instalación rápida
 
@@ -61,7 +71,7 @@ Más detalles en la **[Wiki](../../wiki)**.
 
 ## Estado del proyecto
 
-- 87 pruebas automáticas (gametests) y comprobaciones visuales en cliente.
+- 102 pruebas automáticas (gametests), comprobaciones visuales en cliente, exploración de mundos recién generados y una prueba de rendimiento.
 - **Aún no probado a fondo** en partidas largas de supervivencia ni en multijugador. Haz copias de seguridad de tus mundos.
 
 ¿Encontraste un fallo? Abre un **[Issue](../../issues)** e incluye el archivo de `crash-reports/` o `logs/latest.log`.
