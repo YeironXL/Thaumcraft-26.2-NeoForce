@@ -8,7 +8,7 @@ Thaumcraft Remaster aims to reproduce Thaumcraft 6 as faithfully as possible on 
 
 > Thaumcraft was created by **Azanor**. This is a fan-made port: it is unofficial and not affiliated with or endorsed by its author.
 
-## Current version 
+## Current version
 
 | | |
 |---|---|
@@ -24,7 +24,7 @@ Download the jar from **[Releases](../../releases)**.
 - **Required:** NeoForge 26.2.0.88+
 - **Recommended:** [Curios](https://www.curseforge.com/minecraft/mc-mods/curios), for amulets, rings and belts (baubles)
 - **Optional:** JEI (crucible, Arcane Workbench, infusion recipes, etc.) and Jade (info for jars, crucibles and infusion)
-- **Compatible with:** Sodium and Iris, shaderpacks included
+- **Compatible with:** Sodium and Iris. Tested with Complementary (Reimagined and Unbound), BSL, Sildur's Vibrant, MakeUp Ultra Fast, Solas, Photon and Bliss
 
 ## What's included
 
@@ -46,9 +46,18 @@ Download the jar from **[Releases](../../releases)**.
 - Ward, Primal Chaos and Shock foci
 - Wisp altar, Sinister obelisk and Barrow Den
 
+**Remaster improvements**
+- Tools and armour rebalanced against netherite, keeping each material's character (thaumium the most enchantable, void gear repairs itself)
+- Thaumium, void metal and brass as armour trim materials at the smithing table
+- A tree of 17 advancements that follows progression
+- Reworked Barrow Den, Wisp Altar, Sinister Obelisk and Eldritch Obelisk that sit on the real terrain, with modern blocks and archaeology
+- Ingots, nuggets and tools redrawn in the current style
+- Essentia tubes optimised for large bases
+
 **Other**
 - Aspects for every Minecraft 26.2 item and creature
 - Optional aspects for common metals from other mods, Create, Mekanism and Farmer's Delight
+- Common `c:` tags for ingots, nuggets and metal blocks (Create and other mods recognise them)
 - Standard NeoForge capabilities and a public essentia API for other mods
 
 ## Quick install
@@ -62,7 +71,7 @@ More details in the **[Wiki](../../wiki)** (English and Spanish).
 
 ## Project status
 
-- 87 automated tests (gametests) and visual checks in the client.
+- 102 automated tests (gametests), visual checks in the client, exploration of freshly generated worlds and a performance test.
 - **Not yet thoroughly tested** in long survival playthroughs or multiplayer. Back up your worlds.
 
 Found a bug? Open an **[Issue](../../issues)** and include the file from `crash-reports/` or `logs/latest.log`.
